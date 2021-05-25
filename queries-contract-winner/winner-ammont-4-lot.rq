@@ -1,0 +1,28 @@
+# given a lot number show all the winners and the values
+SELECT ?lot_identifier_values ?contract_value ?winner_name ?winner_city_name ?award_decission_date
+WHERE {
+    # identify the lot
+    VALUES ?lot_identifier_values { "17"}
+    ?lot epo:hasID ?lot_identifier .
+    ?lot_identifier epo:identifierValue ?lot_identifier_values .
+
+    # get the contract
+    ?lot epo:isReferredByA ?contract .
+    ?contract epo:hasProcurementValue ?proc_value .
+    ?proc_value epo:hasOverallAmount ?overall_amount .
+    ?overall_amount ccts:hasAmountValue ?contract_value .
+
+    # getting the award decission first
+    ?award_decission epo:refersTo ?lot .
+    ?award_decission epo:hasAwardDecisionDate ?award_decission_date .
+
+    # getting the winner through the award decission
+    ?award_decission epo:has ?winner .
+    ?winner epo:isRoleOf ?organisation .
+    ?organisation epo:hasName ?winner_name .
+    OPTIONAL {
+        ?organisation epo:hasLocation ?location .
+        ?location epo:hasPostalAddress ?address .
+        ?address epo:hasCityName ?winner_city_name .
+    }
+}
