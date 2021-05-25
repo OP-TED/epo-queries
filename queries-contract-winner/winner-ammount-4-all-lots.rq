@@ -1,0 +1,44 @@
+# given a lot number show all the winners and the values
+SELECT ?lot ?lot_identifier_values ?contract_value ?winner_name ?winner_city_name ?award_decission_date ?contract_title
+    ?contract_number ?tender_lots_number
+WHERE {
+    # identify the lot
+    VALUES ?lot_identifier_values { undef}
+    ?lot epo:hasID ?lot_identifier .
+    ?lot_identifier epo:identifierValue ?lot_identifier_values .
+
+    # get the contract and its metadata
+    ?lot epo:isReferredByA ?contract .
+
+    OPTIONAL {
+        ?contract epo:hasProcurementValue ?proc_value .
+        ?contract epo:hasTitle ?contract_title .
+        ?contract epo:hasID ?contract_identifier .
+        ?contract_identifier epo:identifierValue ?contract_number .
+        ?proc_value epo:hasOverallAmount ?overall_amount .
+        ?overall_amount ccts:hasAmountValue ?contract_value .
+    }
+
+    # getting the award decission first
+    ?award_decission epo:refersTo ?lot .
+    OPTIONAL {
+        ?award_decission epo:hasAwardDecisionDate ?award_decission_date .
+    }
+
+    # getting the winner through the award decission
+    ?award_decission epo:has ?winner .
+    ?winner epo:isRoleOf ?organisation .
+
+    OPTIONAL {
+        ?organisation epo:hasName ?winner_name .
+        ?organisation epo:hasLocation ?location .
+        ?location epo:hasPostalAddress ?address .
+        ?address epo:hasCityName ?winner_city_name .
+    }
+
+    # now we are aftwer some additional info
+    ?lot epo:providesAdditionalInformation ?lot_additional_info .
+    OPTIONAL {
+        ?lot_additional_info epo:hasReceivedTenderLots ?tender_lots_number .
+    }
+}
