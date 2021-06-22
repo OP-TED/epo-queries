@@ -1,0 +1,17 @@
+
+SELECT ?contract_award_notice ?country_code ?legal_basis
+WHERE
+{
+
+ # the link between contract award notice and the country code of the buyer
+ ?contract_award_notice epo:summarises ?procedure .
+ ?procedure epo:isResponsiblityOf ?buyer .
+ ?buyer epo:isRoleOf ?organisation .
+ ?organisation epo:hasLocation ?location .
+ ?location epo:hasPostalAddress ?address.
+ ?address epo:hasCountryCode ?country_code .
+
+OPTIONAL
+{  ?procedure epo:hasLegalBasis ?legal_basis . }
+
+}
