@@ -1,8 +1,9 @@
+PREFIX http: <http://www.w3.org/2011/http#>
 SELECT ?contract_award_notice ?country_code ?legal_basis
 WHERE
 {
 
-VALUES ?country_code { undef }
+VALUES ?country_code { <http://publications.europa.eu/resource/authority/country/CZ> }
 
  # the link between contract award notice and the country code of the buyer
  ?contract_award_notice epo:summarises ?procedure .
