@@ -5,7 +5,7 @@ PREFIX at: <http://publications.europa.eu/ontology/authority/>
 SELECT ?contract_award_notice_dentifier ?country_code ?legal_basis
 WHERE {
 
-    # VALUES ?country_code { <http://publications.europa.eu/resource/authority/country/CZ> }
+      VALUES ?country_code { <http://publications.europa.eu/resource/authority/country/CZ> }
     # VALUES ?country_code { undef }
 
     # the link between contract award notice and the country code of the winner
