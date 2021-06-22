@@ -2,24 +2,29 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX epo: <http://data.europa.eu/a4g/ontology#>
 PREFIX at: <http://publications.europa.eu/ontology/authority/>
 
+SELECT ?contract_award_notice_dentifier ?country_code ?legal_basis
+WHERE {
 
-SELECT ?contract_award_notice ?country_code ?legal_basis
-WHERE
-{
+    # VALUES ?country_code { <http://publications.europa.eu/resource/authority/country/CZ> }
+    VALUES ?country_code { undef }
 
-VALUES ?country_code { <http://publications.europa.eu/resource/authority/country/CZ> }
+    # the link between contract award notice and the country code of the winner
+    ?contract_award_notice epo:hasID ?contract_award_notice_id .
+    ?contract_award_notice_id epo:identifierValue ?contract_award_notice_dentifier .
 
- # the link between contract award notice and the country code of the buyer
- ?contract_award_notice epo:summarises ?procedure .
- ?procedure epo:isResponsiblityOf ?buyer .
- ?buyer epo:isRoleOf ?organisation .
- ?organisation epo:hasLocation ?location .
- ?location epo:hasPostalAddress ?address.
- ?address epo:hasCountryCode ?country_code .
+    ?contract_award_notice epo:summarises ?procedure .
+    ?procedure epo:specifies ?lot .
 
-OPTIONAL
-{  ?procedure epo:hasLegalBasis ?legal_basis . }
+    ?award_decission epo:refersTo ?lot .
+    ?award_decission epo:has ?winner .
+    ?winner epo:isRoleOf ?organisation .
+    ?organisation epo:hasLocation ?location .
+    ?location epo:hasPostalAddress ?address .
+    ?address epo:hasCountryCode ?country_code .
+
+
+    OPTIONAL { ?procedure epo:hasLegalBasis ?legal_basis . }
 
 }
-ORDER BY ?country_code 
+ORDER BY ?country_code
 LIMIT 100
