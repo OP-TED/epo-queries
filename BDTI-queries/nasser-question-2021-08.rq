@@ -1,0 +1,61 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX epo: <http://data.europa.eu/a4g/ontology#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+#-----------------------------------------------------------
+SELECT
+    ?ProcedureID
+    ?ProcedureTitle
+    ?ProcedureType
+    ?LotID
+    ?LotTitle
+    ?ReceivedTenderLots
+    ?Organisation
+    ?OrganisationName
+    ?ValueOverallAmount
+    ?Location
+    ?Address
+    ?ContractAwardNotice
+
+WHERE {
+    #Procedure
+    ?Procedure a epo:Procedure .
+    ?Procedure epo:hasID ?ProcedureID .
+    ?Procedure epo:hasProcedureType ?ProcedureType . #(Open/Negociated/Restricted/...)
+    ?Procedure epo:specifies ?Lot .
+
+    # ?Procedure epo:isNotifiedThrough ?Notice . # this property (epo:isNotifiedThrough) is not used in the BDTI-TED data
+    ?ContractAwardNotice epo:summarises ?Procedure . # This is the connection between the Notice and Procedure
+
+    ?Procedure epo:hasTitle ?ProcedureTitle .
+
+    #Lot
+    ?Lot epo:hasID ?LotID .
+    ?Lot epo:providesAdditionalInformation ?StatisticalInformation .
+    ?Lot epo:hasTitle ?LotTitle .
+    ?Lot epo:has ?Purpose .
+    ### ?Purpose epo:has ?ContractNatureType .
+    #?Lot epo:hasAwardDecisionDate ?AwardDecisionDate_temp .
+    #?AwardDecisionDate_temp epo:hasAwardDecisionDate ?AwardDecisionDate .
+    #Buyer
+    ?Buyer epo:isResponsibleFor ?Procedure .
+    ?Buyer epo:isRoleOf ?Organisation .
+    ?Organisation epo:hasName ?OrganisationName .
+    #Organisation
+    ?Organisation epo:hasLocation ?Location .
+    #Location
+    ?Location epo:hasPostalAddress ?Address .
+    #Address
+    # ?Address epo:hasCountryCode ?CountryCode .
+    #prop path for address
+    #?Organisation epo:hasLocation/epo:hasPostalAddress ?Address .
+    #********
+    #StatisticalInformation
+    ?StatisticalInformation epo:hasReceivedTenderLots ?ReceivedTenderLots .
+    #Value and ValueOverallAmount:
+    OPTIONAL {
+        ?Lot epo:hasAwardedValue ?ValueURI .
+        ?ValueURI epo:hasOverallAmount ?ValueOverallAmountURI .
+        ?ValueOverallAmountURI epo:hasAmountValue ?ValueOverallAmount .
+    }
+}
