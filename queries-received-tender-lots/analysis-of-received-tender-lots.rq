@@ -1,0 +1,68 @@
+# Analysis of receivedTenderLots
+
+
+PREFIX epo: <http://data.europa.eu/a4g/ontology#>
+
+SELECT  ?ProcedureId
+        ?ProcedureTitle
+        ?Lot
+        ?OrganisationId
+        ?OrganisationName
+        ?CountryCode
+        ?ProcedureTypeCode
+        ?LotId
+        ?LotTitle
+        ?AwardedValue
+        ?PurposeMainClassificationCode
+        ?PurposeContractNatureCode
+        ?AcceleratedProcedureIndicator
+        ?ContractConclusionDate
+        ?AwardedDecisionDate
+
+WHERE {
+    # get procedure info
+    ?Procedure a epo:Procedure .
+    ?Procedure epo:hasID ?ProcedureID .
+    ?Procedure epo:hasTitle ?ProcedureTitle .
+    ?Procedure epo:hasProcedureType ?ProcedureTypeCode .
+#   ?Procedure epo:hasAcceleratedProcedureJustification ?AcceleratedProcedureIndicator .
+
+    # get Organisation info
+#   ?Buyer epo:isResponsibleFor ?Procedure .
+    ?Buyer epo:isRoleOf ?Organisation .
+    ?Organisation epo:hasLocation ?Location .
+    ?Location epo:hasPostalAddress ?Address .
+    ?Address epo:hasCountryCode ?CountryCode .
+    ?Organisation epo:hasName ?OrganisationName .
+#    ?Organisation epo:hasID ?OrganisationId .
+
+    # get Lot info
+    ?Lot a epo:Lot .
+    ?Procedure epo:specifies ?Lot .
+    ?Lot epo:hasID ?LotID .
+    ?Lot epo:hasTitle ?LotTitle .
+
+    # get Purpose
+	?AwardDecision epo:refersTo ?Lot  .
+	?AwardDecision epo:hasPurpose ?Purpose .
+    ?Purpose epo:hasMainClassification ?PurposeMainClassificationCode .
+    ?Purpose epo:hasContractNatureType ?PurposeContractNatureCode .
+
+    # get StatisticalInformation
+    ?StatisticalInformation epo:hasReceivedTenderLots ?ReceivedTenderLots .
+
+    # get AwardedValue:
+    OPTIONAL {
+        ?Lot epo:hasAwardedValue ?ValueURI .
+        ?ValueURI epo:hasOverallAmount ?ValueOverallAmountURI .
+        ?ValueOverallAmountURI epo:hasAmountValue ?AwardedValue .
+    }
+
+    # get ContractConclusionDate
+    ?Lot epo:isReferredByA ?Contract .
+    ?Contract epo:hasContractConclusionDate ?ContractConclusionDate .
+
+    # get AwardDecisionDate
+    ?AwardDecision epo:refersTo ?Lot .
+    ?AwardDecision epo:hasAwardDecisionDate ?AwardDecisionDate .
+}
