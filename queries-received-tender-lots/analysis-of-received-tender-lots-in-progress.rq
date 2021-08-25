@@ -1,9 +1,23 @@
 # Analysis of receivedTenderLots
 
-
 PREFIX epo: <http://data.europa.eu/a4g/ontology#>
 
-SELECT  *
+SELECT  ?ProcedureIdValue
+        ?ProcedureTitle
+        ?Lot
+        ?OrganisationIdValue
+        ?OrganisationName
+        ?CountryCode
+        ?ProcedureTypeCode
+        ?LotIdValue
+        ?LotTitle
+        ?AwardedValue
+        ?PurposeMainClassificationCode
+        ?PurposeContractNatureCode
+        ?AcceleratedProcedureIndicator
+        ?ContractConclusionDate
+        ?AwardedDecisionDate
+
 WHERE {
 
     # get procedure info
@@ -11,7 +25,7 @@ WHERE {
     ?Procedure epo:hasTitle ?ProcedureTitle .
     ?Procedure epo:hasProcedureType ?ProcedureTypeCode .
 	OPTIONAL {
-		 ?Procedure epo:hasID ?ProcedureID .
+		?Procedure epo:hasID ?ProcedureID .
 		?ProcedureID epo:identifierValue ?ProcedureIDValue . #
 	}
 	OPTIONAL {
@@ -45,17 +59,31 @@ WHERE {
 	OPTIONAL {
     	?Lot epo:hasTitle ?LotTitle .
 	}
+
 	# get StatisticalInformation
 	OPTIONAL {
 		?Lot epo:providesAdditionalInformation ?StatisticalInformation .
 		?StatisticalInformation a epo:StatisticalInformation .
 		?StatisticalInformation epo:hasReceivedTenderLots ?ReceivedTenderLots .
 	}
-	# get AwardedValue:
+
+	# get AwardedValue
     OPTIONAL {
-        ?Lot epo:hasAwardedValue ?ValueURI .
+        ?Lot epo:hasAwardedValue ?ValueURI .    # can't find this link in data
         ?ValueURI epo:hasOverallAmount ?ValueOverallAmountURI .
         ?ValueOverallAmountURI epo:hasAmountValue ?AwardedValue .
+    }
+
+    # get ContractConclusionDate
+    OPTIONAL {
+    ?Lot epo:isReferredByA ?Contract .
+    ?Contract epo:hasContractConclusionDate ?ContractConclusionDate .   # can't find this link in data
+    }
+
+    # get AwardDecisionDate
+    OPTIONAL {
+    ?AwardDecision epo:refersTo ?Lot .
+    ?AwardDecision epo:hasAwardDecisionDate ?AwardDecisionDate .
     }
 
 }
