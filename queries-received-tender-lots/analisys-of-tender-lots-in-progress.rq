@@ -1,0 +1,61 @@
+# Analysis of receivedTenderLots
+
+
+PREFIX epo: <http://data.europa.eu/a4g/ontology#>
+
+SELECT  *
+WHERE {
+
+    # get procedure info
+    ?Procedure a epo:Procedure .
+    ?Procedure epo:hasTitle ?ProcedureTitle .
+    ?Procedure epo:hasProcedureType ?ProcedureTypeCode .
+	OPTIONAL {
+		 ?Procedure epo:hasID ?ProcedureID .
+		?ProcedureID epo:identifierValue ?ProcedureIDValue . #
+	}
+	OPTIONAL {
+		?Procedure epo:hasOverallPurpose ?Purpose .
+		?Purpose epo:hasMainClassification ?PurposeMainClassificationCode .
+    	?Purpose epo:hasContractNatureType ?PurposeContractNatureCode .
+	}
+
+#   ?Procedure epo:hasAcceleratedProcedureJustification ?AcceleratedProcedureIndicator .
+
+	# get Organisation info
+	?Procedure epo:isResponsiblityOf ?Buyer .
+	?Buyer epo:isRoleOf ?Organisation .
+    ?Organisation epo:hasName ?OrganisationName .
+	OPTIONAL {
+   		?Organisation epo:hasLocation ?Location .
+    	?Location epo:hasPostalAddress ?Address .
+    	?Address epo:hasCountryCode ?CountryCode .
+	}
+    OPTIONAL{
+    	?Organisation epo:hasID ?OrganisationID .
+		?OrganisationID epo:identifierValue ?OrganisationIDValue .
+	}
+
+	# get Lot info
+    ?Procedure epo:specifies ?Lot .
+	OPTIONAL {
+    	?Lot epo:hasID ?LotID .
+		?LotID epo:identifierValue ?LotIDValue .
+	}
+	OPTIONAL {
+    	?Lot epo:hasTitle ?LotTitle .
+	}
+	# get StatisticalInformation
+	OPTIONAL {
+		?Lot epo:providesAdditionalInformation ?StatisticalInformation .
+		?StatisticalInformation a epo:StatisticalInformation .
+		?StatisticalInformation epo:hasReceivedTenderLots ?ReceivedTenderLots .
+	}
+	# get AwardedValue:
+    OPTIONAL {
+        ?Lot epo:hasAwardedValue ?ValueURI .
+        ?ValueURI epo:hasOverallAmount ?ValueOverallAmountURI .
+        ?ValueOverallAmountURI epo:hasAmountValue ?AwardedValue .
+    }
+
+}
