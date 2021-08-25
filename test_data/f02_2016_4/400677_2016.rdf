@@ -1,0 +1,277 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#AwardCriterionPrice732a6802-74c6-4a16-8133-6d713e45b0e8">
+    <epo:isUsedToAward>
+      <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#Lot928f86b8-7449-419c-819a-15ec5d3d7455">
+        <epo:hasContractDuration>
+          <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#PeriodDuration5ae506c4-14be-4b5c-b7e0-7007327b00ef">
+            <epo:hasDurationMeasure>
+              <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#Measure10f990a3-bf80-4977-bafd-34afa7b4d19a">
+                <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                <ccts:hasMeasureValue>36</ccts:hasMeasureValue>
+              </ccts:Measure>
+            </epo:hasDurationMeasure>
+          </epo:Period>
+        </epo:hasContractDuration>
+        <epo:isSpecifiedIn>
+          <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#Procedure5b790285-39b5-4881-8fc5-ffd8cf35cfd9">
+            <epo:hasDescription xml:lang="bg">
+&lt;P&gt;„Доставка на електрическа енергия за срок от 36 месеца за нуждите на ТП на СЗДП ДП“.&lt;/P&gt;
+&lt;P&gt;Уникален номер на поръчката: 20161111EUjW7765039.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:uses>
+              <epo:AccessTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#AccessTermsFull32bb5f97-9ca0-4f47-8350-67c38f7e03bd">
+                <epo:hasProcurementDocumentLandingPage>http://procurement.szdp.bg/?q=page&amp;idd=index&amp;porachkaid=20161111EUjW7765039</epo:hasProcurementDocumentLandingPage>
+              </epo:AccessTerm>
+            </epo:uses>
+            <epo:hasProcedureType rdf:resource="http://publications.europa.eu/resource/authority/procurement-procedure-type/open"/>
+            <epo:specifies rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400677#Lot928f86b8-7449-419c-819a-15ec5d3d7455"/>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#Valuecb5a61f7-126c-49d5-b324-2fd1d0490817">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#Amount8c4cd9ed-c72d-440b-ac45-265d31302f11">
+                    <ccts:hasAmountValue>283710.00</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/BGN"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:notifies>
+              <epo:ContractNotice rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#ContractNotice84aa59ed-558c-4e19-898f-01f7befdfcac">
+                <epo:hasID>
+                  <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#ContractNoticeIdb41e2afb-15fe-47c4-a55c-d32730dddab7">
+                    <epo:hasIdentifierValue>2016/S 220-400677</epo:hasIdentifierValue>
+                  </epo:Identifier>
+                </epo:hasID>
+                <epo:isMadeAvailableVia>
+                  <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#ChannelCNca040d73-56fb-4e5d-a899-8620f4238106">
+                    <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:400677-2016:TEXT:BG:HTML</epo:hasURL>
+                  </epo:Channel>
+                </epo:isMadeAvailableVia>
+                <epo:notifies rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400677#Procedure5b790285-39b5-4881-8fc5-ffd8cf35cfd9"/>
+                <epo:hasDispatchDate>2016-11-11</epo:hasDispatchDate>
+                <skos:editorialNote>Please note that some elements from the F02 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+CONTRACTING_BODY/ADDRESS_PARTICIPATION/URL_BUYER 
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE 
+OBJECT_CONTRACT/LOT_DIVISION 
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE 
+OBJECT_CONTRACT/OBJECT_DESCR/AC/AC_PROCUREMENT_DOC 
+OBJECT_CONTRACT/OBJECT_DESCR/NB_ENVISAGED_CANDIDATE 
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MIN_LIMIT_CANDIDATE 
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MAX_LIMIT_CANDIDATE 
+OBJECT_CONTRACT/OBJECT_DESCR/CRITERIA_CANDIDATE 
+LEFTI/PARTICULAR_PROFESSION 
+LEFTI/REFERENCE_TO_LAW 
+PROCEDURE/FRAMEWORK/SINGLE_OPERATOR 
+PROCEDURE/FRAMEWORK/SEVERAL_OPERATORS 
+PROCEDURE/FRAMEWORK/NB_PARTICIPANTS</skos:editorialNote>
+                <epo:hasRecurrence>false</epo:hasRecurrence>
+                <epo:hasPublicationDate>2016-11-15</epo:hasPublicationDate>
+              </epo:ContractNotice>
+            </epo:notifies>
+            <reg2015:applies>
+              <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#SelectionCriterionEconomic76f5a437-9594-45fa-939f-073f4e7df350">
+                <epo:hasDescription xml:lang="bg">
+&lt;P&gt;Не се изисква.&lt;/P&gt;
+</epo:hasDescription>
+                <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/ef-stand"/>
+              </epo:SelectionCriterion>
+            </reg2015:applies>
+            <reg2015:applies>
+              <epo:OpeningTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#OpeningTerma1c212a1-65da-4f44-9030-33e3ee15ba79">
+                <epo:hasOpeningDescription xml:lang="bg">
+&lt;P&gt;Отварянето на офертите е публично и на него могат да присъстват участниците в процедурата или техни упълномощени представители, както и представители на средствата за масово осведомяване.&lt;/P&gt;
+</epo:hasOpeningDescription>
+                <epo:hasOpeningDescription xml:lang="bg">
+&lt;P&gt;Административната сграда на СЗДП, гр. Враца, бул. „Христо Ботев“ № 2.&lt;/P&gt;
+</epo:hasOpeningDescription>
+                <epo:hasOpeningDateTime>2016-12-19+10:00</epo:hasOpeningDateTime>
+              </epo:OpeningTerm>
+            </reg2015:applies>
+            <reg2015:applies>
+              <epo:ReviewTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#ReviewTerms8ad3ffc5-7662-49c9-ac10-8bab62fec9f7">
+                <epo:hasReviewProcedure xml:lang="bg">
+&lt;P&gt;Съобразно чл. 196, ал. 1 от ЗОП, на обжалване подлежи всяко решение на възложителите по процедура за възлагане на обществена поръчка. Решенията се обжалват пред Комисия за защита на конкуренцията относно тяхната законосъобразност, включително за наличие на дискриминационни икономически, финансови, технически или квалификационни изисквания в обявлението, документацията или във всеки друг документ, свързан с процедурата. Срокът за обжалване е 10-дневен и тече в зависимост от обжалвания акт, съобразно регламентацията в чл. 197, ал. 1 от ЗОП.&lt;/P&gt;
+</epo:hasReviewProcedure>
+              </epo:ReviewTerm>
+            </reg2015:applies>
+            <epo:hasTitle xml:lang="bg">
+&lt;P&gt;„Доставка на електрическа енергия за срок от 36 месеца за нуждите на ТП на СЗДП ДП“.&lt;/P&gt;
+</epo:hasTitle>
+            <epo:hasOverallPurpose>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#Purposed8604e11-862e-4166-be2a-56195a38dd3d">
+                <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/supplies"/>
+                <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/09310000"/>
+              </epo:Purpose>
+            </epo:hasOverallPurpose>
+            <reg2015:hasBuyerMainActivityDescription xml:lang="bg"
+            >дейности по чл. 165, ал. 1 от Закона за горите</reg2015:hasBuyerMainActivityDescription>
+            <reg2015:applies>
+              <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#SelectionCriterionSuitabilityefaf44a1-c60f-4781-8108-3f24cfd52437">
+                <epo:hasDescription xml:lang="bg">
+&lt;P&gt;Участник в процедурата може да бъде лице по чл. 10 от ЗОП — всяко българско или чуждестранно физическо или юридическо лице, или техни обединения, както и всяко друго образувание, което има право да изпълнява доставки и услуги, съгласно законодателството на държавата, в която то е установено.&lt;/P&gt;
+&lt;P&gt;Кандидатите трябва да отговарят на изискванията на чл. 54, ал. 1 и чл. 55, ал. 1 от ЗОП.&lt;/P&gt;
+&lt;P&gt;Всеки участник трябва да притежава издадена от КЕВР на негово име валидна Лицензия за търговия с електрическа енергия, в съответствие със ЗЕ и другите относими нормативни актове, включително за дейността „координатор на стандартна балансираща група“.&lt;/P&gt;
+</epo:hasDescription>
+                <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/sui-act"/>
+              </epo:SelectionCriterion>
+            </reg2015:applies>
+            <reg2015:hasGPAUsage>false</reg2015:hasGPAUsage>
+            <epo:isResponsibilityOf>
+              <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#Buyer5dda4156-c413-492a-8d86-00af8bceee3a">
+                <reg2015:providesAdditionalInformationAboutProcurementProcedure rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400677#Procedure5b790285-39b5-4881-8fc5-ffd8cf35cfd9"/>
+                <epo:isRoleOf>
+                  <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#Organisation1459a500-8270-4048-8567-1d38b7d27db4">
+                    <epo:hasLocation>
+                      <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#Locationf3234ab5-4bd5-42f8-b2ad-52d8486aa9b0">
+                        <epo:hasPostalAddress>
+                          <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#Address2d5dfa7e-c8b8-4fe5-b5a3-d15ba4e306f1">
+                            <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/BG313"/>
+                            <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/BGR"/>
+                            <epo:hasCityName>Враца</epo:hasCityName>
+                            <epo:hasStreetName>бул. „Христо Ботев“ № 2, ет. 3</epo:hasStreetName>
+                            <epo:hasPostalZone>3000</epo:hasPostalZone>
+                          </epo:Address>
+                        </epo:hasPostalAddress>
+                      </epo:Location>
+                    </epo:hasLocation>
+                    <epo:hasID>
+                      <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#OrganisationId3f1e8a9d-2a42-4539-b2fb-fd0663996946">
+                        <epo:hasIdentifierValue>201617476</epo:hasIdentifierValue>
+                      </epo:Identifier>
+                    </epo:hasID>
+                    <epo:hasName xml:lang="bg">„Северозападно държавно предприятие“</epo:hasName>
+                  </epo:Organisation>
+                </epo:isRoleOf>
+                <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400677#Procedure5b790285-39b5-4881-8fc5-ffd8cf35cfd9"/>
+                <epo:has>
+                  <epo:BuyerProfile rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#BuyerProfiled40de13a-7e1c-4036-a375-11eb84ae1abe">
+                    <epo:hasURL>http://procurement.szdp.bg/?q=page</epo:hasURL>
+                  </epo:BuyerProfile>
+                </epo:has>
+                <epo:has>
+                  <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#ContactPoint6cd7587c-794a-4f86-957a-7f2b813b4c77">
+                    <epo:hasFax>+359 92620032</epo:hasFax>
+                    <epo:hasDescription xml:lang="bg">Тошко Брайков, Петрана Петрова</epo:hasDescription>
+                    <epo:hasEmail>szdp@abv.bg</epo:hasEmail>
+                    <epo:hasTelephone>+359 92620032</epo:hasTelephone>
+                    <epo:hasInternetAddress>www.szdp.bg</epo:hasInternetAddress>
+                  </epo:ContactPoint>
+                </epo:has>
+                <reg2015:receivesTenders rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400677#Procedure5b790285-39b5-4881-8fc5-ffd8cf35cfd9"/>
+                <reg2015:receivesRequestsToParticipate rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400677#Procedure5b790285-39b5-4881-8fc5-ffd8cf35cfd9"/>
+              </epo:Buyer>
+            </epo:isResponsibilityOf>
+            <reg2015:applies>
+              <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#SelectionCriterionTechnical3f11f27a-afc6-4a67-9b69-0c4af9ffa018">
+                <epo:hasDescription xml:lang="bg">
+&lt;P&gt;1. Участникът да е внедрил система за управление на качеството от серията ISO 9001:2008 или еквивалент с обхват търговия с енергия и енергоносители, координиране на балансиращи групи на пазара на електроенергия.&lt;/P&gt;
+&lt;P&gt;2. През последните 3 години, считано от датата на подаване на офертата, всеки участник трябва да е изпълнил най-малко 3 договора за доставка на електрическа енергия по свободно договорени цени.&lt;/P&gt;
+&lt;P&gt;3. Всеки участник трябва да е сключил валиден договор по чл. 11, т. 13 във връзка с чл. 23 от Правилата за търговия с електрическа енергия с мрежовия оператор, към чиято мрежа са присъединени обектите на възложителя.&lt;/P&gt;
+</epo:hasDescription>
+                <epo:hasDescription xml:lang="bg">
+&lt;P&gt;1. Заверено от участника копие на Сертификат за внедрена от него система за управление на качеството от серията ISO 9001:2008 или еквивалент с обхват търговия с енергия и енергоносители, координиране на балансиращи групи на пазара на електроенергия.&lt;/P&gt;
+&lt;P&gt;2. Списък на доставките, които са еднакви или сходни с предмета на обществената поръчка (доставка на електрическа енергия на свободния пазар), изпълнени от участника през последните 3 години, считано от датата на подаване на офертата, с посочване на стойностите, датите и получателите, заедно с доказателства за извършените доставки: удостоверения за извършените доставки, издадени от крайни потребители на електрическа енергия или от компетентен орган, или чрез посочване на публичен регистър, в който е публикувана информация за доставките.&lt;/P&gt;
+&lt;P&gt;3. Декларация за членовете на стандартната балансиращата група, чийто координатор е участникът, с информация за количеството на консумираната от тях електрическа енергия. Удостоверение от мрежовия оператор, към чиято мрежа са присъединени обектите на възложителя, за сключен валиден договор по чл. 11, т. 13 във връзка с чл. 23 от Правилата за търговия с електрическа енергия.&lt;/P&gt;
+</epo:hasDescription>
+                <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/tp-abil"/>
+              </epo:SelectionCriterion>
+            </reg2015:applies>
+            <reg2015:hasBuyerLegalType rdf:resource="http://publications.europa.eu/resource/authority/buyer-legal-type/body-pl"/>
+          </epo:Procedure>
+        </epo:isSpecifiedIn>
+        <epo:has>
+          <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#ContractTermLot1595c3ab-8f7b-4794-9336-35e1da277dad">
+            <epo:hasSpecificPlaceOfPerformance>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#ObjectContractAddressd7c50a88-986a-4295-bb2a-4825a3998f50">
+                <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/BG31"/>
+              </epo:Address>
+            </epo:hasSpecificPlaceOfPerformance>
+            <epo:hasPlaceOfPerformanceAdditionalInformation xml:lang="bg"
+            >
+&lt;P&gt;23 броя териториални поделения на СЗДП, разположени на територията на 6 административни области на страната.&lt;/P&gt;
+</epo:hasPlaceOfPerformanceAdditionalInformation>
+            <epo:hasRenewalIndicator>false</epo:hasRenewalIndicator>
+          </epo:ContractTerm>
+        </epo:has>
+        <epo:has>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#PurposeAdditional5ca33708-5c54-4ecd-9156-c1f24f4ee669">
+            <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+            <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/09310000"/>
+          </epo:Purpose>
+        </epo:has>
+        <epo:hasEstimatedValue>
+          <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#ValueValObjectda4d95ec-6575-4d48-b505-f3c70c1a1da6">
+            <epo:hasOverallAmount>
+              <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#AmountValObjectee443780-80b8-403b-8194-e7aba86b6f1b">
+                <ccts:hasAmountValue>283710.00</ccts:hasAmountValue>
+                <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/BGN"/>
+              </ccts:Amount>
+            </epo:hasOverallAmount>
+            <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+          </epo:Value>
+        </epo:hasEstimatedValue>
+        <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+        <epo:hasDescription xml:lang="bg">
+&lt;P&gt;Доставка на нетна активна електрическа енергия по свободно договорени цени и координация на балансираща група за ниско напрежение за нуждите на 23 ТП ДГС/ДЛС на СЗДП, за 36-месечен период за 92 броя обекти съгласно Таблица на обектите — неразделна част от документацията към процедурата.&lt;/P&gt;
+</epo:hasDescription>
+      </epo:Lot>
+    </epo:isUsedToAward>
+    <epo:hasAwardCriterionType rdf:resource="http://publications.europa.eu/resource/authority/award-criterion-type/price"/>
+  </epo:AwardCriterion>
+  <epo:ProcurementServiceProvider rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#ProcurementServiceProviderComp40e36ad9-0f68-44b1-9861-8eb3308ea5ed">
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400677#Procedure5b790285-39b5-4881-8fc5-ffd8cf35cfd9"/>
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400677#Procedure5b790285-39b5-4881-8fc5-ffd8cf35cfd9"/>
+  </epo:ProcurementServiceProvider>
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#Reviewer9a393ac6-1486-4f70-b218-72ce16734f58">
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400677#Procedure5b790285-39b5-4881-8fc5-ffd8cf35cfd9"/>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#OrganisationReviewBodyae37290b-8994-4953-8d7b-9b998e7d6300">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#LocationReviewBodyf85d684b-d597-43f4-82ba-8d3d54f58f9e">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#AddressReviewBody332fd45b-e0ee-45b2-ae40-1dfa8291999d">
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/BGR"/>
+                <epo:hasCityName>София</epo:hasCityName>
+                <epo:hasStreetName>бул. „Витоша“ № 18</epo:hasStreetName>
+                <epo:hasPostalZone>1000</epo:hasPostalZone>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="bg">Комисия за защита на конкуренцията</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#ContactPointReviewBodyd6c12ce3-3656-441e-86de-ebe7a7cfdd68">
+        <epo:hasFax>+359 29807315</epo:hasFax>
+        <epo:hasEmail>cpcadmin@cpc.bg</epo:hasEmail>
+        <epo:hasTelephone>+359 29884070</epo:hasTelephone>
+        <epo:hasInternetAddress>http://www.cpc.bg</epo:hasInternetAddress>
+      </epo:ContactPoint>
+    </epo:has>
+  </epo:Reviewer>
+  <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#ValidityPeriod9563e31e-e74b-49ad-9bf7-9f9caadc08e3">
+    <epo:hasDurationMeasure>
+      <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400677#ValidityMeasured9fa2543-a64a-4951-a326-faf2dde558de">
+        <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+        <ccts:hasMeasureValue>3</ccts:hasMeasureValue>
+      </ccts:Measure>
+    </epo:hasDurationMeasure>
+  </epo:Period>
+</rdf:RDF>

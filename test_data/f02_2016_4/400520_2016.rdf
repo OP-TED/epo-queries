@@ -1,0 +1,226 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#SelectionCriterionSuitability3a7e266d-5c7b-49dc-85fa-83d5c9165603"/>
+  <epo:ProcurementServiceProvider rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#ProcurementServiceProviderComp416d0b38-1fa5-454a-86e2-60c0f46e649d">
+    <reg2015:isInvolvedIn>
+      <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#Procedure895369a4-d8b7-49b9-ae78-74e2cbe5d6bd">
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#SelectionCriterionTechnicale23b01bb-f049-4d7d-87d2-98e8bf1d9570">
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/tp-abil"/>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <reg2015:hasCriteriaInProcurementDocument rdf:resource="http://data.europa.eu/a4g/resource/2016/s-219-400520#SelectionCriterionTechnicale23b01bb-f049-4d7d-87d2-98e8bf1d9570"/>
+        <reg2015:hasBuyerLegalType rdf:resource="http://publications.europa.eu/resource/authority/buyer-legal-type/rl-aut"/>
+        <reg2015:applies>
+          <epo:OpeningTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#OpeningTerm46055987-174a-48db-b74b-525b4d5e4506">
+            <epo:hasOpeningDescription xml:lang="de">
+&lt;P&gt;Das Offertöffnungsprotokoll kann auf www.submission.gr.ch eingesehen werden.&lt;/P&gt;
+</epo:hasOpeningDescription>
+            <epo:hasOpeningDescription xml:lang="de">
+&lt;P&gt;Hochbauamt Graubünden, Loëstrasse 32, 7000 Chur.&lt;/P&gt;
+</epo:hasOpeningDescription>
+            <epo:hasOpeningDateTime>2016-12-15+14:00</epo:hasOpeningDateTime>
+          </epo:OpeningTerm>
+        </reg2015:applies>
+        <epo:isResponsibilityOf>
+          <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#Buyer506da539-d100-429b-8ef8-c8e124f997b5">
+            <reg2015:providesAdditionalInformationAboutProcurementProcedure rdf:resource="http://data.europa.eu/a4g/resource/2016/s-219-400520#Procedure895369a4-d8b7-49b9-ae78-74e2cbe5d6bd"/>
+            <epo:has>
+              <epo:BuyerProfile rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#BuyerProfile200996f0-4ce0-48fd-96ce-58edc5ab5be6">
+                <epo:hasURL>www.hochbauamt.gr.ch</epo:hasURL>
+              </epo:BuyerProfile>
+            </epo:has>
+            <epo:has>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#ContactPointe87ef1c2-7176-4392-b54c-cf610a37c1d7">
+                <epo:hasEmail>info@hba.gr.ch</epo:hasEmail>
+                <epo:hasInternetAddress>https://www.simap.ch</epo:hasInternetAddress>
+              </epo:ContactPoint>
+            </epo:has>
+            <reg2015:receivesRequestsToParticipate rdf:resource="http://data.europa.eu/a4g/resource/2016/s-219-400520#Procedure895369a4-d8b7-49b9-ae78-74e2cbe5d6bd"/>
+            <epo:isRoleOf>
+              <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#Organisationd3866694-d500-4980-9085-f80937f024f2">
+                <epo:hasLocation>
+                  <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#Location75267d9b-0539-4ab4-a0cb-73d4ffbb4849">
+                    <epo:hasPostalAddress>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#Address8568db32-1689-4c68-84d9-ba063b5d25c9">
+                        <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/CHE"/>
+                        <epo:hasPostalZone>7000</epo:hasPostalZone>
+                        <epo:hasCityName>Chur</epo:hasCityName>
+                        <epo:hasStreetName>Loëstraße 32</epo:hasStreetName>
+                      </epo:Address>
+                    </epo:hasPostalAddress>
+                  </epo:Location>
+                </epo:hasLocation>
+                <epo:hasName xml:lang="de">Hochbauamt Graubünden</epo:hasName>
+              </epo:Organisation>
+            </epo:isRoleOf>
+            <reg2015:receivesTenders rdf:resource="http://data.europa.eu/a4g/resource/2016/s-219-400520#Procedure895369a4-d8b7-49b9-ae78-74e2cbe5d6bd"/>
+            <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2016/s-219-400520#Procedure895369a4-d8b7-49b9-ae78-74e2cbe5d6bd"/>
+          </epo:Buyer>
+        </epo:isResponsibilityOf>
+        <reg2015:hasGPAUsage>true</reg2015:hasGPAUsage>
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#SelectionCriterionEconomic62bbb647-27dc-446b-98ee-c37d20cb91b2">
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/ef-stand"/>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <epo:uses>
+          <epo:AccessTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#AccessTermsRestrdff368b1-188b-4a8f-abf1-474f6f3f5b68">
+            <epo:hasRestrictedAccessAddress>
+              <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#Channela8f18972-fea0-40da-aa88-2a7121d1ab38">
+                <epo:hasURL>http://www.simap.ch/shabforms/servlet/Search?NOTICE_NR=939875</epo:hasURL>
+              </epo:Channel>
+            </epo:hasRestrictedAccessAddress>
+          </epo:AccessTerm>
+        </epo:uses>
+        <epo:hasTitle xml:lang="de">
+&lt;P&gt;Neubau Verwaltungszentrum sinergia, Chur / BKP 244 Lüftungsanlagen.&lt;/P&gt;
+</epo:hasTitle>
+        <epo:notifies>
+          <epo:ContractNotice rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#ContractNotice7906a694-8a20-4cda-b266-ef68b11862da">
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#ContractNoticeIddc102910-8a6c-403c-9333-9b5b54aa4053">
+                <epo:hasIdentifierValue>2016/S 219-400520</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:isMadeAvailableVia>
+              <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#ChannelCN94a6c14e-50a1-4bcf-911e-358b0fd8bf4e">
+                <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:400520-2016:TEXT:DE:HTML</epo:hasURL>
+              </epo:Channel>
+            </epo:isMadeAvailableVia>
+            <epo:notifies rdf:resource="http://data.europa.eu/a4g/resource/2016/s-219-400520#Procedure895369a4-d8b7-49b9-ae78-74e2cbe5d6bd"/>
+            <epo:hasRecurrence>false</epo:hasRecurrence>
+            <epo:hasPublicationDate>2016-11-12</epo:hasPublicationDate>
+            <epo:hasDispatchDate>2016-11-10</epo:hasDispatchDate>
+            <skos:editorialNote>Please note that some elements from the F02 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+CONTRACTING_BODY/ADDRESS_PARTICIPATION/URL_BUYER 
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE 
+OBJECT_CONTRACT/LOT_DIVISION 
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE 
+OBJECT_CONTRACT/OBJECT_DESCR/AC/AC_PROCUREMENT_DOC 
+OBJECT_CONTRACT/OBJECT_DESCR/NB_ENVISAGED_CANDIDATE 
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MIN_LIMIT_CANDIDATE 
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MAX_LIMIT_CANDIDATE 
+OBJECT_CONTRACT/OBJECT_DESCR/CRITERIA_CANDIDATE 
+LEFTI/PARTICULAR_PROFESSION 
+LEFTI/REFERENCE_TO_LAW 
+PROCEDURE/FRAMEWORK/SINGLE_OPERATOR 
+PROCEDURE/FRAMEWORK/SEVERAL_OPERATORS 
+PROCEDURE/FRAMEWORK/NB_PARTICIPANTS</skos:editorialNote>
+          </epo:ContractNotice>
+        </epo:notifies>
+        <epo:hasDescription xml:lang="de">
+&lt;P&gt;Das Verwaltungsgebäude sinergia wird in MI-NERGIE P ECO Standard geplant und ausgeführt, inkl. Zertifizierung.&lt;/P&gt;
+&lt;P&gt;Kennzahlen Lüftungsanlagen:&lt;/P&gt;
+&lt;P&gt;10 Lüftungsmonoblöcke, davon eine Laboranlage&lt;/P&gt;
+&lt;P&gt;6 Fortluftventilatoren&lt;/P&gt;
+&lt;P&gt;ca. 166 Volumenstromregler&lt;/P&gt;
+&lt;P&gt;ca. 133 Brandschutzklappen&lt;/P&gt;
+&lt;P&gt;ca. 37 Motorklappen&lt;/P&gt;
+&lt;P&gt;— Konstanvolumenstromrelger&lt;/P&gt;
+&lt;P&gt;— Schalldämpfer&lt;/P&gt;
+&lt;P&gt;— Kanäle / Rohre (Labor in PP's-Ausführung).&lt;/P&gt;
+</epo:hasDescription>
+        <reg2015:hasAdditionalInformation xml:lang="de">
+&lt;P&gt;Baukostenplannummer (BKP): 244 Lüftungsanlagen&lt;/P&gt;
+&lt;P&gt;Teilangebote sind nicht zugelassen.&lt;/P&gt;
+&lt;P&gt;Verhandlungen: Sind unzulässig (Art. 19 SubG).&lt;/P&gt;
+&lt;P&gt;Verfahrensgrundsätze: Gemäß SubG.&lt;/P&gt;
+&lt;P&gt;Sonstige Angaben: – Begehung: keine – Auskunftsstelle: Generalplaner Implenia Schweiz AG, Felsenaustraße 25, 7000 Chur, Herr Urs Derungs, Tel. +41 81 286 86 86, E-Mail: urs.derungs@implenia.com (allgemeine Auskünfte zu simap unter www.simap.ch in der Rubrik „Support“).&lt;/P&gt;
+&lt;P&gt;Rechtsmittelbelehrung: Gegen diese Ausschreibung kann innerhalb von 10 Tagen seit Publikation beim Verwaltungsgericht des Kantons Graubünden, Obere Plessurstraße 1, 7001 Chur, schriftlich Beschwerde erhoben werden. Die Beschwerde ist im Doppel einzureichen und hat die Begehren sowie deren Begründung mit Angabe der Beweismittel zu enthalten.&lt;/P&gt;
+&lt;P&gt;Schlusstermin / Bemerkungen: Die Offerten sind mit A-Post aufzugeben. Angebote ohne Stempel einer schweizerischen Poststelle oder mit unvollständig ausgefüllten oder abgeänderten Formularen sowie Eingaben ohne die verlangten Beilagen oder ohne den verlangten Vermerk (Ziff. 2.2 Projekttitel der Beschaffung) auf dem Eingabekuvert sind ungültig.&lt;/P&gt;
+&lt;P&gt;Nationale Referenz-Publikation: Simap vom 10.11.2016, Dok. 939875.&lt;/P&gt;
+</reg2015:hasAdditionalInformation>
+        <epo:hasOverallPurpose>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#Purposeaeb6ef4e-695f-488e-9929-a278c81adacf">
+            <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/45331000"/>
+            <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/works"/>
+          </epo:Purpose>
+        </epo:hasOverallPurpose>
+        <reg2015:hasCriteriaInProcurementDocument rdf:resource="http://data.europa.eu/a4g/resource/2016/s-219-400520#SelectionCriterionEconomic62bbb647-27dc-446b-98ee-c37d20cb91b2"/>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#Lotfe3b6d19-0a43-408f-a3b0-96d53e09a903">
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-219-400520#Procedure895369a4-d8b7-49b9-ae78-74e2cbe5d6bd"/>
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#ContractTermLotae8ba054-dbf3-4c00-b41c-e17bbd6a9509">
+                <epo:hasRenewalIndicator>false</epo:hasRenewalIndicator>
+                <epo:hasPlaceOfPerformanceAdditionalInformation
+                 xml:lang="de">
+&lt;P&gt;Chur.&lt;/P&gt;
+</epo:hasPlaceOfPerformanceAdditionalInformation>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#PurposeAdditional27cda1be-e57b-43de-8dcd-cdbac6ea6cc4">
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#PeriodDuration7f8a0c52-ec52-45b0-b8d1-e5b752cf96c1">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#Measure1b9cbab2-c6e1-45cf-9ebb-e39617711e46">
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                    <ccts:hasMeasureValue>36</ccts:hasMeasureValue>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:hasDescription xml:lang="de">
+&lt;P&gt;Das Verwaltungsgebäude sinergia wird in MI-NERGIE P ECO Standard geplant und ausgeführt, inkl. Zertifizierung.&lt;/P&gt;
+&lt;P&gt;Kennzahlen Lüftungsanlagen:&lt;/P&gt;
+&lt;P&gt;10 Lüftungsmonoblöcke, davon eine Laboranlage&lt;/P&gt;
+&lt;P&gt;6 Fortluftventilatoren&lt;/P&gt;
+&lt;P&gt;ca. 166 Volumenstromregler&lt;/P&gt;
+&lt;P&gt;ca. 133 Brandschutzklappen&lt;/P&gt;
+&lt;P&gt;ca. 37 Motorklappen&lt;/P&gt;
+&lt;P&gt;— Konstanvolumenstromrelger&lt;/P&gt;
+&lt;P&gt;— Schalldämpfer&lt;/P&gt;
+&lt;P&gt;— Kanäle / Rohre (Labor in PP's-Ausführung).&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/allowed"/>
+          </epo:Lot>
+        </epo:specifies>
+        <reg2015:hasBuyerMainActivity rdf:resource="http://publications.europa.eu/resource/authority/main-activity/gen-pub"/>
+        <epo:hasProcedureType rdf:resource="http://publications.europa.eu/resource/authority/procurement-procedure-type/open"/>
+      </epo:Procedure>
+    </reg2015:isInvolvedIn>
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2016/s-219-400520#Procedure895369a4-d8b7-49b9-ae78-74e2cbe5d6bd"/>
+  </epo:ProcurementServiceProvider>
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#Reviewer116430f1-c543-4ce7-b8a8-e56f0e7d6a2e">
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-219-400520#Procedure895369a4-d8b7-49b9-ae78-74e2cbe5d6bd"/>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#ContactPointReviewBodya51ab33b-496b-4947-bb00-dff4b593fa4a"/>
+    </epo:has>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#OrganisationReviewBody7d4981d5-b2c8-451a-ac4f-dd1b29944f74">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#LocationReviewBody2de4a118-7c7a-4a9c-ae74-e308645634a7">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-219-400520#AddressReviewBody988b1bb7-72e9-4041-b612-1c331ee90b57">
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/CHE"/>
+                <epo:hasPostalZone>9023</epo:hasPostalZone>
+                <epo:hasCityName>St. Gallen</epo:hasCityName>
+                <epo:hasStreetName>Postfach</epo:hasStreetName>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="de">Bundesverwaltungsgericht</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+  </epo:Reviewer>
+</rdf:RDF>

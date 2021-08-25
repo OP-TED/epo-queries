@@ -1,0 +1,229 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#ChannelSubmission00a91503-60f3-41d3-b334-00a1f2f77a1e">
+    <epo:hasURL>http://salk.vemap.com</epo:hasURL>
+  </epo:Channel>
+  <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#SelectionCriterionSuitability46f26db5-e5a1-47d6-8c7e-be369a143a84"/>
+  <epo:ProcurementServiceProvider rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#ProcurementServiceProviderCompea291956-6f68-4581-b22c-557da7a9bef8">
+    <reg2015:isInvolvedIn>
+      <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#Procedure6717776c-23c0-49f6-b96a-6d6770051f84">
+        <reg2015:usesAd-hoc>
+          <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#ChannelProcedure5e0bfeee-fde2-4912-a071-a03bfa59c8a8">
+            <epo:hasURL>http://salk.vemap.com</epo:hasURL>
+          </epo:Channel>
+        </reg2015:usesAd-hoc>
+        <reg2015:hasGPAUsage>false</reg2015:hasGPAUsage>
+        <epo:hasTitle xml:lang="de">
+&lt;P&gt;Trockenbauarbeiten LKH Tamsweg.&lt;/P&gt;
+</epo:hasTitle>
+        <reg2015:hasBuyerLegalType rdf:resource="http://publications.europa.eu/resource/authority/buyer-legal-type/body-pl"/>
+        <epo:hasAcceleratedProcedureJustification xml:lang="de"
+        >
+&lt;P&gt;Dringlicher Bedarf aufgrund des Baufortschrittes.&lt;/P&gt;
+</epo:hasAcceleratedProcedureJustification>
+        <epo:uses>
+          <epo:AccessTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#AccessTermsFull4c769859-9ec9-48cc-98a7-45a601a2bafd">
+            <epo:hasProcurementDocumentLandingPage>http://salk.vemap.com</epo:hasProcurementDocumentLandingPage>
+          </epo:AccessTerm>
+        </epo:uses>
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#SelectionCriterionEconomic317238ec-8091-497f-8cae-0df1506128e0">
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/ef-stand"/>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <epo:isResponsibilityOf>
+          <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#Buyerb067e193-df37-4459-a226-68a471a86654">
+            <epo:isRoleOf>
+              <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#Organisation4ed72af8-aa69-48bb-8385-add736a8bf76">
+                <epo:hasLocation>
+                  <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#Locationc3840988-8404-4a8a-af48-499712f98847">
+                    <epo:hasPostalAddress>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#Addressb8f20314-268b-4181-9c84-8f58034a4f56">
+                        <epo:hasPostalZone>5020</epo:hasPostalZone>
+                        <epo:hasCityName>Salzburg</epo:hasCityName>
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/AT"/>
+                        <epo:hasStreetName>Müllner Hauptstr. 48</epo:hasStreetName>
+                        <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/AUT"/>
+                      </epo:Address>
+                    </epo:hasPostalAddress>
+                  </epo:Location>
+                </epo:hasLocation>
+                <epo:hasName xml:lang="de">Gemeinnützige Salzburger Landeskliniken Betriebsgesellschaft mbH</epo:hasName>
+              </epo:Organisation>
+            </epo:isRoleOf>
+            <reg2015:providesAdditionalInformationAboutProcurementProcedure rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400600#Procedure6717776c-23c0-49f6-b96a-6d6770051f84"/>
+            <epo:has>
+              <epo:BuyerProfile rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#BuyerProfile2139f5ae-0ff6-4ee6-8f3c-6db5ff902a72">
+                <epo:hasURL>http://salk.vemap.com</epo:hasURL>
+              </epo:BuyerProfile>
+            </epo:has>
+            <epo:has>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#ContactPointbe67fb3c-f816-4b8c-b215-83cad8b877c9">
+                <epo:hasTelephone>+43 5725521317</epo:hasTelephone>
+                <epo:hasFax>+42 5725521497</epo:hasFax>
+                <epo:hasEmail>c.lipa@salk.at</epo:hasEmail>
+                <epo:hasDescription xml:lang="de">Claus Lipa</epo:hasDescription>
+                <epo:hasInternetAddress>http://www.vemap.com</epo:hasInternetAddress>
+              </epo:ContactPoint>
+            </epo:has>
+            <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400600#Procedure6717776c-23c0-49f6-b96a-6d6770051f84"/>
+          </epo:Buyer>
+        </epo:isResponsibilityOf>
+        <epo:hasEstimatedValue>
+          <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#Value882093ef-a3f9-4f17-bc8f-8c8f41d57bee">
+            <epo:hasOverallAmount>
+              <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#Amount191202a3-5e1f-404b-8954-398487ae434f">
+                <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                <ccts:hasAmountValue>700000</ccts:hasAmountValue>
+              </ccts:Amount>
+            </epo:hasOverallAmount>
+            <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+          </epo:Value>
+        </epo:hasEstimatedValue>
+        <epo:hasOverallPurpose>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#Purposed1a41af5-0b1d-4a92-91ad-f163664a86ad">
+            <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/45262800"/>
+            <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/works"/>
+          </epo:Purpose>
+        </epo:hasOverallPurpose>
+        <epo:notifies>
+          <epo:ContractNotice rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#ContractNotice2962269c-0f97-43ff-825d-c7e0525389ee">
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#ContractNoticeId3b2f26e1-1c1d-42d1-b274-51205f678287">
+                <epo:hasIdentifierValue>2016/S 220-400600</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:notifies rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400600#Procedure6717776c-23c0-49f6-b96a-6d6770051f84"/>
+            <epo:isMadeAvailableVia>
+              <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#ChannelCNeca1c817-77ac-4c6d-aa16-8e7c3babefa7">
+                <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:400600-2016:TEXT:DE:HTML</epo:hasURL>
+              </epo:Channel>
+            </epo:isMadeAvailableVia>
+            <epo:hasPublicationDate>2016-11-15</epo:hasPublicationDate>
+            <skos:editorialNote>Please note that some elements from the F02 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+CONTRACTING_BODY/ADDRESS_PARTICIPATION/URL_BUYER 
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE 
+OBJECT_CONTRACT/LOT_DIVISION 
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE 
+OBJECT_CONTRACT/OBJECT_DESCR/AC/AC_PROCUREMENT_DOC 
+OBJECT_CONTRACT/OBJECT_DESCR/NB_ENVISAGED_CANDIDATE 
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MIN_LIMIT_CANDIDATE 
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MAX_LIMIT_CANDIDATE 
+OBJECT_CONTRACT/OBJECT_DESCR/CRITERIA_CANDIDATE 
+LEFTI/PARTICULAR_PROFESSION 
+LEFTI/REFERENCE_TO_LAW 
+PROCEDURE/FRAMEWORK/SINGLE_OPERATOR 
+PROCEDURE/FRAMEWORK/SEVERAL_OPERATORS 
+PROCEDURE/FRAMEWORK/NB_PARTICIPANTS</skos:editorialNote>
+            <epo:hasDispatchDate>2016-11-11</epo:hasDispatchDate>
+            <epo:hasRecurrence>false</epo:hasRecurrence>
+          </epo:ContractNotice>
+        </epo:notifies>
+        <epo:hasProcedureType rdf:resource="http://publications.europa.eu/resource/authority/procurement-procedure-type/neg-w-call"/>
+        <epo:hasDescription xml:lang="de">
+&lt;P&gt;Trockenbauarbeiten (Wände, Decken und Verkleidungen), Metalldecken für den Umbau und die Sanierung des LKH Tamsweg.&lt;/P&gt;
+</epo:hasDescription>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#Lot5f9072b4-167d-48fd-8b4c-e02856faa8fd">
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#PeriodDurationa08bb361-aa40-4d0b-bede-1dc20e383b80">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#Measurec5549feb-f253-46e6-b83c-7c344ec28a46">
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                    <ccts:hasMeasureValue>2</ccts:hasMeasureValue>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#ContractTermLot278111b8-a38c-49f2-8f70-b3604ae4e00b">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#ObjectContractAddress528b170a-b0c4-4d84-b89c-83a0dadde768">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/AT33"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasRenewalIndicator>false</epo:hasRenewalIndicator>
+                <epo:hasPlaceOfPerformanceAdditionalInformation
+                 xml:lang="de">
+&lt;P&gt;Tamsweg.&lt;/P&gt;
+</epo:hasPlaceOfPerformanceAdditionalInformation>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#PurposeAdditionalb9ccc1f4-8ce5-4345-a05c-8f32e82138f8">
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#ValueValObject937297c0-60f3-4079-b9d2-aa55f5428491">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#AmountValObject2e086414-2bc8-40fc-a31a-12e1252388cc">
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                    <ccts:hasAmountValue>700000</ccts:hasAmountValue>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400600#Procedure6717776c-23c0-49f6-b96a-6d6770051f84"/>
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+            <epo:hasDescription xml:lang="de">
+&lt;P&gt;Trockenbauarbeiten (Wände, Decken und Verkleidungen), Metalldecken für den Umbau und die Sanierung des LKH Tamsweg.&lt;/P&gt;
+</epo:hasDescription>
+          </epo:Lot>
+        </epo:specifies>
+        <reg2015:hasBuyerMainActivity rdf:resource="http://publications.europa.eu/resource/authority/main-activity/health"/>
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#SelectionCriterionTechnical954d6034-85ad-49c4-9ce8-10f7e290e537">
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/tp-abil"/>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <reg2015:hasCriteriaInProcurementDocument rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400600#SelectionCriterionEconomic317238ec-8091-497f-8cae-0df1506128e0"/>
+        <reg2015:hasCriteriaInProcurementDocument rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400600#SelectionCriterionTechnical954d6034-85ad-49c4-9ce8-10f7e290e537"/>
+      </epo:Procedure>
+    </reg2015:isInvolvedIn>
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400600#Procedure6717776c-23c0-49f6-b96a-6d6770051f84"/>
+  </epo:ProcurementServiceProvider>
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#Reviewer0c1cce5c-4691-4452-82e3-a2f11aa94f42">
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400600#Procedure6717776c-23c0-49f6-b96a-6d6770051f84"/>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#OrganisationReviewBodyb7de9f95-1450-4a33-9afe-486f1ae659bd">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#LocationReviewBodye5dc1484-35a2-4794-8c2a-6c8d62c08812">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#AddressReviewBody559fcfce-99bc-472f-9091-3246734a42f6">
+                <epo:hasPostalZone>5020</epo:hasPostalZone>
+                <epo:hasCityName>Salzburg</epo:hasCityName>
+                <epo:hasStreetName>Wasserfeldstraße 30</epo:hasStreetName>
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/AUT"/>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="de">Landesverwaltungsgericht Salzburg</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400600#ContactPointReviewBodycef78532-94ae-4cda-adab-616a5e000fe3">
+        <epo:hasTelephone>+43 66280423834</epo:hasTelephone>
+        <epo:hasFax>+43 66280423893</epo:hasFax>
+        <epo:hasEmail>post@lvwg-salzburg.gv.at</epo:hasEmail>
+        <epo:hasInternetAddress>http://www.lvwg-salzburg.gv.at</epo:hasInternetAddress>
+      </epo:ContactPoint>
+    </epo:has>
+  </epo:Reviewer>
+</rdf:RDF>

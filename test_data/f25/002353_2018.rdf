@@ -1,0 +1,306 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:AwardDecision rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#AwardDecision8079d2c0-945e-48d4-99ec-a659be7b6fd2">
+    <epo:refersTo>
+      <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#Lotf22c75d7-9521-405e-a9d7-44e42d7848bc">
+        <epo:hasContractDuration>
+          <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#PeriodDurationc18d9f19-2bda-4ae9-a6d9-66e68a0f62dd">
+            <epo:hasDurationMeasure>
+              <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#Measure4910d89f-e76f-42ab-a5ff-af3c9f61d044">
+                <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                <ccts:hasMeasureValue>144</ccts:hasMeasureValue>
+              </ccts:Measure>
+            </epo:hasDurationMeasure>
+          </epo:Period>
+        </epo:hasContractDuration>
+        <epo:hasEstimatedBuyerConcessionRevenue>
+          <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#EstimatedBuyerConcessionRevenueef9774bb-441f-4730-a86d-d9736b504860">
+            <epo:hasOverallAmount>
+              <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#EstimatedBuyerConcessionRevenueAmount1c182481-d867-4217-8b58-aec6c7d95bdc">
+                <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                <ccts:hasAmountValue>1155587</ccts:hasAmountValue>
+              </ccts:Amount>
+            </epo:hasOverallAmount>
+            <epo:hasVATIncludedIndicator>false</epo:hasVATIncludedIndicator>
+          </epo:Value>
+        </epo:hasEstimatedBuyerConcessionRevenue>
+        <epo:hasDescription xml:lang="fr">
+                  &lt;P&gt;Gestion du service de collecte des eaux usées et du service de l'assainissement non collectif et des eaux pluviales de la commune de Genas.&lt;/P&gt;
+               </epo:hasDescription>
+        <epo:hasEstimatedValue>
+          <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#EstimatedValueOld7e8007d2-533e-4ec6-8c00-f1e3c9c3d196">
+            <epo:hasOverallAmount>
+              <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#ValueOverallAmountOld8c11a4bf-f91d-4e45-a25e-7cb2f6395f97">
+                <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                <ccts:hasAmountValue>6387415</ccts:hasAmountValue>
+              </ccts:Amount>
+            </epo:hasOverallAmount>
+            <epo:hasVATIncludedIndicator>false</epo:hasVATIncludedIndicator>
+          </epo:Value>
+        </epo:hasEstimatedValue>
+        <epo:has>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#PurposeAdditional3a0bf963-a743-45bd-8e01-021ba52e17c0">
+            <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90410000"/>
+          </epo:Purpose>
+        </epo:has>
+        <epo:providesAdditionalInformation>
+          <epo:StatisticalInformation rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#StatisticalInformation88207bfa-c65d-4da4-b7cc-9339959fa27e">
+            <epo:hasReceivedTenderLots>1</epo:hasReceivedTenderLots>
+          </epo:StatisticalInformation>
+        </epo:providesAdditionalInformation>
+        <epo:has>
+          <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#ContractTermLota0d65d73-c6cf-4127-95e9-c161260acce9">
+            <epo:hasSpecificPlaceOfPerformance>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#ObjectContractAddress411a788d-8e22-4e70-a31a-0da243ede2c5">
+                <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FRK26"/>
+              </epo:Address>
+            </epo:hasSpecificPlaceOfPerformance>
+            <epo:hasPlaceOfPerformanceAdditionalInformation xml:lang="fr"
+            >
+                  &lt;P&gt;69740 Genas&lt;/P&gt;
+               </epo:hasPlaceOfPerformanceAdditionalInformation>
+          </epo:ContractTerm>
+        </epo:has>
+        <epo:hasAdditionalInformation xml:lang="fr">
+                  &lt;P&gt;Pendant toute la durée du contrat de concession, le contrat confère au concessionnaire le droit exclusif d'assurer la gestion du service de collecte des eaux usées et du service d'assainissement non collectif et des eaux pluviales.&lt;/P&gt;
+               </epo:hasAdditionalInformation>
+        <epo:isSpecifiedIn>
+          <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#Procedured4850ccd-406d-463f-98b9-3e9416491c1e">
+            <reg2015:hasBuyerLegalType rdf:resource="http://publications.europa.eu/resource/authority/buyer-legal-type/body-pl"/>
+            <epo:isResponsibilityOf>
+              <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#Buyer3664527d-4f82-48ff-896d-d7c651a73103">
+                <epo:isRoleOf>
+                  <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#Organisation26ff5bc8-c13f-40a7-8025-50216de8eed6">
+                    <epo:hasLocation>
+                      <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#Location0d472b9f-0f0f-411b-9074-8119a8032397">
+                        <epo:hasPostalAddress>
+                          <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#Address1800cfcd-eef8-498c-ba7b-711fe14788c0">
+                            <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FRK26"/>
+                            <epo:hasStreetName>place du Général de Gaulle</epo:hasStreetName>
+                            <epo:hasCityName>Genas</epo:hasCityName>
+                            <epo:hasPostalZone>69740</epo:hasPostalZone>
+                            <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                          </epo:Address>
+                        </epo:hasPostalAddress>
+                      </epo:Location>
+                    </epo:hasLocation>
+                    <epo:hasName xml:lang="fr">Mairie de Genas</epo:hasName>
+                  </epo:Organisation>
+                </epo:isRoleOf>
+                <epo:has>
+                  <epo:BuyerProfile rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#BuyerProfile2a5b3f8b-34e5-4b38-9afb-8d6826461430">
+                    <epo:hasURL>http://ville-genas.e-marchespublics.com</epo:hasURL>
+                  </epo:BuyerProfile>
+                </epo:has>
+                <epo:has>
+                  <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#ContactPointc27ca1eb-2b5e-4037-aa80-d65dfb3c7a85">
+                    <epo:hasInternetAddress>http://www.genas.fr</epo:hasInternetAddress>
+                    <epo:hasEmail>stephane.rocher@ville-genas.fr</epo:hasEmail>
+                    <epo:hasTelephone>+33 472471151</epo:hasTelephone>
+                    <epo:hasDescription xml:lang="fr">Stéphane Rocher</epo:hasDescription>
+                    <epo:hasFax>+33 472471135</epo:hasFax>
+                  </epo:ContactPoint>
+                </epo:has>
+                <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002353#Procedured4850ccd-406d-463f-98b9-3e9416491c1e"/>
+              </epo:Buyer>
+            </epo:isResponsibilityOf>
+            <reg2015:hasAdditionalInformation xml:lang="fr">
+               &lt;P&gt;La convention de DSP peut être consultée sur demande écrite à l'attention de Stéphane ROCHER:&lt;/P&gt;
+               &lt;P&gt;— Courriel: stephane.rocher@ville-genas.fr&lt;/P&gt;
+               &lt;P&gt;— adresse: place du Générale de Gaulle.&lt;/P&gt;
+               &lt;P&gt;Les modalités de la consultation respecteront les secrets protégés par la loi.&lt;/P&gt;
+               &lt;P&gt;Publications antérieures:&lt;/P&gt;
+               &lt;P&gt;— BOAMP 1763411 le 10.5.2017,&lt;/P&gt;
+               &lt;P&gt;— JOUE nº 2017/S 089-175305 le 10.5.2017.&lt;/P&gt;
+               &lt;P&gt;Les prix, paiements ou autres avantages financiers accordés, détaillés au V.2.4, d'un montant total de 1 155 587 EUR, incluent la gestion des installations d'eaux pluviales pour un total de 780 000 euros, ainsi que la réalisation de travaux de branchements pour un total 375 587 EUR.&lt;/P&gt;
+            </reg2015:hasAdditionalInformation>
+            <reg2015:applies>
+              <epo:ReviewTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#ReviewTermsdab061d4-9dbb-40a3-87bd-a46740f6e3a7">
+                <epo:hasReviewProcedure xml:lang="fr">
+               &lt;P&gt;Recours en contestation de validité du contrat issu de la jurisprudence «Tarn-et-Garonne du Conseil d'État du 4.4.2014, nº 358994» qui peut être exercé par les tiers au contrat, dans un délai de 2 mois à compter des mesures de publicités appropriées.&lt;/P&gt;
+            </epo:hasReviewProcedure>
+              </epo:ReviewTerm>
+            </reg2015:applies>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#ProcedureId9a3e7d95-6518-4a63-bae3-d473fb794ee2">
+                <epo:hasIdentifierValue>2017-15</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <reg2015:hasBuyerMainActivity rdf:resource="http://publications.europa.eu/resource/authority/main-activity/gen-pub"/>
+            <epo:hasTotalValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#ValueTotal41f98d46-4190-42bc-bc1c-d7230611e828">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#AmountTotalba3d927e-13ce-4827-b2c1-19bb891a8ac1">
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                    <ccts:hasAmountValue>5221413</ccts:hasAmountValue>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasTotalValue>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#Value295d9739-44fd-4857-9010-e2fcd3c9396f">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#Amount843f33b1-4f5f-444f-b97a-a22506ea4ce7">
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                    <ccts:hasAmountValue>6387415</ccts:hasAmountValue>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:hasCalculationMethod xml:lang="fr">
+               &lt;P&gt;Chiffres d'affaires du délégataire sortant.&lt;/P&gt;
+            </epo:hasCalculationMethod>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:hasDescription xml:lang="fr">
+               &lt;P&gt;Concession sous-forme de délégation de service public en vue de la gestion du service de collecte des eaux usées et du service d'assainissement non collectif et des eaux pluviales de la commune de Genas&lt;/P&gt;
+            </epo:hasDescription>
+            <epo:hasOverallPurpose>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#Purpose3d9d7919-c17e-4b22-8321-c9d872dfeabb">
+                <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/90480000"/>
+                <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/services"/>
+              </epo:Purpose>
+            </epo:hasOverallPurpose>
+            <epo:hasTitle xml:lang="fr">
+               &lt;P&gt;Concession sous-forme de délégation de service public en vue de la gestion du service de collecte des eaux usées et du service d'assainissement non collectif et des eaux pluviales&lt;/P&gt;
+            </epo:hasTitle>
+            <epo:leadsTo>
+              <epo:Contract rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#Contract3dc6fa38-466d-41f2-83bf-6c5148876a84">
+                <epo:refersTo rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002353#Lotf22c75d7-9521-405e-a9d7-44e42d7848bc"/>
+                <epo:hasProcurementValue>
+                  <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#TotalValueValTotalOld971f99c8-54c0-4723-8d2f-ad7173c63067">
+                    <epo:hasOverallAmount>
+                      <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#ValueAwardedAmountOlde2f9a943-3f9c-4374-bee9-1268a10a063f">
+                        <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                        <ccts:hasAmountValue>5221413</ccts:hasAmountValue>
+                      </ccts:Amount>
+                    </epo:hasOverallAmount>
+                    <epo:hasVATIncludedIndicator>false</epo:hasVATIncludedIndicator>
+                  </epo:Value>
+                </epo:hasProcurementValue>
+                <epo:hasTitle xml:lang="fr">
+               &lt;P&gt;Concession sous-forme de DSP de type affermage pour la gestion du service public de collecte des eaux usées et du service d'assainissement non collectif et des eaux pluviales de la commune de Genas&lt;/P&gt;
+            </epo:hasTitle>
+              </epo:Contract>
+            </epo:leadsTo>
+            <epo:specifies rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002353#Lotf22c75d7-9521-405e-a9d7-44e42d7848bc"/>
+          </epo:Procedure>
+        </epo:isSpecifiedIn>
+      </epo:Lot>
+    </epo:refersTo>
+    <epo:has>
+      <epo:Winner rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#WinnerNoGroupe78adfa9-e5da-4654-ac62-2329ec0d0d11">
+        <epo:isRoleOf>
+          <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#WinnerOrganisationNoAwardedGroupOld22192af2-3b28-4947-8487-94772fcd9256">
+            <epo:hasLocation>
+              <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#WinnerLocationNoAwardedToGroupOldd81fffb3-b7be-4b6a-9ba3-8902188688df">
+                <epo:hasPostalAddress>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#WinnerAddressNoAwardedGroupOldb7189a04-95c3-46f0-92d6-edd4181481a3">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR105"/>
+                    <epo:hasStreetName>Veolia eau — Compagnie générale des eaux, société en commandite par actions au capital de 2 207 287 340,98 EUR, dont le siège social est 163-169 avenue Georges Clémenceau</epo:hasStreetName>
+                    <epo:hasCityName>Nanterre</epo:hasCityName>
+                    <epo:hasPostalZone>92000</epo:hasPostalZone>
+                    <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                  </epo:Address>
+                </epo:hasPostalAddress>
+              </epo:Location>
+            </epo:hasLocation>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#WinnerOrganisationNoAwardedToGroupOldIdff32e315-3aab-47d1-8e79-056cd65a042a">
+                <epo:hasIdentifierValue>b575 025 526</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:hasName xml:lang="fr">Veolia eau — Compagnie générale des eaux</epo:hasName>
+          </epo:Organisation>
+        </epo:isRoleOf>
+      </epo:Winner>
+    </epo:has>
+    <epo:isReferedByA rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002353#Contract3dc6fa38-466d-41f2-83bf-6c5148876a84"/>
+    <epo:hasAwardStatus rdf:resource="http://publications.europa.eu/resource/authority/winner-selection-status/selec-w"/>
+    <epo:hasAwardDecisionDate>2017-11-27</epo:hasAwardDecisionDate>
+  </epo:AwardDecision>
+  <epo:ContractAwardNotice rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#ContractAwardNotice6a69d02b-f444-4fae-bed7-dc840a84bbb7">
+    <epo:isMadeAvailableVia>
+      <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#ChannelCNfacf1a6f-c3c9-46c1-a933-c785dbe56c4a">
+        <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:002353-2018:TEXT:FR:HTML</epo:hasURL>
+      </epo:Channel>
+    </epo:isMadeAvailableVia>
+    <epo:summarises rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002353#Procedured4850ccd-406d-463f-98b9-3e9416491c1e"/>
+    <epo:hasID>
+      <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#ContractAwardNoticeId934ceb89-6463-4b61-b84e-e0a1eaa7e381">
+        <epo:hasIdentifierValue>2018/S 002-002353</epo:hasIdentifierValue>
+      </epo:Identifier>
+    </epo:hasID>
+    <epo:relatesTo rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002353#Procedured4850ccd-406d-463f-98b9-3e9416491c1e"/>
+    <epo:hasDispatchDate>2018-01-02</epo:hasDispatchDate>
+    <epo:hasPublicationDate>2018-01-04</epo:hasPublicationDate>
+    <skos:editorialNote>Please note that some elements from the F25 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/LOT_DIVISION
+OBJECT_CONTRACT/NO_LOT_DIVISION
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/OBJECT_DESCR/NO_EU_PROGR_RELATED
+PROCEDURE/PT_AWARD_CONTRACT_WITH_PRIOR_PUBLICATION
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_ENOTICES
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_TED_ESENDER
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ESENDER_LOGIN
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/CUSTOMER_LOGIN
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/NO_DOC_EXT
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_OTHER_MEANS
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/DATE_DISPATCH_ORIGINAL
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_UNSUCCESSFUL
+AWARD_CONTRACT/AWARDED_CONTRACT/TENDERS/NB_TENDERS_RECEIVED_OTHER_EU
+AWARD_CONTRACT/AWARDED_CONTRACT/TENDERS/NB_TENDERS_RECEIVED_NON_EU
+AWARD_CONTRACT/AWARDED_CONTRACT/CONTRACTORS/NO_AWARDED_TO_GROUP
+PROCEDURE/PT_AWARD_CONTRACT_WITHOUT_PUBLICATION/D_OUTSIDE_SCOPE</skos:editorialNote>
+  </epo:ContractAwardNotice>
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#Reviewer736c68d8-8982-4e32-bdc0-72c0c1f60540">
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#OrganisationReviewBody8dcb9373-4721-4e17-8b61-620147282067">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#LocationReviewBody32ab0ccd-d95d-442e-8733-ebbdb6512deb">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#AddressReviewBody532994d5-259c-4156-b969-96538a4b083e">
+                <epo:hasStreetName>184 rue Dugesclin</epo:hasStreetName>
+                <epo:hasCityName>Lyon</epo:hasCityName>
+                <epo:hasPostalZone>69433</epo:hasPostalZone>
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="fr">Tribunal administratif de Lyon</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002353#Procedured4850ccd-406d-463f-98b9-3e9416491c1e"/>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#ContactPointReviewBody5127fb4e-c2a6-468b-b37b-0d2fc34a9a82">
+        <epo:hasEmail>greffe.ta-lyon@juradm.fr</epo:hasEmail>
+        <epo:hasTelephone>+334 78141010</epo:hasTelephone>
+      </epo:ContactPoint>
+    </epo:has>
+  </epo:Reviewer>
+  <epo:ProcurementServiceProvider rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#ProcurementServiceProviderCompe6438414-fd87-4a2d-81c0-adefa01ff9b3">
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002353#Procedured4850ccd-406d-463f-98b9-3e9416491c1e"/>
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002353#Procedured4850ccd-406d-463f-98b9-3e9416491c1e"/>
+  </epo:ProcurementServiceProvider>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002353#AwardCriterionQualityS014701e287-b63d-4b20-a119-baa0be697540">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002353#Lotf22c75d7-9521-405e-a9d7-44e42d7848bc"/>
+    <epo:hasName xml:lang="fr">La concession est attribuée sur la base des critères décrits ci-dessous: critères: 1. énoncés dans le règlement de la consultation</epo:hasName>
+  </epo:AwardCriterion>
+</rdf:RDF>

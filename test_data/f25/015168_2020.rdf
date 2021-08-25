@@ -1,0 +1,275 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:ContractAwardNotice rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#ContractAwardNotice15c2a2c1-bde1-490b-89e0-8468af27861d">
+    <epo:hasPublicationDate>2020-01-13</epo:hasPublicationDate>
+    <epo:refersToPrevious>
+      <epo:Notice rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#PrevNotice956e2b6d-e2a0-483c-a23a-0fc813642c34">
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#PrevNoticeId3e005278-05ee-4396-a462-149b2d9ffc49">
+            <epo:hasIdentifierValue>2019/S 092-223682</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+      </epo:Notice>
+    </epo:refersToPrevious>
+    <skos:editorialNote>Please note that some elements from the F25 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/LOT_DIVISION
+OBJECT_CONTRACT/NO_LOT_DIVISION
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/OBJECT_DESCR/NO_EU_PROGR_RELATED
+PROCEDURE/PT_AWARD_CONTRACT_WITH_PRIOR_PUBLICATION
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_ENOTICES
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_TED_ESENDER
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ESENDER_LOGIN
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/CUSTOMER_LOGIN
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/NO_DOC_EXT
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_OTHER_MEANS
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/DATE_DISPATCH_ORIGINAL
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_UNSUCCESSFUL
+AWARD_CONTRACT/AWARDED_CONTRACT/TENDERS/NB_TENDERS_RECEIVED_OTHER_EU
+AWARD_CONTRACT/AWARDED_CONTRACT/TENDERS/NB_TENDERS_RECEIVED_NON_EU
+AWARD_CONTRACT/AWARDED_CONTRACT/CONTRACTORS/NO_AWARDED_TO_GROUP
+PROCEDURE/PT_AWARD_CONTRACT_WITHOUT_PUBLICATION/D_OUTSIDE_SCOPE</skos:editorialNote>
+    <epo:hasDispatchDate>2020-01-08</epo:hasDispatchDate>
+    <epo:isMadeAvailableVia>
+      <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#ChannelCN77e561ee-8143-4795-8289-aa0e814b922a">
+        <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:015168-2020:TEXT:CS:HTML</epo:hasURL>
+      </epo:Channel>
+    </epo:isMadeAvailableVia>
+    <epo:relatesTo>
+      <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#Procedureb44e6a7d-70cb-4076-a3da-d982fbaa7527">
+        <epo:hasTitle xml:lang="cs">&lt;P&gt;Provozování vodovodů a kanalizací Vodohospodářské společnosti Olomouc, a.s.&lt;/P&gt;</epo:hasTitle>
+        <epo:hasDescription xml:lang="cs">&lt;P&gt;Předmětem veřejné zakázky je zajištění bezpečného a plynulého provozování Vodohospodářského majetku, který je ve vlastnictví Zadavatele, a to v souladu s národní legislativou, zejména zákonem č. 274/2001 Sb., o vodovodech a kanalizacích pro veřejnou potřebu a o změně některých zákonů, ve znění pozdějších předpisů.&lt;/P&gt;&lt;P&gt;Strategickým cílem Zadavatele je zajištění efektivního způsobu provozování Vodohospodářského majetku pro období pěti let nalezením profesně zdatného partnera s příslušnou kvalifikací a zkušeností.&lt;/P&gt;</epo:hasDescription>
+        <epo:isResponsibilityOf>
+          <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#Buyer76f498cb-7668-479d-9c14-5215b32dd637">
+            <epo:isRoleOf>
+              <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#Organisationec42d216-d503-4b6d-a3a7-a64a6a1c6565">
+                <epo:hasLocation>
+                  <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#Locationbe6e15f7-a2a0-466c-9c0f-ac34889a8f7d">
+                    <epo:hasPostalAddress>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#Address33193f22-dacd-4d50-a606-88139b64196e">
+                        <epo:hasPostalZone>772 11</epo:hasPostalZone>
+                        <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/CZE"/>
+                        <epo:hasStreetName>Tovární 1059/41</epo:hasStreetName>
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/CZ071"/>
+                        <epo:hasCityName>Olomouc - Hodolany</epo:hasCityName>
+                      </epo:Address>
+                    </epo:hasPostalAddress>
+                  </epo:Location>
+                </epo:hasLocation>
+                <epo:hasID>
+                  <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#OrganisationId0f267ff2-020c-4b36-ada7-39477c523f8e">
+                    <epo:hasIdentifierValue>47675772</epo:hasIdentifierValue>
+                  </epo:Identifier>
+                </epo:hasID>
+                <epo:hasName xml:lang="cs">Vodohospodářská společnost Olomouc, a.s.</epo:hasName>
+              </epo:Organisation>
+            </epo:isRoleOf>
+            <epo:has>
+              <epo:BuyerProfile rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#BuyerProfile5a165b44-2911-4db9-9576-23de6dbed286">
+                <epo:hasURL>https://nen.nipez.cz/profil/vhsolomouc</epo:hasURL>
+              </epo:BuyerProfile>
+            </epo:has>
+            <epo:has>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#ContactPoint0074a031-a8c4-4182-a6a3-700baf00b9c8">
+                <epo:hasDescription xml:lang="cs">Ing. Lukáš Drbola</epo:hasDescription>
+                <epo:hasEmail>drbola@vrv.cz</epo:hasEmail>
+                <epo:hasInternetAddress>http://vhs-ol.cz/</epo:hasInternetAddress>
+                <epo:hasTelephone>+420 605294528</epo:hasTelephone>
+              </epo:ContactPoint>
+            </epo:has>
+            <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2020/s-008-015168#Procedureb44e6a7d-70cb-4076-a3da-d982fbaa7527"/>
+            <epo:hasContractingEntity>true</epo:hasContractingEntity>
+          </epo:Buyer>
+        </epo:isResponsibilityOf>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#Lot827e4582-cbe5-494f-8634-75fdfa07b44c">
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2020/s-008-015168#Procedureb44e6a7d-70cb-4076-a3da-d982fbaa7527"/>
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#ContractTermLot5c1406cc-636e-4933-a2f8-b66c673b8da1">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#ObjectContractAddressdc57cb40-b3d8-46a0-af30-b72ee600d7c8">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/CZ071"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasPlaceOfPerformanceAdditionalInformation
+                 xml:lang="cs">&lt;P&gt;Bližší informace o místě plnění jsou uvedeny v zadávací dokumentaci.&lt;/P&gt;</epo:hasPlaceOfPerformanceAdditionalInformation>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#PurposeAdditionale07650d1-2b3e-429f-9a79-66f01de3d38d">
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/65130000"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#Period1453baa0-0d16-4011-84f7-24c953d3fd5e">
+                <epo:hasEndDate>2025-03-31</epo:hasEndDate>
+                <epo:hasStartDate>2020-04-01</epo:hasStartDate>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:providesAdditionalInformation>
+              <epo:StatisticalInformation rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#StatisticalInformation97b651d7-55d3-4cad-8988-c1e53152f82e">
+                <epo:ElectronicTendersLots>1</epo:ElectronicTendersLots>
+                <epo:hasReceivedTenderLots>1</epo:hasReceivedTenderLots>
+              </epo:StatisticalInformation>
+            </epo:providesAdditionalInformation>
+            <epo:hasAdditionalInformation xml:lang="cs">&lt;P&gt;Pozn. k bodu II.1.7) Konečná hodnota veřejné zakázky&lt;/P&gt;&lt;P&gt;Jedná se o jednotkovou cenu.&lt;/P&gt;</epo:hasAdditionalInformation>
+            <epo:hasDescription xml:lang="cs">&lt;P&gt;Předmětem veřejné zakázky je zajištění bezpečného a plynulého provozování Vodohospodářského majetku, který je ve vlastnictví Zadavatele, a to v souladu s národní legislativou, zejména zákonem č. 274/2001 Sb., o vodovodech a kanalizacích pro veřejnou potřebu a o změně některých zákonů, ve znění pozdějších předpisů.&lt;/P&gt;&lt;P&gt;Strategickým cílem Zadavatele je zajištění efektivního způsobu provozování Vodohospodářského majetku pro období pěti let nalezením profesně zdatného partnera s příslušnou kvalifikací a zkušeností.&lt;/P&gt;</epo:hasDescription>
+          </epo:Lot>
+        </epo:specifies>
+        <reg2015:applies>
+          <epo:ReviewTerm rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#ReviewTermsf98f69c5-1f53-4ccc-8a9f-c62569dc4b4e">
+            <epo:hasReviewProcedure xml:lang="cs">&lt;P&gt;Podmínkou pro podání návrhu k ÚOHS je podání námitek k Zadavateli, které je nutné doručit do 15 dnů ode dne, kdy se stěžovatel dozvěděl o domnělém porušení zákona Zadavatelem, nejpozději však do uzavření smlouvy nebo do chvíle, kdy se soutěž o návrh považuje po výběru návrhu za ukončenou.&lt;/P&gt;&lt;P&gt;Námitky proti úkonům oznamovaným v dokumentech, které je Zadavatel povinen podle zákona uveřejnit či odeslat stěžovateli, musí být doručeny Zadavateli do 15 dnů od jejich uveřejnění či doručení stěžovateli.&lt;/P&gt;&lt;P&gt;Pokud je v zadávacím řízení stanovena lhůta pro podání žádostí o účast, musí být námitky proti podmínkám vztahujícím se ke kvalifikaci dodavatele doručeny Zadavateli nejpozději do skončení této lhůty.&lt;/P&gt;&lt;P&gt;Pokud je v zadávacím řízení stanovena lhůta pro podání nabídek, musí být námitky proti zadávací dokumentaci doručeny Zadavateli nejpozději do skončení této lhůty, v případě jednacího řízení s uveřejněním musí být námitky proti zadávací dokumentaci doručeny Zadavateli nejpozději do skončení lhůty pro podání předběžných nabídek.&lt;/P&gt;&lt;P&gt;Námitky proti dobrovolnému oznámení o záměru uzavřít smlouvu podle § 212 odst. 2 zákona musí být doručeny Zadavateli do 30 dnů od uveřejnění tohoto oznámení.&lt;/P&gt;&lt;P&gt;Zadavatel je povinen námitky vyřídit do 15 dnů. Návrh je nutné doručit ÚOHS i Zadavateli do 10 dnů ode dne, v němž stěžovatel obdržel rozhodnutí, kterým Zadavatel námitky odmítl nebo do 25 dnů od odeslání námitek, pokud Zadavatel o námitkách nerozhodl.&lt;/P&gt;&lt;P&gt;Po uzavření smlouvy na veřejnou zakázku či rámcové dohody lze podat pouze návrh na uložení zákazu plnění smlouvy, a to i bez předchozího podání námitek. Návrh na uložení zákazu plnění smlouvy doručí navrhovatel ÚOHS a ve stejnopisu Zadavateli do 1 měsíce ode dne, kdy Zadavatel uveřejnil oznámení o uzavření smlouvy způsobem podle § 212 odst. 2 zákona s uvedením důvodu pro zadání veřejné zakázky bez uveřejnění oznámení o zahájení zadávacího řízení, předběžného oznámení nebo výzvy k podání nabídek ve zjednodušeném podlimitním řízení, nejpozději však do 6 měsíců od uzavření této smlouvy. Návrh na uložení zákazu plnění smlouvy podle § 254 odstavce 1 písm. d) zákona doručí navrhovatel ÚOHS a ve stejnopisu Zadavateli do 1 měsíce ode dne, kdy Zadavatel uveřejnil oznámení o uzavření smlouvy na základě rámcové dohody podle § 137 zákona nebo oznámení o uzavření smlouvy v dynamickém nákupním systému podle § 142 zákona, nejpozději však do 6 měsíců od uzavření této smlouvy.&lt;/P&gt;&lt;P&gt;Ve lhůtě pro doručení návrhu je navrhovatel povinen složit na účet ÚOHS kauci ve výši 1 % z nabídkové ceny navrhovatele za celou dobu plnění veřejné zakázky nebo za dobu prvních 4 let plnění v případě smluv na dobu neurčitou, nejméně však ve výši 50 000 CZK, nejvýše ve výši 10 000 000 CZK. V případě, že navrhovatel nemůže stanovit celkovou nabídkovou cenu, je povinen složit kauci ve výši 100 000 CZK. V případě návrhu na uložení zákazu plnění smlouvy je navrhovatel povinen složit kauci ve výši 200 000 CZK. Jde-li o řízení o přezkoumání postupu pro zadávání koncesí, je navrhovatel povinen ve lhůtě pro doručení návrhu složit na účet ÚOHS kauci ve výši 1 % z předpokládané hodnoty koncese uveřejněné ve Věstníku veřejných zakázek nebo na profilu Zadavatele, nejméně však ve výši 50 000 CZK, nejvýše ve výši 10 000 000 CZK. V případě, že Zadavatel neuveřejní ve Věstníku veřejných zakázek nebo na profilu Zadavatele předpokládanou hodnotu koncese, je navrhovatel povinen složit kauci ve výši 100 000 CZK. V případě návrhu na uložení zákazu plnění koncesní smlouvy je navrhovatel povinen složit kauci ve výši 200 000 CZK.&lt;/P&gt;</epo:hasReviewProcedure>
+          </epo:ReviewTerm>
+        </reg2015:applies>
+        <epo:hasEstimatedValue>
+          <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#Value0b8ae4c8-aa3d-4e84-8ff3-efbeb1a57e94">
+            <epo:hasOverallAmount>
+              <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#Amount8e81568b-7b74-4991-b6ca-5bf5126e1059">
+                <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/CZK"/>
+                <ccts:hasAmountValue>1210000000.00</ccts:hasAmountValue>
+              </ccts:Amount>
+            </epo:hasOverallAmount>
+            <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+          </epo:Value>
+        </epo:hasEstimatedValue>
+        <epo:leadsTo>
+          <epo:Contract rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#Contractd48cf21f-f5fa-4f60-ae7e-f4a33ed6eed9">
+            <epo:hasProcurementValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#TotalValue76fd0f7a-eab9-4b6f-b256-8d7ae496abe7">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#ValueAwardedAmountd5d29a8a-d7bf-4026-a0c5-3c850e710eda">
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/CZK"/>
+                    <ccts:hasAmountValue>58.77</ccts:hasAmountValue>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:hasVATIncludedIndicator>false</epo:hasVATIncludedIndicator>
+              </epo:Value>
+            </epo:hasProcurementValue>
+            <epo:refersTo rdf:resource="http://data.europa.eu/a4g/resource/2020/s-008-015168#Lot827e4582-cbe5-494f-8634-75fdfa07b44c"/>
+          </epo:Contract>
+        </epo:leadsTo>
+        <epo:hasLegalBasis rdf:resource="http://publications.europa.eu/resource/authority/legal-basis/32014L0023"/>
+        <epo:hasOverallPurpose>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#Purposeb43451f8-87ac-4c5d-b1a8-c079baa7deb7">
+            <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/services"/>
+            <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/65130000"/>
+          </epo:Purpose>
+        </epo:hasOverallPurpose>
+        <epo:hasTotalValue>
+          <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#ValueTotal9eccf6b9-9f01-4bb1-bda2-eadd02d0a361">
+            <epo:hasOverallAmount>
+              <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#AmountTotale1a73b0b-e9aa-4b38-a509-628314f46e0b">
+                <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/CZK"/>
+                <ccts:hasAmountValue>58.77</ccts:hasAmountValue>
+              </ccts:Amount>
+            </epo:hasOverallAmount>
+            <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+          </epo:Value>
+        </epo:hasTotalValue>
+        <reg2015:hasAdditionalInformation xml:lang="cs">&lt;P&gt;Pozn. k bodu V.2.4) Informace o hodnotě koncese a o hlavních finančních podmínkách (bez DPH).&lt;/P&gt;&lt;P&gt;Jedná se o jednotkovou položku.&lt;/P&gt;</reg2015:hasAdditionalInformation>
+        <reg2015:hasBuyerMainActivity rdf:resource="http://publications.europa.eu/resource/authority/main-activity/water"/>
+      </epo:Procedure>
+    </epo:relatesTo>
+    <epo:summarises rdf:resource="http://data.europa.eu/a4g/resource/2020/s-008-015168#Procedureb44e6a7d-70cb-4076-a3da-d982fbaa7527"/>
+    <epo:refersToPrevious>
+      <epo:Notice rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#PreviousNotice2cdac80b-860c-4c88-9e54-77392ba5d478">
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#NoticeId1eba40e7-65e8-4459-8ce8-5b5cc10a914a">
+            <epo:hasIdentifierValue>2019/S 092-223682</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+      </epo:Notice>
+    </epo:refersToPrevious>
+    <epo:hasID>
+      <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#ContractAwardNoticeIdc781b719-219a-4bb9-9110-0aaae9adeb23">
+        <epo:hasIdentifierValue>2020/S 008-015168</epo:hasIdentifierValue>
+      </epo:Identifier>
+    </epo:hasID>
+  </epo:ContractAwardNotice>
+  <epo:AwardDecision rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#AwardDecision83aa4694-067e-4dc7-a831-3a7b41e8d653">
+    <epo:has>
+      <epo:Winner rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#WinnerContractors30dde91d-31d2-4109-b5bd-dd4a1e7d1d24">
+        <epo:isRoleOf>
+          <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#WinnerOrganisationNoAwardedGroup5c4f458d-581f-461e-93d8-f0c29e8a3797">
+            <epo:hasLocation>
+              <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#WinnerLocationNoAwardedToGroup443a3e67-d755-434f-a701-5eb0f34ce03d">
+                <epo:hasPostalAddress>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#WinnerAddressNoAwardedToGroup59050ff2-9fa7-40e2-935f-8e03dde4250c">
+                    <epo:hasPostalZone>779 00</epo:hasPostalZone>
+                    <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/CZE"/>
+                    <epo:hasStreetName>Tovární 1059/41</epo:hasStreetName>
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/CZ071"/>
+                    <epo:hasCityName>Hodolany, Olomouc</epo:hasCityName>
+                  </epo:Address>
+                </epo:hasPostalAddress>
+              </epo:Location>
+            </epo:hasLocation>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#WinnerOrganisationNoAwardedToGroupIdf3e5b430-d7fa-4e63-bed7-5ed132254a80">
+                <epo:hasIdentifierValue>61859575</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:hasName xml:lang="cs">Moravská vodárenská, a.s.</epo:hasName>
+          </epo:Organisation>
+        </epo:isRoleOf>
+      </epo:Winner>
+    </epo:has>
+    <epo:isReferedByA rdf:resource="http://data.europa.eu/a4g/resource/2020/s-008-015168#Contractd48cf21f-f5fa-4f60-ae7e-f4a33ed6eed9"/>
+    <epo:refersTo rdf:resource="http://data.europa.eu/a4g/resource/2020/s-008-015168#Lot827e4582-cbe5-494f-8634-75fdfa07b44c"/>
+    <epo:hasAwardStatus rdf:resource="http://publications.europa.eu/resource/authority/winner-selection-status/selec-w"/>
+    <epo:hasAwardDecisionDate>2019-12-13</epo:hasAwardDecisionDate>
+  </epo:AwardDecision>
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#Reviewercc72f784-38c2-495c-8194-8700f9d8c37d">
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#OrganisationReviewBodycf3bb750-ee34-4b06-af33-6288612cbfdc">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#LocationReviewBody051b6279-adfe-4c9e-99ed-7fd601acae8c">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#AddressReviewBodyc4b52273-e067-46c4-8779-590d41c29441">
+                <epo:hasPostalZone>604 55</epo:hasPostalZone>
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/CZE"/>
+                <epo:hasStreetName>tř. Kpt. Jaroše 7</epo:hasStreetName>
+                <epo:hasCityName>Brno</epo:hasCityName>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="cs">Úřad pro ochranu hospodářské soutěže</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#ContactPointReviewBody5ccb113c-ecbb-4ee7-b321-6cfea8dc18ea">
+        <epo:hasEmail>posta@uohs.cz</epo:hasEmail>
+        <epo:hasInternetAddress>https://www.uohs.cz/</epo:hasInternetAddress>
+        <epo:hasFax>+420 542167112</epo:hasFax>
+        <epo:hasTelephone>+420 542167111</epo:hasTelephone>
+      </epo:ContactPoint>
+    </epo:has>
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2020/s-008-015168#Procedureb44e6a7d-70cb-4076-a3da-d982fbaa7527"/>
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2020/s-008-015168#Procedureb44e6a7d-70cb-4076-a3da-d982fbaa7527"/>
+  </epo:Reviewer>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#AwardCriterionQualityS031c8f7945-cf10-4d67-b790-af796199269b">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2020/s-008-015168#Lot827e4582-cbe5-494f-8634-75fdfa07b44c"/>
+    <epo:hasName xml:lang="cs">2. Referenční hodnoty výkonových ukazatelů: 2a - Preventivní kontrola úniků na vodovodní síti (3 %), 2b - Revize kanalizace – stokové sítě (2 %)</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2020/s-008-015168#AwardCriterionQualityS0308e59476-1c03-4011-b519-de8db86869c9">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2020/s-008-015168#Lot827e4582-cbe5-494f-8634-75fdfa07b44c"/>
+    <epo:hasName xml:lang="cs">1. Nabídková cena (95 %)</epo:hasName>
+  </epo:AwardCriterion>
+</rdf:RDF>

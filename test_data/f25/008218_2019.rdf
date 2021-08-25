@@ -1,0 +1,289 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:ProcurementServiceProvider rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#ProcurementServiceProviderCompeb0380d5-2577-4650-87d0-afe61ade8b1f">
+    <reg2015:isInvolvedIn>
+      <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#Procedure197cdaad-9d16-4d4d-a3e3-e9c1c622dde0">
+        <epo:leadsTo>
+          <epo:Contract rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#Contractc16a8844-53c0-4d86-9ab5-b5596cf83b8f">
+            <epo:refersTo>
+              <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#Lot5989abf9-166b-4567-b6f7-b558f3f75c69">
+                <epo:hasContractDuration>
+                  <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#PeriodDurationdf748077-2868-4d28-b21e-b559e9b4b17c">
+                    <epo:hasDurationMeasure>
+                      <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#Measureea12705d-fe32-4eae-a0e0-ccc0b84211d7">
+                        <ccts:hasMeasureValue>144</ccts:hasMeasureValue>
+                        <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                      </ccts:Measure>
+                    </epo:hasDurationMeasure>
+                  </epo:Period>
+                </epo:hasContractDuration>
+                <epo:has>
+                  <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#ContractTermLot4158896b-7507-4d23-8136-b8c245bff089">
+                    <epo:hasSpecificPlaceOfPerformance>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#ObjectContractAddress78c5052e-9baa-4482-a0a1-c7f7693b215e">
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR102"/>
+                      </epo:Address>
+                    </epo:hasSpecificPlaceOfPerformance>
+                  </epo:ContractTerm>
+                </epo:has>
+                <epo:has>
+                  <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#PurposeAdditionalbdb92ef5-f659-4ccc-93f1-d9b8a13d97d5">
+                    <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/65110000"/>
+                  </epo:Purpose>
+                </epo:has>
+                <epo:providesAdditionalInformation>
+                  <epo:StatisticalInformation rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#StatisticalInformation35c85dc9-ec99-4eda-b0b1-facc18bd08f1">
+                    <epo:hasReceivedTenderLots>1</epo:hasReceivedTenderLots>
+                  </epo:StatisticalInformation>
+                </epo:providesAdditionalInformation>
+                <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2019/s-005-008218#Procedure197cdaad-9d16-4d4d-a3e3-e9c1c622dde0"/>
+                <epo:hasAdditionalInformation xml:lang="fr">&lt;P&gt;Visite obligatoire des ouvrages le 27.7.2018 (10:00)&lt;/P&gt;</epo:hasAdditionalInformation>
+                <epo:hasDescription xml:lang="fr">&lt;P&gt;L'achat le transport et la distribution d'eau potable sur la commune de Larchant.&lt;/P&gt;</epo:hasDescription>
+              </epo:Lot>
+            </epo:refersTo>
+            <epo:hasProcurementValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#TotalValue9cc2f292-f2d3-471c-a0e8-e48a0564bdc3">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#ValueAwardedAmount02a618a3-bf57-453c-959a-2d7c46ba1f1a">
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                    <ccts:hasAmountValue>523956</ccts:hasAmountValue>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:hasVATIncludedIndicator>false</epo:hasVATIncludedIndicator>
+              </epo:Value>
+            </epo:hasProcurementValue>
+            <epo:hasTitle xml:lang="fr">&lt;P&gt;Concession du service public eau potable&lt;/P&gt;</epo:hasTitle>
+          </epo:Contract>
+        </epo:leadsTo>
+        <epo:hasOverallPurpose>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#Purpose1adbe02e-0a8d-4cb9-afb1-5729a6366307">
+            <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/65100000"/>
+            <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/services"/>
+          </epo:Purpose>
+        </epo:hasOverallPurpose>
+        <reg2015:hasBuyerLegalType rdf:resource="http://publications.europa.eu/resource/authority/buyer-legal-type/body-pl"/>
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#ProcedureId65fcfecf-b804-4595-82ec-3e176492fc6f">
+            <epo:hasIdentifierValue>7776002</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+        <epo:isResponsibilityOf>
+          <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#Buyere1ccc10c-06c8-433c-a2ef-f424d75f4910">
+            <epo:has>
+              <epo:BuyerProfile rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#BuyerProfileac5044b0-8a1e-4136-ab61-5c7b8ae94a3a">
+                <epo:hasURL>https://www.achatpublic.com/sdm/ent/gen/index.jsp</epo:hasURL>
+              </epo:BuyerProfile>
+            </epo:has>
+            <epo:has>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#ContactPoint3120340b-998c-4ac7-9191-6a8b895b49fe">
+                <epo:hasInternetAddress>http://www.larchant.fr</epo:hasInternetAddress>
+                <epo:hasTelephone>+33 164281617</epo:hasTelephone>
+                <epo:hasDescription xml:lang="fr">M. le maire commune de Larchant, 2 place Pasteur — 7760 Larchant</epo:hasDescription>
+                <epo:hasFax>+33 164285747</epo:hasFax>
+                <epo:hasEmail>village@larchant.fr</epo:hasEmail>
+              </epo:ContactPoint>
+            </epo:has>
+            <epo:isRoleOf>
+              <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#Organisationeee8a9b5-75d7-4e90-8441-8dcbc75cf6a3">
+                <epo:hasLocation>
+                  <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#Location568a5891-2edf-4542-b808-e66f0317f6b0">
+                    <epo:hasPostalAddress>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#Addressa034d0cb-568d-445c-87f5-b3f9581743d7">
+                        <epo:hasCityName>Larchant</epo:hasCityName>
+                        <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                        <epo:hasPostalZone>77760</epo:hasPostalZone>
+                        <epo:hasStreetName>2 place Pasteur</epo:hasStreetName>
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR102"/>
+                      </epo:Address>
+                    </epo:hasPostalAddress>
+                  </epo:Location>
+                </epo:hasLocation>
+                <epo:hasName xml:lang="fr">Commune Larchant</epo:hasName>
+              </epo:Organisation>
+            </epo:isRoleOf>
+            <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2019/s-005-008218#Procedure197cdaad-9d16-4d4d-a3e3-e9c1c622dde0"/>
+          </epo:Buyer>
+        </epo:isResponsibilityOf>
+        <epo:hasTotalValue>
+          <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#ValueTotal21ce529f-0aad-42af-809d-49f900215858">
+            <epo:hasOverallAmount>
+              <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#AmountTotal115f9efd-3d55-4fb7-8758-67c6fd1eaf1c">
+                <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                <ccts:hasAmountValue>523956</ccts:hasAmountValue>
+              </ccts:Amount>
+            </epo:hasOverallAmount>
+            <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+          </epo:Value>
+        </epo:hasTotalValue>
+        <epo:specifies rdf:resource="http://data.europa.eu/a4g/resource/2019/s-005-008218#Lot5989abf9-166b-4567-b6f7-b558f3f75c69"/>
+        <epo:hasLegalBasis rdf:resource="http://publications.europa.eu/resource/authority/legal-basis/32014L0023"/>
+        <reg2015:hasBuyerMainActivity rdf:resource="http://publications.europa.eu/resource/authority/main-activity/env-pro"/>
+        <epo:hasDescription xml:lang="fr">&lt;P&gt;Gestion déléguée par concession du service public de fourniture et de distribution d'eau potable — la gestion du service concerne l'achat le transport et la distribution d'eau potable sur la commune de Larchant.&lt;/P&gt;</epo:hasDescription>
+        <epo:hasTitle xml:lang="fr">&lt;P&gt;Concession du service public de l'eau potable&lt;/P&gt;</epo:hasTitle>
+      </epo:Procedure>
+    </reg2015:isInvolvedIn>
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2019/s-005-008218#Procedure197cdaad-9d16-4d4d-a3e3-e9c1c622dde0"/>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#ContactPointReviewInfo46852588-464a-436e-a785-2bdcdca1addb">
+        <epo:hasInternetAddress>http://www.melun.tribunal-administratif.fr</epo:hasInternetAddress>
+        <epo:hasTelephone>+33 160566630</epo:hasTelephone>
+        <epo:hasFax>+33 160566610</epo:hasFax>
+        <epo:hasEmail>greffe.ta.melun@juradm.fr</epo:hasEmail>
+      </epo:ContactPoint>
+    </epo:has>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#OrganisationReviewInfobae85191-3a71-42dd-b393-b3ea48c36a4f">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#LocationReviewInfo1fdab0bc-9f7e-462a-af76-e459c8d0b3d1">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#AddressReviewInfof7043696-a72c-4bb5-9418-dd82771381dd">
+                <epo:hasCityName>Melun Cedex</epo:hasCityName>
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                <epo:hasPostalZone>77008</epo:hasPostalZone>
+                <epo:hasStreetName>43 rue du Général de Gaulle, Case postale nº 8630</epo:hasStreetName>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="fr">Tribunal administratif de Melun</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+  </epo:ProcurementServiceProvider>
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#Reviewerfda3af79-8886-47b6-ad2f-c536ba30b9e8">
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2019/s-005-008218#Procedure197cdaad-9d16-4d4d-a3e3-e9c1c622dde0"/>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#ContactPointReviewBodye49855d4-4a4d-447d-9aed-0b95933d3302">
+        <epo:hasInternetAddress>http://www.melun.tribunal-administratif.fr</epo:hasInternetAddress>
+        <epo:hasTelephone>+33 160566630</epo:hasTelephone>
+        <epo:hasFax>+33 160566610</epo:hasFax>
+        <epo:hasEmail>greffe.ta.melun@juradm.fr</epo:hasEmail>
+      </epo:ContactPoint>
+    </epo:has>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#OrganisationReviewBody9f004389-05ce-4c36-83f1-2fbe88da773b">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#LocationReviewBodyfca1a53e-9b7f-4d54-afc3-c15ef5796d33">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#AddressReviewBody547fa330-fa75-4045-b729-a3385e6b5dd5">
+                <epo:hasCityName>Melun Cedex</epo:hasCityName>
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                <epo:hasPostalZone>77008</epo:hasPostalZone>
+                <epo:hasStreetName>43 rue du Général de Gaulle, Case postale nº 8630</epo:hasStreetName>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="fr">Tribunal administratif de melun</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+  </epo:Reviewer>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#AwardCriterionQualityS039363fb65-e30a-4080-bc28-82ceae0de48f">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2019/s-005-008218#Lot5989abf9-166b-4567-b6f7-b558f3f75c69"/>
+    <epo:hasName xml:lang="fr">Propositions techniques</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:ContractAwardNotice rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#ContractAwardNoticeab38e0b0-d9bb-4205-b9ac-06fb2a6a16e1">
+    <epo:summarises rdf:resource="http://data.europa.eu/a4g/resource/2019/s-005-008218#Procedure197cdaad-9d16-4d4d-a3e3-e9c1c622dde0"/>
+    <epo:hasID>
+      <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#ContractAwardNoticeId03b5f0b8-43bf-4711-a62d-39d34f8e5d8b">
+        <epo:hasIdentifierValue>2019/S 005-008218</epo:hasIdentifierValue>
+      </epo:Identifier>
+    </epo:hasID>
+    <skos:editorialNote>Please note that some elements from the F25 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/LOT_DIVISION
+OBJECT_CONTRACT/NO_LOT_DIVISION
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/OBJECT_DESCR/NO_EU_PROGR_RELATED
+PROCEDURE/PT_AWARD_CONTRACT_WITH_PRIOR_PUBLICATION
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_ENOTICES
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_TED_ESENDER
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ESENDER_LOGIN
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/CUSTOMER_LOGIN
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/NO_DOC_EXT
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_OTHER_MEANS
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/DATE_DISPATCH_ORIGINAL
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_UNSUCCESSFUL
+AWARD_CONTRACT/AWARDED_CONTRACT/TENDERS/NB_TENDERS_RECEIVED_OTHER_EU
+AWARD_CONTRACT/AWARDED_CONTRACT/TENDERS/NB_TENDERS_RECEIVED_NON_EU
+AWARD_CONTRACT/AWARDED_CONTRACT/CONTRACTORS/NO_AWARDED_TO_GROUP
+PROCEDURE/PT_AWARD_CONTRACT_WITHOUT_PUBLICATION/D_OUTSIDE_SCOPE</skos:editorialNote>
+    <epo:isMadeAvailableVia>
+      <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#ChannelCN590f91f9-54c6-4ce9-bab3-e70aa6b0814d">
+        <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:008218-2019:TEXT:FR:HTML</epo:hasURL>
+      </epo:Channel>
+    </epo:isMadeAvailableVia>
+    <epo:refersToPrevious>
+      <epo:Notice rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#PrevNotice18a9f52a-48e1-4472-a68c-cb0374a1dedd">
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#PrevNoticeIdccce3cb1-3c73-4c60-85c0-ff35626d03da">
+            <epo:hasIdentifierValue>2018/S 134-306808</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+      </epo:Notice>
+    </epo:refersToPrevious>
+    <epo:refersToPrevious>
+      <epo:Notice rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#PreviousNotice4c5d71fb-cf8a-4d9a-bf86-e3dfd793c129">
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#NoticeId9e03f58c-beef-432a-a47f-f89b40eefdeb">
+            <epo:hasIdentifierValue>2018/S 134-306808</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+      </epo:Notice>
+    </epo:refersToPrevious>
+    <epo:hasPublicationDate>2019-01-08</epo:hasPublicationDate>
+    <epo:hasDispatchDate>2019-01-07</epo:hasDispatchDate>
+    <epo:relatesTo rdf:resource="http://data.europa.eu/a4g/resource/2019/s-005-008218#Procedure197cdaad-9d16-4d4d-a3e3-e9c1c622dde0"/>
+  </epo:ContractAwardNotice>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#AwardCriterionQualityS0351527d5c-4889-4eb7-9321-94fc01fad558">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2019/s-005-008218#Lot5989abf9-166b-4567-b6f7-b558f3f75c69"/>
+    <epo:hasName xml:lang="fr">Économie de la délégation</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:AwardDecision rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#AwardDecisionad8ff16c-8462-4348-b5e1-8d4b39d8df01">
+    <epo:refersTo rdf:resource="http://data.europa.eu/a4g/resource/2019/s-005-008218#Lot5989abf9-166b-4567-b6f7-b558f3f75c69"/>
+    <epo:has>
+      <epo:Winner rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#WinnerContractorsc238e026-d569-4c5b-8be8-9a4da34bb6a1">
+        <epo:isRoleOf>
+          <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#WinnerOrganisationNoAwardedGroupbeacb555-2bde-4efa-b5ee-73b51baadfee">
+            <epo:hasLocation>
+              <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#WinnerLocationNoAwardedToGroup80f9ec28-2e01-4bd3-9e44-7384a9a30ffc">
+                <epo:hasPostalAddress>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#WinnerAddressNoAwardedToGroupcab6c0b0-1892-4765-a282-0be9c2fd4f8d">
+                    <epo:hasCityName>Issy-les-Moulineaux</epo:hasCityName>
+                    <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                    <epo:hasPostalZone>92130</epo:hasPostalZone>
+                    <epo:hasStreetName>11 chemin de Bretagne</epo:hasStreetName>
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR105"/>
+                  </epo:Address>
+                </epo:hasPostalAddress>
+              </epo:Location>
+            </epo:hasLocation>
+            <epo:hasContactPoint>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2019/s-005-008218#WinnerContactPointNoAwardedToGroupf92799b7-b8ed-4754-9f79-93792297b042">
+                <epo:hasInternetAddress>http://saur.fr</epo:hasInternetAddress>
+              </epo:ContactPoint>
+            </epo:hasContactPoint>
+            <epo:hasName xml:lang="fr">Société SAUR</epo:hasName>
+          </epo:Organisation>
+        </epo:isRoleOf>
+      </epo:Winner>
+    </epo:has>
+    <epo:isReferedByA rdf:resource="http://data.europa.eu/a4g/resource/2019/s-005-008218#Contractc16a8844-53c0-4d86-9ab5-b5596cf83b8f"/>
+    <epo:hasAwardStatus rdf:resource="http://publications.europa.eu/resource/authority/winner-selection-status/selec-w"/>
+    <epo:hasAwardDecisionDate>2018-12-19</epo:hasAwardDecisionDate>
+  </epo:AwardDecision>
+</rdf:RDF>

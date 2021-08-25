@@ -1,0 +1,242 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:ProcurementServiceProvider rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#ProcurementServiceProviderCompb99aa933-1542-48fa-99e0-1ddd624db9bf">
+    <reg2015:isInvolvedIn>
+      <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#Procedured100d4cd-38f6-4368-8778-bcb6cf28cc6c">
+        <reg2015:hasAdditionalInformation xml:lang="fr">
+&lt;P&gt;Les dépôts de plis doivent être impérativement remis par voie dématérialisée.&lt;/P&gt;
+&lt;P&gt;Retrouvez cet avis intégral, l'accès au dossier et le guichet de dépôt sur http://polylogis.marches-publics.info/&lt;/P&gt;
+</reg2015:hasAdditionalInformation>
+        <epo:hasProcedureType rdf:resource="http://publications.europa.eu/resource/authority/procurement-procedure-type/open"/>
+        <epo:hasTitle xml:lang="fr">
+&lt;P&gt;Construction de 69 logements collectifs à St Fargeau Ponthierry.&lt;/P&gt;
+</epo:hasTitle>
+        <epo:hasLotSubmissionLimit>1</epo:hasLotSubmissionLimit>
+        <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Construction de 4 bâtiments collectifs&lt;/P&gt;
+&lt;P&gt;rt 2012 -10 % Habitat environnement profil A.&lt;/P&gt;
+</epo:hasDescription>
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#SelectionCriterionSuitability63173f55-3b60-4b5e-82cf-482036212588">
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Les documents demandés sont définis dans le règlement de consultation.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/sui-act"/>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <reg2015:hasGPAUsage>true</reg2015:hasGPAUsage>
+        <reg2015:hasBuyerLegalType rdf:resource="http://publications.europa.eu/resource/authority/buyer-legal-type/body-pl"/>
+        <reg2015:hasBuyerMainActivity rdf:resource="http://publications.europa.eu/resource/authority/main-activity/hc-am"/>
+        <epo:uses>
+          <epo:AccessTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#AccessTermsFulla008dc62-8134-45ba-893e-6e75d7081a26">
+            <epo:hasProcurementDocumentLandingPage>http://polylogis.marches-publics.info/</epo:hasProcurementDocumentLandingPage>
+          </epo:AccessTerm>
+        </epo:uses>
+        <epo:hasOverallPurpose>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#Purpose794fb482-e572-4bfa-a295-238aa736c688">
+            <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/works"/>
+            <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/45210000"/>
+          </epo:Purpose>
+        </epo:hasOverallPurpose>
+        <reg2015:applies>
+          <epo:OpeningTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#OpeningTerm8f6d60ba-5be9-44fc-a458-a2a8f7a4da43">
+            <epo:hasOpeningDescription xml:lang="fr">
+&lt;P&gt;Rubelles.&lt;/P&gt;
+</epo:hasOpeningDescription>
+            <epo:hasOpeningDateTime>2016-12-13+14:00</epo:hasOpeningDateTime>
+          </epo:OpeningTerm>
+        </reg2015:applies>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#Lot87a7f98c-726c-4c9c-a9f9-7f72f40c860f">
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#ContractTermLot1bd2866f-d152-47a7-b863-98197ab597ff">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#ObjectContractAddressb30b326d-3917-4fb9-94f5-dfeaa6df08ec">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR102"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasPlaceOfPerformanceAdditionalInformation
+                 xml:lang="fr">
+&lt;P&gt;rue du 19 Mars 1962&lt;/P&gt;
+&lt;P&gt;77310 — Saint Fargeau Ponthierry.&lt;/P&gt;
+</epo:hasPlaceOfPerformanceAdditionalInformation>
+                <epo:hasRenewalIndicator>false</epo:hasRenewalIndicator>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#PurposeAdditional110ed0f4-54a0-4a11-9304-d23ed14b1cdb">
+                <epo:hasOptionsDescription xml:lang="fr">
+&lt;P&gt;Suivant pièces du Dce.&lt;/P&gt;
+</epo:hasOptionsDescription>
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/allowed"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/45210000"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400576#Procedured100d4cd-38f6-4368-8778-bcb6cf28cc6c"/>
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#PeriodDurationbf081073-a472-4026-8d63-7f6cb8d54965">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#Measure2a34a34b-326e-47b1-830b-8343b6285ea0">
+                    <ccts:hasMeasureValue>18</ccts:hasMeasureValue>
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#LotIdf45e8bb4-761e-4acd-9d4d-6addedef7297">
+                <epo:hasIdentifierValue>1</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Construction de 4 bâtiments collectifs.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/allowed"/>
+            <epo:hasTitle xml:lang="fr">
+&lt;P&gt;Travaux de construction&lt;/P&gt;
+</epo:hasTitle>
+          </epo:Lot>
+        </epo:specifies>
+        <epo:isResponsibilityOf>
+          <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#Buyerc5c31112-e39e-44a7-b240-16ead3d68b89">
+            <epo:has>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#ContactPoint661dd954-57b8-47ef-87f4-c0f198fc7691">
+                <epo:hasInternetAddress>http://polylogis.marches-publics.info/</epo:hasInternetAddress>
+                <epo:hasEmail>chollet.i@polylogis.fr</epo:hasEmail>
+              </epo:ContactPoint>
+            </epo:has>
+            <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400576#Procedured100d4cd-38f6-4368-8778-bcb6cf28cc6c"/>
+            <epo:isRoleOf>
+              <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#Organisation2ad83dd5-4e6a-41d0-82bd-d0713fe6155a">
+                <epo:hasLocation>
+                  <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#Locatione3cd2185-cb1e-4f1d-84d1-cecc17987261">
+                    <epo:hasPostalAddress>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#Address7fd4b6d2-011b-432a-b014-6b87a6dd3f80">
+                        <epo:hasPostalZone>77950</epo:hasPostalZone>
+                        <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR102"/>
+                        <epo:hasCityName>Rubelles</epo:hasCityName>
+                        <epo:hasStreetName>60 rue des Meuniers</epo:hasStreetName>
+                      </epo:Address>
+                    </epo:hasPostalAddress>
+                  </epo:Location>
+                </epo:hasLocation>
+                <epo:hasID>
+                  <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#OrganisationIdf43bae59-a1f8-4519-b96c-025ab1fe59b4">
+                    <epo:hasIdentifierValue>78615039100088</epo:hasIdentifierValue>
+                  </epo:Identifier>
+                </epo:hasID>
+                <epo:hasName xml:lang="fr">Trois Moulins Habitat</epo:hasName>
+              </epo:Organisation>
+            </epo:isRoleOf>
+            <reg2015:providesAdditionalInformationAboutProcurementProcedure rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400576#Procedured100d4cd-38f6-4368-8778-bcb6cf28cc6c"/>
+          </epo:Buyer>
+        </epo:isResponsibilityOf>
+        <epo:hasMaximumNumberOfLotsToBeAwarded>1</epo:hasMaximumNumberOfLotsToBeAwarded>
+        <epo:has>
+          <epo:ProcedureTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#ProcedureTerm4d79873d-1813-44de-ad50-2207ebc7e5aa">
+            <epo:combinesLotsInto>
+              <epo:LotGroup rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#LotGroup90010905-7a17-4a78-93e3-5f42a5f0c6ab">
+                <epo:groups rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400576#Lot87a7f98c-726c-4c9c-a9f9-7f72f40c860f"/>
+                <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Construction de 4 bâtiments collectifs.&lt;/P&gt;
+</epo:hasDescription>
+              </epo:LotGroup>
+            </epo:combinesLotsInto>
+          </epo:ProcedureTerm>
+        </epo:has>
+        <epo:notifies>
+          <epo:ContractNotice rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#ContractNotice6bfb6d90-18a0-4725-bc68-1d592e6cf07e">
+            <epo:isMadeAvailableVia>
+              <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#ChannelCNfe1a1d26-0007-49fb-9ad1-5efe0a1ac77b">
+                <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:400576-2016:TEXT:FR:HTML</epo:hasURL>
+              </epo:Channel>
+            </epo:isMadeAvailableVia>
+            <epo:notifies rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400576#Procedured100d4cd-38f6-4368-8778-bcb6cf28cc6c"/>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#ContractNoticeId5522a5a8-a292-4ab0-b035-1b29f5a25e7c">
+                <epo:hasIdentifierValue>2016/S 220-400576</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:hasRecurrence>false</epo:hasRecurrence>
+            <epo:hasPublicationDate>2016-11-15</epo:hasPublicationDate>
+            <skos:editorialNote>Please note that some elements from the F02 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+CONTRACTING_BODY/ADDRESS_PARTICIPATION/URL_BUYER 
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE 
+OBJECT_CONTRACT/LOT_DIVISION 
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE 
+OBJECT_CONTRACT/OBJECT_DESCR/AC/AC_PROCUREMENT_DOC 
+OBJECT_CONTRACT/OBJECT_DESCR/NB_ENVISAGED_CANDIDATE 
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MIN_LIMIT_CANDIDATE 
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MAX_LIMIT_CANDIDATE 
+OBJECT_CONTRACT/OBJECT_DESCR/CRITERIA_CANDIDATE 
+LEFTI/PARTICULAR_PROFESSION 
+LEFTI/REFERENCE_TO_LAW 
+PROCEDURE/FRAMEWORK/SINGLE_OPERATOR 
+PROCEDURE/FRAMEWORK/SEVERAL_OPERATORS 
+PROCEDURE/FRAMEWORK/NB_PARTICIPANTS</skos:editorialNote>
+            <epo:hasDispatchDate>2016-11-10</epo:hasDispatchDate>
+          </epo:ContractNotice>
+        </epo:notifies>
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#ProcedureId16eb7129-5825-4f87-a2d4-75db926f88d9">
+            <epo:hasIdentifierValue>Mcm/Cm/Mo</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+      </epo:Procedure>
+    </reg2015:isInvolvedIn>
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400576#Procedured100d4cd-38f6-4368-8778-bcb6cf28cc6c"/>
+  </epo:ProcurementServiceProvider>
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#Reviewer0300de8e-4f18-45cd-9897-09e30b39318d">
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#ContactPointReviewBody46e7de12-6596-4125-9f9e-c61c3c262acf">
+        <epo:hasFax>+33 160566610</epo:hasFax>
+        <epo:hasTelephone>+33 160566630</epo:hasTelephone>
+        <epo:hasEmail>greffe.ta-melun@juradm.fr</epo:hasEmail>
+      </epo:ContactPoint>
+    </epo:has>
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400576#Procedured100d4cd-38f6-4368-8778-bcb6cf28cc6c"/>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#OrganisationReviewBody527f7f5e-74ed-49eb-b31d-41232462b5a9">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#LocationReviewBodyd635ecf0-8522-4780-97fd-1649ab0be47c">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#AddressReviewBody24c724cc-298d-49eb-b866-64e3dea592f3">
+                <epo:hasPostalZone>77008</epo:hasPostalZone>
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                <epo:hasCityName>Melun</epo:hasCityName>
+                <epo:hasStreetName>43 rue du Général de Gaulle</epo:hasStreetName>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="fr">Tribunal administratif de Melun</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+  </epo:Reviewer>
+  <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#ChannelSubmission4cb30950-090e-431b-9b1b-ed3c5f9181b1">
+    <epo:hasURL>http://polylogis.marches-publics.info/</epo:hasURL>
+  </epo:Channel>
+  <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#ValidityPeriod115fc79f-5b58-4af7-98f3-b1b8ae9e8409">
+    <epo:hasDurationMeasure>
+      <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400576#ValidityMeasure8fc86df5-0dcf-4893-8b92-876b7536db4f">
+        <ccts:hasMeasureValue>5</ccts:hasMeasureValue>
+        <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+      </ccts:Measure>
+    </epo:hasDurationMeasure>
+  </epo:Period>
+</rdf:RDF>

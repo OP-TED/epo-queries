@@ -1,0 +1,394 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#ChannelSubmission0d61fd09-2fe1-4506-8874-ecb0639a192b">
+    <epo:hasURL>http://pha.edf.com-RFx_023515-RFx_023516</epo:hasURL>
+  </epo:Channel>
+  <epo:ProcurementServiceProvider rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#ProcurementServiceProviderComp79f332b3-7b12-4471-8f6a-316f075c22d1">
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#OrganisationReviewInfobb6e43fa-0dbd-41ed-8166-8b8522c078e6">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#LocationReviewInfo6681d0ba-be21-4897-a17d-61b733a119ef">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#AddressReviewInfoe3a82b9b-732f-4b3d-be06-27094f9f5562">
+                <epo:hasCityName>Paris Cedex 01</epo:hasCityName>
+                <epo:hasPostalZone>75055</epo:hasPostalZone>
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                <epo:hasStreetName>4 boulevard du Palais</epo:hasStreetName>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="fr">Greffe du tribunal de grande instance de Paris</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#ContactPointReviewInfod8dbb3a2-8d59-48ad-9a1d-e2ed520c00cb">
+        <epo:hasTelephone>+33 144325151</epo:hasTelephone>
+        <epo:hasInternetAddress>http://http://www.ca-paris.justice.fr</epo:hasInternetAddress>
+      </epo:ContactPoint>
+    </epo:has>
+    <reg2015:isInvolvedIn>
+      <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#Procedurea5806a6a-f5b9-4171-a74b-4837097b52b4">
+        <epo:hasLotSubmissionLimit>2</epo:hasLotSubmissionLimit>
+        <reg2015:hasAdditionalInformation xml:lang="fr">
+&lt;P&gt;— Les candidats déposent leur candidature sous la fiche fournisseur référencée dans le portail achats qui mentionne les coordonnées de la société susceptible d'être attributaire du marché (raison sociale, adresse, numéro de siret, RC.. ).&lt;/P&gt;
+&lt;P&gt;1) Toute communication orale ou écrite concernant cet avis de marché devra être faite en français.&lt;/P&gt;
+&lt;P&gt;2) Les documents comportant une signature devront être transmis au format PDF.&lt;/P&gt;
+&lt;P&gt;3) Les candidats sont invités à remettre tous les documents de réponse au présent avis de marché sur la plateforme électronique portail achats d'EDF https://pha.edf.com sur laquelle les candidats doivent être préalablement enregistrés. Pour tout renseignement concernant le portail achats d'EDF, veuillez contacter le support Helpdesk d'Ivalua que vous pouvez joindre par téléphone au +33 184770026 (un seul numéro pour la France et l'international) du lundi au vendredi de 8:00 à 18:00 CET (heure française) ou par courrier électronique à support-edf@ivalua.com.&lt;/P&gt;
+&lt;P&gt;Le détail des documents est accessible, suivant le lot, sur les demandes d'information suivantes:&lt;/P&gt;
+&lt;P&gt;— RFx_023515 — «CVX — AMOA/AMOE LOT 1 PASSI 2»&lt;/P&gt;
+&lt;P&gt;— RFx_023516 — «CVX — AMOA/AMOE LOT 2 PASSI 2»&lt;/P&gt;
+&lt;P&gt;Pour accéder à ces demandes d'information:&lt;/P&gt;
+&lt;P&gt;— connectez-vous sur https://pha.edf.com&lt;/P&gt;
+&lt;P&gt;— sur la page d'accueil du site, cliquez sur «mes RFx» et sélectionnez le n° de RFx concerné&lt;/P&gt;
+&lt;P&gt;— lisez et acceptez l'Accord de Confidentialité afin d'avoir accès en visualisation au RFx&lt;/P&gt;
+&lt;P&gt;— sur l'onglet «accuser réception», cochez «je souhaite répondre» ou «je ne souhaite pas répondre»&lt;/P&gt;
+&lt;P&gt;— l'onglet «répondre» vous permettra d'apporter vos réponses à ce RFx.&lt;/P&gt;
+&lt;P&gt;4) Les candidats devront fournir les éléments de réponse suivant l'ordre établi dans le présent avis (et notamment pour les éléments de candidature demandés à la section III).&lt;/P&gt;
+&lt;P&gt;— Dans le cadre d'un groupement dans les conditions du III.1.8, les candidats doivent fournir les informations demandées dans le présent avis pour tous les membres du groupement.&lt;/P&gt;
+&lt;P&gt;— Les candidats doivent fournir les informations demandées dans le présent avis pour leur société d'appartenance et également pour leurs éventuels sous-traitants/co-traitants.&lt;/P&gt;
+&lt;P&gt;— Les candidats doivent respecter rigoureusement la date et heure limite de remise des candidatures fixée à la section IV.2.2.&lt;/P&gt;
+&lt;P&gt;5) Les candidats pourront poser leurs questions éventuelles sur la messagerie du portail achats pendant le délai de publication de l'avis de marché (ou RFx).&lt;/P&gt;
+&lt;P&gt;6) La consultation succédant à l'avis de marché se déroulera sur le portail achats.&lt;/P&gt;
+&lt;P&gt;L'entreprise se réserve la possibilité d'attribuer le marché sur la base des offres initiales sans négociation.&lt;/P&gt;
+</reg2015:hasAdditionalInformation>
+        <epo:notifies>
+          <epo:ContractNotice rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#ContractNotice2b56aa94-af8e-4ecd-b496-26c0a8273541">
+            <epo:notifies rdf:resource="http://data.europa.eu/a4g/resource/2016/s-072-125211#Procedurea5806a6a-f5b9-4171-a74b-4837097b52b4"/>
+            <epo:isMadeAvailableVia>
+              <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#ChannelCNe13b56fb-b5cb-441c-a316-8468f1e66700">
+                <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:125211-2016:TEXT:FR:HTML</epo:hasURL>
+              </epo:Channel>
+            </epo:isMadeAvailableVia>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#ContractNoticeIdabf85c18-b101-401b-952e-c1cd9b688ace">
+                <epo:hasIdentifierValue>2016/S 072-125211</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:hasPublicationDate>2016-04-13</epo:hasPublicationDate>
+            <epo:hasRecurrence>false</epo:hasRecurrence>
+            <skos:editorialNote>Please note that some elements from the F05 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+CONTRACTING_BODY/ADDRESS_FURTHER_INFO/URL_BUYER
+CONTRACTING_BODY/ADDRESS_PARTICIPATION/URL_BUYER
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/LOT_DIVISION
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/OBJECT_DESCR/AC/AC_PROCUREMENT_DOC
+OBJECT_CONTRACT/OBJECT_DESCR/NB_ENVISAGED_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MIN_LIMIT_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MAX_LIMIT_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/CRITERIA_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NO_EU_PROGR_RELATED
+LEFTI/RULES_CRITERIA
+LEFTI/PARTICULAR_PROFESSION
+LEFTI/REFERENCE_TO_LAW
+PROCEDURE//FRAMEWORK/SINGLE_OPERATOR
+PROCEDURE/FRAMEWORK/SEVERAL_OPERATORS
+PROCEDURE/FRAMEWORK/NB_PARTICIPANTS</skos:editorialNote>
+            <epo:hasDispatchDate>2016-04-11</epo:hasDispatchDate>
+          </epo:ContractNotice>
+        </epo:notifies>
+        <epo:hasProcedureType rdf:resource="http://publications.europa.eu/resource/authority/procurement-procedure-type/neg-w-call"/>
+        <reg2015:applies>
+          <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#ContractTermd48c7f58-dfa8-44ba-be35-c8bb032e5036">
+            <epo:hasPaymentArrangement xml:lang="fr">
+&lt;P&gt;Modalités essentielles de financement: financement sur ressources propres.&lt;/P&gt;
+&lt;P&gt;Modalités essentielles de paiement: paiement à 60 jours à compter de la date d'émission de facture et versement d'acomptes correspondants aux prestations réalisées.&lt;/P&gt;
+</epo:hasPaymentArrangement>
+            <epo:hasContractorLegalFormRequirementDescription
+             xml:lang="fr">
+&lt;P&gt;En cas de groupement d'entreprises attributaire du marché, l'un des membres du groupement est désigné comme mandataire. Celui-ci coordonne les prestations de chacun des membres du groupement, représente ceux-ci auprès de l'entreprise et est solidaire des obligations contractuelles de chacun d'entre eux. L'entreprise accepte que chacun des autres membres du groupement ne soit engagé que pour les prestations qui lui seront attribuées (groupement « conjoint »).&lt;/P&gt;
+&lt;P&gt;Par ailleurs, un soumissionnaire, qui proposera une offre au titre d'un groupement d'entreprises, ne pourra pas remettre d'offre à titre individuel ou au titre d'un autre groupement.&lt;/P&gt;
+</epo:hasContractorLegalFormRequirementDescription>
+          </epo:ContractTerm>
+        </reg2015:applies>
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#ProcedureId9629ffe0-09d3-4ac9-9a51-123b78f75c37">
+            <epo:hasIdentifierValue>CVX - AMOA/AMOE PASSI 2</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+        <reg2015:hasGPAUsage>true</reg2015:hasGPAUsage>
+        <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Le marché « Prestation d'AMOA/AMOE de la DSI Commerce » couvrira les activités suivantes:&lt;/P&gt;
+&lt;P&gt;Lot 1: Ingénierie des besoins et des solutions et ingénierie de la conduite applicative:&lt;/P&gt;
+&lt;P&gt;Les prestations de ce lot couvrent toutes les activités intervenant dans les différentes phases clés d«un cycle de développement et celles de l'ingénierie du maintien en conditions opérationnelles.&lt;/P&gt;
+&lt;P&gt;Lot 2: Ingénierie des tests et recettes:&lt;/P&gt;
+&lt;P&gt;Les prestations de ce lot couvrent toutes les activités d»ingénierie de tests et de recettes nécessaires à la fiabilisation des solutions SI.&lt;/P&gt;
+&lt;P&gt;Le volume global estimé pour l'ensemble des prestations se situe entre 43 000 hj et 50 000 hj, à titre indicatif et prévisionnel.&lt;/P&gt;
+</epo:hasDescription>
+        <epo:uses>
+          <epo:AccessTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#AccessTermsRestr6ed67a79-8d34-4f81-b23b-c89fc398d707">
+            <epo:hasRestrictedAccessAddress>
+              <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#Channel60c3ec0a-6cdb-4f5f-8087-afaf21f8cd9b">
+                <epo:hasURL>https://pha.edf.com</epo:hasURL>
+              </epo:Channel>
+            </epo:hasRestrictedAccessAddress>
+          </epo:AccessTerm>
+        </epo:uses>
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#SelectionCriterionEconomica83b2c9a-9159-4a0f-a96a-b98b0dd30f32">
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/ef-stand"/>
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Lot 1: Disposer d'un chiffre d'affaires annuel moyen en Europe en 2015 supérieur ou égal à 27 000 000 EUR en cas de candidature sur le lot 1.&lt;/P&gt;
+&lt;P&gt;Lot 2: Disposer d'un chiffre d'affaires annuel moyen en Europe en 2015 supérieur ou égal à 25 000 000 EUR en cas de candidature sur le lot 2.&lt;/P&gt;
+&lt;P&gt;Lots 1 et 2: Disposer d'un chiffre d'affaires annuel moyen en Europe en 2015 supérieur à 52 000 000 EUR en cas de candidature sur les lots 1 et 2.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Les candidats ou chaque membre de groupement candidat devront fournir les informations et justificatifs suivants, conformément au cadre de réponse nommé «Cadre de réponse_Lot 1.xls» se trouvant en pièce jointe du RFx_023515 pour le lot 1; et conformément au cadre de réponse nommé «Cadre de réponse_Lot 2» se trouvant en pièce jointe du RFx_023516 pour le lot 2.&lt;/P&gt;
+&lt;P&gt;Pour les 2 lots:&lt;/P&gt;
+&lt;P&gt;1) les bilans et les comptes de résultats avec leurs annexes, toutes activités confondues, sur les 3 derniers exercices comptables;&lt;/P&gt;
+&lt;P&gt;2) le chiffre d'affaires réalisé en France, en Europe 2014 et 2015, toutes activités confondues;&lt;/P&gt;
+&lt;P&gt;Le candidat doit fournir les états financiers (bilans et comptes de résultats) des trois derniers exercices disponibles attestant de sa pérennité financière.&lt;/P&gt;
+&lt;P&gt;Si, compte tenu de la date de création de son entreprise, le candidat ne dispose pas de l'ensemble des informations, remettre des justificatifs équivalents.&lt;/P&gt;
+&lt;P&gt;3) le chiffre d'affaires réalisé en Europe en 2014 et 2015 sur le même segment d'activité que celui objet du présent avis de marché (par lot concerné);&lt;/P&gt;
+&lt;P&gt;4) le Chiffre d'affaires réalisé avec EDF en 2015 (à titre informatif).&lt;/P&gt;
+</epo:hasDescription>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <epo:isResponsibilityOf>
+          <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#Buyer99d6b7b1-5e52-4853-8254-01653ccedc83">
+            <reg2015:providesAdditionalInformationAboutProcurementProcedure rdf:resource="http://data.europa.eu/a4g/resource/2016/s-072-125211#Procedurea5806a6a-f5b9-4171-a74b-4837097b52b4"/>
+            <epo:isRoleOf>
+              <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#Organisationca5511a0-9c81-4929-8d81-a34e63de5f9e">
+                <epo:hasLocation>
+                  <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#Location73bd974c-a3e8-4c35-99b3-90f9ee0b02b6">
+                    <epo:hasPostalAddress>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#Addressfa1e87af-e09b-4394-b4a9-df5b7bd79e02">
+                        <epo:hasCityName>La Défense 8</epo:hasCityName>
+                        <epo:hasPostalZone>92050</epo:hasPostalZone>
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR"/>
+                        <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                        <epo:hasStreetName>Direction des achats — Tour EDF — 20 place de la Défense — La Défense 8</epo:hasStreetName>
+                      </epo:Address>
+                    </epo:hasPostalAddress>
+                  </epo:Location>
+                </epo:hasLocation>
+                <epo:hasName xml:lang="fr">EDF SA</epo:hasName>
+              </epo:Organisation>
+            </epo:isRoleOf>
+            <epo:has>
+              <epo:BuyerProfile rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#BuyerProfileb6a5d64c-68e4-426e-a16a-668defabd522">
+                <epo:hasURL>https://pha.edf.com</epo:hasURL>
+              </epo:BuyerProfile>
+            </epo:has>
+            <epo:has>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#ContactPoint54cf7231-ccd0-47ed-89f0-22cde9692501">
+                <epo:hasEmail>carole.vertueux@edf.fr</epo:hasEmail>
+                <epo:hasTelephone>+33 156653136</epo:hasTelephone>
+                <epo:hasInternetAddress>http://edf.com</epo:hasInternetAddress>
+                <epo:hasDescription xml:lang="fr">Direction des achats — domaine achats informatique et telecoms — Mme Carole Vertueux</epo:hasDescription>
+              </epo:ContactPoint>
+            </epo:has>
+            <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2016/s-072-125211#Procedurea5806a6a-f5b9-4171-a74b-4837097b52b4"/>
+            <epo:hasContractingEntity>true</epo:hasContractingEntity>
+          </epo:Buyer>
+        </epo:isResponsibilityOf>
+        <epo:hasOverallPurpose>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#Purposeafe1081a-a8a1-468e-9971-34a8f717f736">
+            <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/72600000"/>
+            <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/services"/>
+          </epo:Purpose>
+        </epo:hasOverallPurpose>
+        <reg2015:hasBuyerMainActivity rdf:resource="http://publications.europa.eu/resource/authority/main-activity/electricity"/>
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#SelectionCriterionSuitabilitycd2118ac-24d3-4979-95de-13d3d7a220e9">
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/sui-act"/>
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Le candidat doit fournir une déclaration sur l'honneur datée et signée justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner mentionnés aux articles 45 et 48 de l'ordonnance n° 2015-899 du 23.7.2015 relative aux marchés publics. Cette déclaration est à fournir par les candidats individuels, par chacun des membres d'un groupement candidat et, le cas échéant, par les sous-traitants présentés.&lt;/P&gt;
+</epo:hasDescription>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#Lotcf24f4b3-90df-4f7f-93c8-13556b59b372">
+            <epo:hasTitle xml:lang="fr">
+&lt;P&gt;Ingénierie des besoins et des solutions et ingénierie de la conduite applicative&lt;/P&gt;
+</epo:hasTitle>
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-072-125211#Procedurea5806a6a-f5b9-4171-a74b-4837097b52b4"/>
+            <epo:hasAdditionalInformation xml:lang="fr">
+&lt;P&gt;Compte tenu que, pour le moment, l'outil SIMAP oblige à mentionner une valeur en rubrique II.2.6 « Valeur estimée », celle-ci est renseignée à 1 EUR. Ce montant n'est pas la valeur estimée du marché.&lt;/P&gt;
+</epo:hasAdditionalInformation>
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Lot 1: Ingénierie des besoins et des solutions et ingénierie de la conduite applicative: (volume estimé entre 50 et 55 % du volume global, à titre indicatif et prévisionnel).&lt;/P&gt;
+&lt;P&gt;Les prestations de ce lot couvrent les activités d'ingénierie des besoins et des solutions, intervenant dans les différentes phases clés d'un cycle de développement: cadrage, architecture, conception générale, conception technique, spécifications fonctionnelles (hors activités de tests et recette) et celles de l'ingénierie du maintien en conditions opérationnelles: administration, assistance fonctionnelle et conduite applicative de système applicatif.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#PurposeAdditionald38ec017-5931-471e-9099-c84cbb9f5e62">
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/allowed"/>
+                <epo:hasOptionsDescription xml:lang="fr">
+&lt;P&gt;Le marché comporte 3 options de durée de 12 mois chacune, à l'issue d'une période ferme de 24 mois. Ces durées optionnelles sont détaillées dans la rubrique II.2.7 du présent avis.&lt;/P&gt;
+</epo:hasOptionsDescription>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/72600000"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#ContractTermLot5487953d-5ab3-4a7f-acbc-6af33eea0ac1">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#ObjectContractAddress87c8ac17-9813-468e-a774-351ae967f51e">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasRenewalIndicator>false</epo:hasRenewalIndicator>
+                <epo:hasPlaceOfPerformanceAdditionalInformation
+                 xml:lang="fr">
+&lt;P&gt;Les prestations pourront s'effectuer sur site de l'entreprise, en région parisienne (50 à 60 %) et toulousaine (10 à 30 %), ou sur site du titulaire.&lt;/P&gt;
+</epo:hasPlaceOfPerformanceAdditionalInformation>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#ValueValObjecta0e0f87d-0a9d-4681-aa47-71f7ede43c9b">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#AmountValObjectdc8e7ec2-bdc2-4347-ac7a-d75a2e2cba10">
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                    <ccts:hasAmountValue>1.00</ccts:hasAmountValue>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#LotId753b73ba-62ac-4db3-a7d4-89ec4d789e3d">
+                <epo:hasIdentifierValue>1</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#PeriodDurationf11cf4d5-1d49-467a-8ae3-a23da878dd44">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#Measure87efed83-432c-451f-b19e-a740209aa696">
+                    <ccts:hasMeasureValue>60</ccts:hasMeasureValue>
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+          </epo:Lot>
+        </epo:specifies>
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#SelectionCriterionTechnical30c33fc1-7872-4a94-b396-3244410c05a0">
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/tp-abil"/>
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Lot 1: Disposer d'un nombre de collaborateurs francophones susceptibles d'être affectés à l'exécution des prestations de ce lot (avec une expérience telle que décrite par le CIGREF) =&gt; Critère éliminatoire si nombre total de collaborateurs &lt; 40, dont nombre de consultant en système d'information &lt; 20.&lt;/P&gt;
+&lt;P&gt;Lot 2: Disposer d'un nombre de collaborateurs francophones susceptibles d'être affectés à l'exécution des prestations de ce lot (avec une expérience telle que décrite par le CIGREF) =&gt; critère éliminatoire si nombre total de collaborateurs &lt; 50, dont nombre de consultant en système d'information &lt; 20 et nombre de testeur &lt; 20.&lt;/P&gt;
+&lt;P&gt;Lots 1 et 2: Disposer de locaux équipés de moyens informatiques sécurisés permettant de réaliser des prestations hors site Entreprise? Sinon, engagement sur la mise en œuvre de locaux externalisés? =&gt; Critère éliminatoire si aucun engagement sur une mise en œuvre éventuelle de locaux externalisés.&lt;/P&gt;
+&lt;P&gt;Les candidats ou chaque membre de groupement devront apporter la preuve du respect de ces conditions minimales dans le dossier de demande de participation répondant à cet avis. En cas d'absence de preuve, la candidature pourra être rejetée.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Les candidats ou chaque membre de groupement candidat devront fournir les informations et justificatifs demandés suivants:&lt;/P&gt;
+&lt;P&gt;— pour le lot 1: dans le RFx_023515 du portail achats conformément au cadre de réponse technique nommé « Cadre de réponse_Lot 1 » se trouvant en pièce jointe de ce RFx.&lt;/P&gt;
+&lt;P&gt;— pour le lot 2: dans le RFx_023516 du portail achats conformément au cadre de réponse technique nommé « Cadre de réponse_Lot 2 » se trouvant en pièce jointe de ce RFx.&lt;/P&gt;
+</epo:hasDescription>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <epo:hasTitle xml:lang="fr">
+&lt;P&gt;Prestations d'assistance au système d'information (AMOA/AMOE) de la direction commerce d'EDF.&lt;/P&gt;
+</epo:hasTitle>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#Lot21669a9a-b70e-401f-9da6-22ce1107108c">
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-072-125211#Procedurea5806a6a-f5b9-4171-a74b-4837097b52b4"/>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#PurposeAdditional38f9852d-7f1b-4906-b017-612c22616b20">
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/allowed"/>
+                <epo:hasOptionsDescription xml:lang="fr">
+&lt;P&gt;Le marché comporte 3 options d'une durée de 12 mois chacune, à l'issue d'une période ferme de 24 mois. Ces durées optionnelles sont détaillées dans la rubrique II.2.7 du présent avis.&lt;/P&gt;
+</epo:hasOptionsDescription>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/72220000"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:hasAdditionalInformation xml:lang="fr">
+&lt;P&gt;Compte tenu que, pour le moment, l'outil SIMAP oblige à mentionner une valeur en rubrique II.2.6 « Valeur estimée », celle-ci est renseignée à 1 EUR. Ce montant n'est pas la valeur estimée du marché.&lt;/P&gt;
+</epo:hasAdditionalInformation>
+            <epo:hasTitle xml:lang="fr">
+&lt;P&gt;Ingénierie des tests et recettes&lt;/P&gt;
+</epo:hasTitle>
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#PeriodDuratione92e6076-363d-49a2-a345-4c61616e05ef">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#Measuree1ba4a41-a937-41cd-851c-9668107c35bb">
+                    <ccts:hasMeasureValue>60</ccts:hasMeasureValue>
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#ValueValObject69f4b1f3-27a8-4d0a-9f8b-645d8abd4e63">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#AmountValObjectae76622a-14b8-47c8-a6be-49d2b9416803">
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                    <ccts:hasAmountValue>1.00</ccts:hasAmountValue>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Lot 2: Ingénierie des tests et recettes: (volume estimé entre 45 à 50 % du volume global, à titre indicatif et prévisionnel).&lt;/P&gt;
+&lt;P&gt;Les prestations de ce lot couvrent toutes les activités d'ingénierie de tests et de recettes nécessaires à la fiabilisation des solutions SI de la direction commerce. Ces activités sont: le pilotage de l'activité de tests, la coordination de tests inter-applicatifs, l'élaboration de la stratégie de tests, la spécification des exigences de tests, la conception des tests, la préparation des jeux de données, l'exécution des scénarios de tests, la définition de stratégie d'automatisation de tests, la conception et la mise en place de l'automatisation de scenarii, l'exécution de campagnes automatisées.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#LotId0fe1b4e6-cc4b-4e23-9535-5397a6f403af">
+                <epo:hasIdentifierValue>2</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#ContractTermLot8753fb8a-c235-4e51-a14a-90cba4a19d68">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#ObjectContractAddress45646d33-a8c4-4e95-b7be-5a13d600b4db">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasRenewalIndicator>false</epo:hasRenewalIndicator>
+                <epo:hasPlaceOfPerformanceAdditionalInformation
+                 xml:lang="fr">
+&lt;P&gt;Les prestations pourront s'effectuer sur site de l'entreprise, en région parisienne (50 à 60 %) et toulousaine (10 à 30 %), ou sur site du titulaire (10 à 40 % pour le lot 2).&lt;/P&gt;
+</epo:hasPlaceOfPerformanceAdditionalInformation>
+              </epo:ContractTerm>
+            </epo:has>
+          </epo:Lot>
+        </epo:specifies>
+      </epo:Procedure>
+    </reg2015:isInvolvedIn>
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2016/s-072-125211#Procedurea5806a6a-f5b9-4171-a74b-4837097b52b4"/>
+  </epo:ProcurementServiceProvider>
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#Reviewer3398148d-34c8-472d-a8da-6c960f3b9069">
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#OrganisationReviewBody920a16a0-a5e9-48fa-8983-175aea2c9d08">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#LocationReviewBody20294976-a236-4dd5-a6d2-b7cee3728ebf">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#AddressReviewBodyfc1cd50e-12f7-4f76-9e2d-2438282db9a4">
+                <epo:hasCityName>Paris Cedex 01</epo:hasCityName>
+                <epo:hasPostalZone>75055</epo:hasPostalZone>
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                <epo:hasStreetName>4 boulevard du Palais</epo:hasStreetName>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="fr">Tribunal de grande instance de Paris</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-072-125211#ContactPointReviewBody8884b964-b48a-403a-94b9-218946cb93e1">
+        <epo:hasTelephone>+33 144325151</epo:hasTelephone>
+        <epo:hasInternetAddress>http://http://www.ca-paris.justice.fr</epo:hasInternetAddress>
+      </epo:ContactPoint>
+    </epo:has>
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-072-125211#Procedurea5806a6a-f5b9-4171-a74b-4837097b52b4"/>
+  </epo:Reviewer>
+</rdf:RDF>

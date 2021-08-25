@@ -1,0 +1,698 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ValidityPeriodad31c3bf-610f-48a2-a64c-7ec5c16ab3a9">
+    <epo:hasEndDate>2016-11-19</epo:hasEndDate>
+  </epo:Period>
+  <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ChannelSubmission21295304-6868-45cd-963b-568e7080c78e">
+    <epo:hasURL>https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2016_3d-tnHMHPJ</epo:hasURL>
+  </epo:Channel>
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Reviewerf9c5af97-f8bc-4243-a08a-1ed3e5e65c38">
+    <reg2015:isInvolvedIn>
+      <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Procedure52ed4093-130f-4278-b227-f9eda087f7c1">
+        <epo:hasTitle xml:lang="fr">
+&lt;P&gt;Mise en centre de stockage de déchets ultimes (CSDU) de classe III ou en centrale de retraitement des déchets inertes du BTP.&lt;/P&gt;
+</epo:hasTitle>
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#SelectionCriterionTechnical8e409122-695f-4221-bbd5-303cd4ca906b">
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Production des principales références concernant des prestations similaires à celles projetées dans le cadre du présent marché (3 dernières années).&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/tp-abil"/>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <epo:hasOverallPurpose>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Purpose903b5298-b2de-442c-99f5-758bec0cb922">
+            <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/90513000"/>
+            <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/services"/>
+          </epo:Purpose>
+        </epo:hasOverallPurpose>
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ProcedureIda4b28650-f53c-4a55-a105-3e78454c3c0d">
+            <epo:hasIdentifierValue>16 D 12 FL - EC</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Lot0ebce2da-bd28-433d-a9cc-6ea0b86288b4">
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#PurposeAdditionalaaab1a7d-75a3-494a-ac56-ebd3028901a5">
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90531000"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90500000"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90513000"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ContractTermLot43e4d928-3b60-405a-bf0d-6e33a8e39260">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ObjectContractAddress58d6349f-1cf3-405d-a463-daf759340cc5">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR301"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasRenewalDescription xml:lang="fr">
+&lt;P&gt;Le marché est passé pour une durée de 1 an à compter de sa date de notification, puis reconductible 4 fois 1 an. Cette reconduction interviendra par courrier adressé au titulaire au moins 2 mois avant le terme de la période en cours.&lt;/P&gt;
+</epo:hasRenewalDescription>
+                <epo:hasRenewalIndicator>true</epo:hasRenewalIndicator>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#PeriodDurationde8e170b-2832-4586-bd22-7728ba1c0eac">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Measuref0e10f4a-a31b-477b-be95-ca27f901e6d2">
+                    <ccts:hasMeasureValue>12</ccts:hasMeasureValue>
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:hasAdditionalInformation xml:lang="fr">
+&lt;P&gt;Marchés à bons de commande conclus sans volume ni montant minimum ni maximum. Le montant annuel est estimé à titre indicatif à 25 000 EUR (HT).&lt;/P&gt;
+</epo:hasAdditionalInformation>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ValueValObject2650a831-f11e-409e-bc71-a1ed082bc206">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#AmountValObjecte3b4d0cd-0839-43bd-9d16-121fda1c5c30">
+                    <ccts:hasAmountValue>25000</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Centre d'exploitation d'Avesnelles.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasTitle xml:lang="fr">
+&lt;P&gt;Centre d'exploitation d'Avesnelles&lt;/P&gt;
+</epo:hasTitle>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#LotId07334f1b-4ed7-4738-a1a2-d800f687cdfd">
+                <epo:hasIdentifierValue>5</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-067-116347#Procedure52ed4093-130f-4278-b227-f9eda087f7c1"/>
+          </epo:Lot>
+        </epo:specifies>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Lotb111da09-f668-45c3-adbb-896b563a9ef5">
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#PeriodDurationcee2e27e-660e-4ac7-8351-17fc02bc9fbe">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Measure4cdb7545-2d6d-4af4-8e0b-190efbdbd63c">
+                    <ccts:hasMeasureValue>12</ccts:hasMeasureValue>
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#LotId03d78975-355e-47ef-ade3-279665e57d39">
+                <epo:hasIdentifierValue>2</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#PurposeAdditional31759891-f43f-4a1d-ad49-cc3980e40929">
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90531000"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90500000"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90513000"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Centre d'exploitation de La Gorgue.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-067-116347#Procedure52ed4093-130f-4278-b227-f9eda087f7c1"/>
+            <epo:hasAdditionalInformation xml:lang="fr">
+&lt;P&gt;Marchés à bons de commande conclus sans volume ni montant minimum ni maximum. Le montant annuel est estimé à titre indicatif à 25 000 EUR (HT).&lt;/P&gt;
+</epo:hasAdditionalInformation>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ValueValObjectf1c66146-be0e-4919-bff9-67a5909288c2">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#AmountValObject794a30dc-b0b2-4b20-8860-f19ed9e28d5b">
+                    <ccts:hasAmountValue>25000</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ContractTermLot091e5202-35e9-4043-94f6-e3a5656e73a9">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ObjectContractAddresse035b5de-236f-48cd-90d1-651321aa9ba4">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR301"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasRenewalDescription xml:lang="fr">
+&lt;P&gt;Le marché est passé pour une durée de 1 an à compter de sa date de notification, puis reconductible 4 fois 1 an. Cette reconduction interviendra par courrier adressé au titulaire au moins 2 mois avant le terme de la période en cours.&lt;/P&gt;
+</epo:hasRenewalDescription>
+                <epo:hasRenewalIndicator>true</epo:hasRenewalIndicator>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:hasTitle xml:lang="fr">
+&lt;P&gt;Centre d'exploitation de La Gorgue&lt;/P&gt;
+</epo:hasTitle>
+          </epo:Lot>
+        </epo:specifies>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Lot660f24fe-cdd0-47ea-9471-45d938e8ecfb">
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#PeriodDurationa141075b-2555-4c04-8244-76a6e05fe665">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Measuref9438153-1697-410a-9524-95f5e4f63f5a">
+                    <ccts:hasMeasureValue>12</ccts:hasMeasureValue>
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+            <epo:hasTitle xml:lang="fr">
+&lt;P&gt;Centre d'exploitation de Cassel&lt;/P&gt;
+</epo:hasTitle>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#LotIde82cda93-d063-4e86-99ee-ddd378accc7e">
+                <epo:hasIdentifierValue>1</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-067-116347#Procedure52ed4093-130f-4278-b227-f9eda087f7c1"/>
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ContractTermLot4f512a6f-24af-400b-bf7b-6c8a65ba0fb8">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ObjectContractAddress4bbf3721-7ec2-4b17-8a41-6cae47ee914a">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR301"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasRenewalDescription xml:lang="fr">
+&lt;P&gt;Le marché est passé pour une durée de 1 an à compter de sa date de notification, puis reconductible 4 fois 1 an. Cette reconduction interviendra par courrier adressé au titulaire au moins 2 mois avant le terme de la période en cours.&lt;/P&gt;
+</epo:hasRenewalDescription>
+                <epo:hasRenewalIndicator>true</epo:hasRenewalIndicator>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#PurposeAdditional7a032d8c-a4f2-4eff-badd-f61dabdcbb96">
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90531000"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90500000"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90513000"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ValueValObject5cb397fc-0060-47f8-ac8e-48c1245b3fef">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#AmountValObject9011399b-833f-4d52-80f7-cbd3375c3c87">
+                    <ccts:hasAmountValue>25000</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:hasAdditionalInformation xml:lang="fr">
+&lt;P&gt;Marchés à bons de commande conclus sans volume ni montant minimum ni maximum. Le montant annuel est estimé à titre indicatif à 25 000 EUR (HT).&lt;/P&gt;
+</epo:hasAdditionalInformation>
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Centre d'exploitation de Cassel.&lt;/P&gt;
+</epo:hasDescription>
+          </epo:Lot>
+        </epo:specifies>
+        <reg2015:hasBuyerMainActivity rdf:resource="http://publications.europa.eu/resource/authority/main-activity/water"/>
+        <reg2015:applies>
+          <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ContractTerm25d4c935-087a-4c26-b551-8ab720999636">
+            <epo:hasEInvoicing>true</epo:hasEInvoicing>
+            <epo:hasContractorLegalFormRequirementDescription
+             xml:lang="fr">
+&lt;P&gt;Des candidats individuels ou des groupements solidaires ou conjoints sont acceptés.&lt;/P&gt;
+</epo:hasContractorLegalFormRequirementDescription>
+            <epo:hasPaymentArrangement xml:lang="fr">
+&lt;P&gt;Les différentes garanties seront précisées par les candidats.&lt;/P&gt;
+</epo:hasPaymentArrangement>
+          </epo:ContractTerm>
+        </reg2015:applies>
+        <epo:notifies>
+          <epo:ContractNotice rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ContractNoticebb26a686-49f8-45a8-9cb8-4900e0ad206e">
+            <epo:isMadeAvailableVia>
+              <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ChannelCNe29893bb-1070-41bd-8e41-d189490b99d6">
+                <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:116347-2016:TEXT:FR:HTML</epo:hasURL>
+              </epo:Channel>
+            </epo:isMadeAvailableVia>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ContractNoticeId46487cb5-ad9f-4dd9-9e15-121d0f14d798">
+                <epo:hasIdentifierValue>2016/S 067-116347</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:notifies rdf:resource="http://data.europa.eu/a4g/resource/2016/s-067-116347#Procedure52ed4093-130f-4278-b227-f9eda087f7c1"/>
+            <epo:hasRecurrence>true</epo:hasRecurrence>
+            <skos:editorialNote>Please note that some elements from the F05 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+CONTRACTING_BODY/ADDRESS_FURTHER_INFO/URL_BUYER
+CONTRACTING_BODY/ADDRESS_PARTICIPATION/URL_BUYER
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/LOT_DIVISION
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/OBJECT_DESCR/AC/AC_PROCUREMENT_DOC
+OBJECT_CONTRACT/OBJECT_DESCR/NB_ENVISAGED_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MIN_LIMIT_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MAX_LIMIT_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/CRITERIA_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NO_EU_PROGR_RELATED
+LEFTI/RULES_CRITERIA
+LEFTI/PARTICULAR_PROFESSION
+LEFTI/REFERENCE_TO_LAW
+PROCEDURE//FRAMEWORK/SINGLE_OPERATOR
+PROCEDURE/FRAMEWORK/SEVERAL_OPERATORS
+PROCEDURE/FRAMEWORK/NB_PARTICIPANTS</skos:editorialNote>
+            <epo:hasDispatchDate>2016-04-04</epo:hasDispatchDate>
+            <epo:hasPublicationDate>2016-04-06</epo:hasPublicationDate>
+            <epo:hasRecurrenceDescription xml:lang="fr">
+&lt;P&gt;Septembre 2021 (à titre indicatif).&lt;/P&gt;
+</epo:hasRecurrenceDescription>
+          </epo:ContractNotice>
+        </epo:notifies>
+        <reg2015:uses>
+          <epo:FrameworkAgreementTechnique rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Frameworka5bafce1-0910-487d-822e-1a7933ebc734"/>
+        </reg2015:uses>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Lotd4829b53-b0e1-44e9-93e5-464d78a772f7">
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Centre d'exploitation d'Urvillers.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ValueValObject2e6b6c6d-9696-4ea6-a527-2eab41db63ed">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#AmountValObjecte0e783e5-7e25-4783-86ea-ae21b400c376">
+                    <ccts:hasAmountValue>10000</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:hasTitle xml:lang="fr">
+&lt;P&gt;Centre d'exploitation d'Urvillers&lt;/P&gt;
+</epo:hasTitle>
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#PeriodDuration09a37df7-69b2-4e02-950f-4afa0a8b21fd">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Measure0d3c97db-7961-4818-9ffa-fafa369bd247">
+                    <ccts:hasMeasureValue>12</ccts:hasMeasureValue>
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-067-116347#Procedure52ed4093-130f-4278-b227-f9eda087f7c1"/>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#LotIde36e9d89-d159-4d85-9dab-7b050df33854">
+                <epo:hasIdentifierValue>7</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#PurposeAdditionalc8be08db-613d-44c7-811f-48e7e9722d4c">
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90531000"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90500000"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90513000"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ContractTermLotc62f0650-5f47-4725-97fe-43fef7480d69">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ObjectContractAddress6341f319-6f14-4115-9d09-4c980c891091">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR221"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasRenewalDescription xml:lang="fr">
+&lt;P&gt;Le marché est passé pour une durée de 1 an à compter de sa date de notification, puis reconductible 4 fois 1 an. Cette reconduction interviendra par courrier adressé au titulaire au moins 2 mois avant le terme de la période en cours.&lt;/P&gt;
+</epo:hasRenewalDescription>
+                <epo:hasRenewalIndicator>true</epo:hasRenewalIndicator>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:hasAdditionalInformation xml:lang="fr">
+&lt;P&gt;Marchés à bons de commande conclus sans volume ni montant minimum ni maximum. Le montant annuel est estimé à titre indicatif à 10 000 EUR (HT).&lt;/P&gt;
+</epo:hasAdditionalInformation>
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+          </epo:Lot>
+        </epo:specifies>
+        <epo:hasLotSubmissionLimit>7</epo:hasLotSubmissionLimit>
+        <epo:hasProcedureType rdf:resource="http://publications.europa.eu/resource/authority/procurement-procedure-type/neg-w-call"/>
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#SelectionCriterionEconomic4815aee0-53f3-4ad6-96da-0743a7df9596">
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;— déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des 3 derniers exercices disponibles;&lt;/P&gt;
+&lt;P&gt;— déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels;&lt;/P&gt;
+&lt;P&gt;— bilans ou extraits de bilans, concernant les 3 dernières années, des opérateurs économiques pour lesquels l'établissement des bilans est obligatoire en vertu de la loi.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/ef-stand"/>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <epo:uses>
+          <epo:AccessTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#AccessTermsFull5bf4c045-3802-4077-b5fd-ff40218a5a36">
+            <epo:hasProcurementDocumentLandingPage>https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2016_3d-tnHMHPJ</epo:hasProcurementDocumentLandingPage>
+          </epo:AccessTerm>
+        </epo:uses>
+        <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Mise en centre de stockage de déchets ultimes (CSDU) de classe III ou en centrale de retraitement des déchets inertes du BTP.&lt;/P&gt;
+</epo:hasDescription>
+        <epo:isResponsibilityOf>
+          <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Buyer37be7a66-1696-48ef-b59f-4cc8b44675fd">
+            <epo:has>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ContactPointPSP45975a19-f3fe-4a9c-b4fd-cb4b6cf4db03">
+                <epo:hasDescription xml:lang="fr">M. le directeur général de Noréade</epo:hasDescription>
+                <epo:hasInternetAddress>http://www.noreade.fr/</epo:hasInternetAddress>
+                <epo:hasTelephone>+33 320664306</epo:hasTelephone>
+                <epo:hasEmail>marches@noreade.fr</epo:hasEmail>
+                <epo:hasFax>+33 320664454</epo:hasFax>
+              </epo:ContactPoint>
+            </epo:has>
+            <epo:isRoleOf>
+              <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Organisation6dc64b78-a137-4de9-bd80-36b5bbaafd7d">
+                <epo:hasLocation>
+                  <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Location83553d6b-c2e6-4753-bfac-bb501a3758cf">
+                    <epo:hasPostalAddress>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Addressbc00d540-3007-43fe-bfa3-0d88de346482">
+                        <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                        <epo:hasPostalZone>59443</epo:hasPostalZone>
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR301"/>
+                        <epo:hasStreetName>23 avenue de la Marne, CS 90101</epo:hasStreetName>
+                        <epo:hasCityName>Wasquehal Cedex</epo:hasCityName>
+                      </epo:Address>
+                    </epo:hasPostalAddress>
+                  </epo:Location>
+                </epo:hasLocation>
+                <epo:hasName xml:lang="fr">Noréade</epo:hasName>
+              </epo:Organisation>
+            </epo:isRoleOf>
+            <epo:hasContractingEntity>true</epo:hasContractingEntity>
+            <epo:isRoleOf>
+              <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#OrganisationParticipation5f3b4161-6a85-44f2-827a-28b6d979dcff">
+                <epo:hasLocation>
+                  <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#LocationParticipation7a6e6f80-4d12-4179-a861-bf48f1012f06">
+                    <epo:hasPostalAddress>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#AddressParticipationf0e2aa8d-a69e-48fa-a895-635a7dfd3185">
+                        <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                        <epo:hasPostalZone>59443</epo:hasPostalZone>
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR301"/>
+                        <epo:hasStreetName>23 avenue de la Marne, CS 90101</epo:hasStreetName>
+                        <epo:hasCityName>Wasquehal Cedex</epo:hasCityName>
+                      </epo:Address>
+                    </epo:hasPostalAddress>
+                  </epo:Location>
+                </epo:hasLocation>
+                <epo:hasName xml:lang="fr">Noréade</epo:hasName>
+              </epo:Organisation>
+            </epo:isRoleOf>
+            <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2016/s-067-116347#Procedure52ed4093-130f-4278-b227-f9eda087f7c1"/>
+            <reg2015:receivesRequestsToParticipate rdf:resource="http://data.europa.eu/a4g/resource/2016/s-067-116347#Procedure52ed4093-130f-4278-b227-f9eda087f7c1"/>
+            <reg2015:receivesTenders rdf:resource="http://data.europa.eu/a4g/resource/2016/s-067-116347#Procedure52ed4093-130f-4278-b227-f9eda087f7c1"/>
+            <epo:has>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ContactPoint79155a9b-395e-4efb-a87e-416727b5f03e">
+                <epo:hasDescription xml:lang="fr">M. le directeur général de Noréade</epo:hasDescription>
+                <epo:hasInternetAddress>https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2016_3d-tnHMHPJ</epo:hasInternetAddress>
+                <epo:hasTelephone>+33 320664306</epo:hasTelephone>
+                <epo:hasEmail>marches@noreade.fr</epo:hasEmail>
+                <epo:hasFax>+33 320664454</epo:hasFax>
+              </epo:ContactPoint>
+            </epo:has>
+            <reg2015:providesAdditionalInformationAboutProcurementProcedure rdf:resource="http://data.europa.eu/a4g/resource/2016/s-067-116347#Procedure52ed4093-130f-4278-b227-f9eda087f7c1"/>
+            <epo:has>
+              <epo:BuyerProfile rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#BuyerProfile657778b4-ce31-48e5-9750-9dfc948e9134">
+                <epo:hasURL>https://www.achatpublic.com</epo:hasURL>
+              </epo:BuyerProfile>
+            </epo:has>
+            <epo:has>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ContactPointParticipation2388d4f5-37e5-4103-af32-a6fe8fc68e92">
+                <epo:hasInternetAddress>http://www.noreade.fr/</epo:hasInternetAddress>
+                <epo:hasTelephone>+33 320664306</epo:hasTelephone>
+                <epo:hasEmail>marches@noreade.fr</epo:hasEmail>
+                <epo:hasFax>+33 320664454</epo:hasFax>
+              </epo:ContactPoint>
+            </epo:has>
+            <epo:isRoleOf>
+              <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#OrganisationPSP68a2d5b3-5937-4f88-a048-b7c010d7b978">
+                <epo:hasLocation>
+                  <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#LocationPSPa08fba4d-10a8-4b0c-afb2-372fc4650926">
+                    <epo:hasPostalAddress>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#AddressPSP68fdd360-83a1-4780-afb1-00ade39b9ebc">
+                        <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                        <epo:hasPostalZone>59443</epo:hasPostalZone>
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR301"/>
+                        <epo:hasStreetName>23 avenue de la Marne, CS 90101</epo:hasStreetName>
+                        <epo:hasCityName>Wasquehal Cedex</epo:hasCityName>
+                      </epo:Address>
+                    </epo:hasPostalAddress>
+                  </epo:Location>
+                </epo:hasLocation>
+                <epo:hasName xml:lang="fr">Noréade</epo:hasName>
+              </epo:Organisation>
+            </epo:isRoleOf>
+          </epo:Buyer>
+        </epo:isResponsibilityOf>
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#SelectionCriterionSuitability0f2ebc9f-f2b4-45f2-9de6-25365b46c539">
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;— la lettre de candidature (Dc1 — nouvelle version du 25.8.2014 ou équivalent),&lt;/P&gt;
+&lt;P&gt;— le Dc2,&lt;/P&gt;
+&lt;P&gt;— les documents relatifs aux pouvoirs de la personne habilitée à engager le candidat,&lt;/P&gt;
+&lt;P&gt;— la copie du ou des jugements prononcés, si le candidat est en redressement judiciaire.&lt;/P&gt;
+&lt;P&gt;Les formulaires Dc1 et Dc2 sont téléchargeables sur le portail du ministère de l'économie, des finances et de l'emploi à l'adresse Internet suivante: http://www.economie.gouv.fr/daj/formulaires-declaration-candidat&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/sui-act"/>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <reg2015:hasAdditionalInformation xml:lang="fr">
+&lt;P&gt;Le correspondant de Noréade et la personne signataire du marché est M. le directeur général de Noréade Précisions sur les critères d'attribution: Offre économiquement la plus avantageuse appréciée en fonction des critères énoncés ci-dessous avec leur pondération: &lt;/P&gt;
+&lt;P&gt;— valeur technique de l'offre (comprenant notamment le délai d'intervention entre la demande et l'enlèvement réelle des matériaux et la proximité des sites proposés): 40 %, &lt;/P&gt;
+&lt;P&gt;— prix de mise en décharge y compris chargement, transport et mise en décharge (y compris le coût de la décharge) des déblais sur les lieux de stockage pré défini: 40 %, &lt;/P&gt;
+&lt;P&gt;— prix de mise en décharge sur son (ses) site(s): 20 %. &lt;/P&gt;
+&lt;P&gt;La négociation sera engagée avec les candidats après la date limite de remise des propositions. Elle portera sur les prix des prestations. Elle pourra également porter sur les éléments techniques du dossier.&lt;/P&gt;
+</reg2015:hasAdditionalInformation>
+        <reg2015:hasGPAUsage>true</reg2015:hasGPAUsage>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Lotde6eb1a7-bd20-4c5a-a11e-26ff742deda3">
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#LotId3cff6a3c-9cdc-47ce-b249-e168183dbe48">
+                <epo:hasIdentifierValue>6</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Centre d'exploitation de Beauvois-en-Cambrésis.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasAdditionalInformation xml:lang="fr">
+&lt;P&gt;Marchés à bons de commande conclus sans volume ni montant minimum ni maximum. Le montant annuel est estimé à titre indicatif à 25 000 EUR (HT).&lt;/P&gt;
+</epo:hasAdditionalInformation>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ValueValObjecte37bef68-93f9-4865-a6f2-030a82a93bfd">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#AmountValObjectcda3e32b-b023-403a-a8f6-adbd4e4b1466">
+                    <ccts:hasAmountValue>25000</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ContractTermLot4327b29d-2869-4f43-89c1-57154131d0dc">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ObjectContractAddress3925669d-bae1-4d5b-bb44-4dbc2f9a4d04">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR301"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasRenewalDescription xml:lang="fr">
+&lt;P&gt;Le marché est passé pour une durée de 1 an à compter de sa date de notification, puis reconductible 4 fois 1 an. Cette reconduction interviendra par courrier adressé au titulaire au moins 2 mois avant le terme de la période en cours.&lt;/P&gt;
+</epo:hasRenewalDescription>
+                <epo:hasRenewalIndicator>true</epo:hasRenewalIndicator>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:hasTitle xml:lang="fr">
+&lt;P&gt;Centre d'exploitation de Beauvois-en-Cambrésis&lt;/P&gt;
+</epo:hasTitle>
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-067-116347#Procedure52ed4093-130f-4278-b227-f9eda087f7c1"/>
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#PeriodDurationa134edd6-cf23-4227-b58c-aed5c8df38ef">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Measuredfb82dfc-fd58-4666-abfa-bcf35845f3db">
+                    <ccts:hasMeasureValue>12</ccts:hasMeasureValue>
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#PurposeAdditionalca22a7f4-d128-44ce-8305-9e15eac06e22">
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90531000"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90500000"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90513000"/>
+              </epo:Purpose>
+            </epo:has>
+          </epo:Lot>
+        </epo:specifies>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Lotb56cab5e-1868-4b27-a118-83d5ce0378cc">
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#LotId7c22cd33-4829-4497-8ed0-ce296c283e41">
+                <epo:hasIdentifierValue>3</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ContractTermLot1a86cc67-10be-4f50-8565-15b280003b56">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ObjectContractAddressb5e9c472-f8bf-46fe-9ea8-16269a30098e">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR301"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasRenewalDescription xml:lang="fr">
+&lt;P&gt;Le marché est passé pour une durée de 1 an à compter de sa date de notification, puis reconductible 4 fois 1 an. Cette reconduction interviendra par courrier adressé au titulaire au moins 2 mois avant le terme de la période en cours.&lt;/P&gt;
+</epo:hasRenewalDescription>
+                <epo:hasRenewalIndicator>true</epo:hasRenewalIndicator>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:hasAdditionalInformation xml:lang="fr">
+&lt;P&gt;Marchés à bons de commande conclus sans volume ni montant minimum ni maximum. Le montant annuel est estimé à titre indicatif à 50 000 EUR (HT).&lt;/P&gt;
+</epo:hasAdditionalInformation>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ValueValObject67a61ade-1557-41d5-90f7-98a3acf296d2">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#AmountValObject79ca2194-5a8b-43dd-b538-52daf01d21c2">
+                    <ccts:hasAmountValue>50000</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#PeriodDuration5ffd36bc-f8a7-4c89-83ea-c33487b23444">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Measurea305e280-66c8-486d-b893-4fc12aa09dba">
+                    <ccts:hasMeasureValue>12</ccts:hasMeasureValue>
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-067-116347#Procedure52ed4093-130f-4278-b227-f9eda087f7c1"/>
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#PurposeAdditionala1635ac8-fe29-460b-8683-c408c3326bd2">
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90531000"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90500000"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90513000"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Centres d'exploitation de Pecquencourt (Départements Nord et Sud).&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasTitle xml:lang="fr">
+&lt;P&gt;Centres d'exploitation de Pecquencourt (Départements Nord et Sud)&lt;/P&gt;
+</epo:hasTitle>
+          </epo:Lot>
+        </epo:specifies>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Lot473a0928-3b8b-4536-8607-bfc29f569ebf">
+            <epo:hasTitle xml:lang="fr">
+&lt;P&gt;Centre d'exploitation de Le Quesnoy&lt;/P&gt;
+</epo:hasTitle>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ValueValObject5f576e8f-cc2f-4128-9b6d-5f8a2d80c663">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#AmountValObject1ad7771a-5f30-41aa-96f4-639eb63db9f6">
+                    <ccts:hasAmountValue>15000</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Centre d'exploitation de Le Quesnoy.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ContractTermLota8170984-a54a-4fcb-b209-2127a4f9150c">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ObjectContractAddress8099823d-af45-4dd2-8f9c-86a1e850b819">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR301"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasRenewalDescription xml:lang="fr">
+&lt;P&gt;Le marché est passé pour une durée de 1 an à compter de sa date de notification, puis reconductible 4 fois 1 an. Cette reconduction interviendra par courrier adressé au titulaire au moins 2 mois avant le terme de la période en cours.&lt;/P&gt;
+</epo:hasRenewalDescription>
+                <epo:hasRenewalIndicator>true</epo:hasRenewalIndicator>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#PurposeAdditional4222af84-093f-4ab0-9895-09b53f1354ef">
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90531000"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90500000"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90513000"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#PeriodDuration48369815-4de5-4104-a600-0f7609bf8e3a">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#Measuref1782026-f460-46db-bb1c-769aa5f0173e">
+                    <ccts:hasMeasureValue>12</ccts:hasMeasureValue>
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#LotIdc6b161f6-52a9-48d1-899c-b48730506eb3">
+                <epo:hasIdentifierValue>4</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:hasAdditionalInformation xml:lang="fr">
+&lt;P&gt;Marchés à bons de commande conclus sans volume ni montant minimum ni maximum. Le montant annuel est estimé à titre indicatif à 15 000 EUR (HT).&lt;/P&gt;
+</epo:hasAdditionalInformation>
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-067-116347#Procedure52ed4093-130f-4278-b227-f9eda087f7c1"/>
+          </epo:Lot>
+        </epo:specifies>
+      </epo:Procedure>
+    </reg2015:isInvolvedIn>
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2016/s-067-116347#Procedure52ed4093-130f-4278-b227-f9eda087f7c1"/>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#ContactPointReviewBody4b74de23-b63a-44dc-8415-5422c1cd6c03">
+        <epo:hasInternetAddress>http://lille.tribunal-administratif.fr/</epo:hasInternetAddress>
+        <epo:hasEmail>greffe.ta-lille@juradm.fr</epo:hasEmail>
+      </epo:ContactPoint>
+    </epo:has>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#OrganisationReviewBody23aa9eb5-0de9-4a32-bd91-e32a4fb9e7d1">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#LocationReviewBodya85fad6a-a836-46f5-8e6c-f3498a0d3d60">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-067-116347#AddressReviewBodybe6c4b01-c7e0-44e5-989f-7dbe7b17643d">
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                <epo:hasPostalZone>59014</epo:hasPostalZone>
+                <epo:hasStreetName>143 rue Jacquemars-Giélée</epo:hasStreetName>
+                <epo:hasCityName>Lille Cedex</epo:hasCityName>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="fr">Tribunal administratif de Lille</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+  </epo:Reviewer>
+</rdf:RDF>

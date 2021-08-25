@@ -1,0 +1,298 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#SelectionCriterionSuitability1adb37ea-0e60-4723-bc7a-6a1f33fc3a1d"/>
+  <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#ValidityPeriodf5a1d985-de2f-4812-b96c-9f976747e6c0">
+    <epo:hasDurationMeasure>
+      <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#ValidityMeasuredacaf2c8-2d37-4f9c-8730-49ee0ec9b03a">
+        <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+        <ccts:hasMeasureValue>6</ccts:hasMeasureValue>
+      </ccts:Measure>
+    </epo:hasDurationMeasure>
+  </epo:Period>
+  <epo:ProcurementServiceProvider rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#ProcurementServiceProviderComp3a0ffa15-4782-40dd-8525-a409cf63ed00">
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures>
+      <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#Procedure9476917a-fc7f-470d-b050-4185d9e91157">
+        <epo:hasEstimatedValue>
+          <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#Valuefe953bb1-33f6-4c79-8c54-8de533f1a55e">
+            <epo:hasOverallAmount>
+              <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#Amount6c065955-3f4b-44fc-89ee-69f10ec3c8e5">
+                <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                <ccts:hasAmountValue>2406320.00</ccts:hasAmountValue>
+              </ccts:Amount>
+            </epo:hasOverallAmount>
+            <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+          </epo:Value>
+        </epo:hasEstimatedValue>
+        <reg2015:hasAdditionalInformation xml:lang="it">
+               &lt;P&gt;Il presente avviso si intende valido per tutte le società del Gruppo ATM, comprese le partecipate. Si segnala che eventuali chiarimenti sul bando di gara saranno pubblicati esclusivamente sul sito internet www.atm.it;&lt;/P&gt;
+            </reg2015:hasAdditionalInformation>
+        <epo:isResponsibilityOf>
+          <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#Buyerff28a026-943d-4abd-b7d0-87b612c51093">
+            <epo:has>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#ContactPointPSP0b564426-bcdf-4373-b66d-270e8a7ed633">
+                <epo:hasFax>+39 026887778</epo:hasFax>
+                <epo:hasEmail>valeria.banfi@atm.it</epo:hasEmail>
+                <epo:hasTelephone>+39 0248038301</epo:hasTelephone>
+                <epo:hasInternetAddress>http://www.atm.it</epo:hasInternetAddress>
+              </epo:ContactPoint>
+            </epo:has>
+            <reg2015:receivesRequestsToParticipate rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002295#Procedure9476917a-fc7f-470d-b050-4185d9e91157"/>
+            <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002295#Procedure9476917a-fc7f-470d-b050-4185d9e91157"/>
+            <reg2015:providesAdditionalInformationAboutProcurementProcedure rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002295#Procedure9476917a-fc7f-470d-b050-4185d9e91157"/>
+            <epo:has>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#ContactPoint47d0e8e2-a1b1-4603-9945-75a7874dcda6">
+                <epo:hasEmail>responsabileacquisti@atm.it</epo:hasEmail>
+                <epo:hasTelephone>+39 02480311</epo:hasTelephone>
+                <epo:hasInternetAddress>http://www.atm.it</epo:hasInternetAddress>
+              </epo:ContactPoint>
+            </epo:has>
+            <epo:hasContractingEntity>true</epo:hasContractingEntity>
+            <epo:isRoleOf>
+              <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#Organisation2ddd972c-5337-47db-921e-4f7839f00933">
+                <epo:hasLocation>
+                  <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#Location29c1418a-2666-46cc-b839-6bfe6d9eb451">
+                    <epo:hasPostalAddress>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#Address9a7ca529-81e5-46e8-8832-4897e776fdf1">
+                        <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/ITA"/>
+                        <epo:hasCityName>Milano</epo:hasCityName>
+                        <epo:hasPostalZone>20121</epo:hasPostalZone>
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/ITC4C"/>
+                        <epo:hasStreetName>Foro Buonaparte 61</epo:hasStreetName>
+                      </epo:Address>
+                    </epo:hasPostalAddress>
+                  </epo:Location>
+                </epo:hasLocation>
+                <epo:hasName xml:lang="it">Azienda Trasporti Milanesi SpA</epo:hasName>
+              </epo:Organisation>
+            </epo:isRoleOf>
+            <epo:isRoleOf>
+              <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#OrganisationPSP308091d3-de12-4a2f-b61c-773e46428975">
+                <epo:hasLocation>
+                  <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#LocationPSPcebff6d0-73ed-4a0b-a4f8-926104cad70b">
+                    <epo:hasPostalAddress>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#AddressPSP106d3f9d-b205-4d6d-be4f-26ee1725c0ad">
+                        <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/ITA"/>
+                        <epo:hasCityName>Milano</epo:hasCityName>
+                        <epo:hasPostalZone>20159</epo:hasPostalZone>
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/ITC4C"/>
+                        <epo:hasStreetName>Viale Stelvio 2</epo:hasStreetName>
+                      </epo:Address>
+                    </epo:hasPostalAddress>
+                  </epo:Location>
+                </epo:hasLocation>
+                <epo:hasName xml:lang="it">Azienda Trasporti Milanesi SpA</epo:hasName>
+              </epo:Organisation>
+            </epo:isRoleOf>
+            <reg2015:receivesTenders rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002295#Procedure9476917a-fc7f-470d-b050-4185d9e91157"/>
+          </epo:Buyer>
+        </epo:isResponsibilityOf>
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#SelectionCriterionEconomic99904f25-6a1c-4e42-90e7-62b6efd7fe3d">
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/ef-stand"/>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <reg2015:applies>
+          <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#ContractTermcb9f4e92-7a80-47f3-8033-61e00c333f61">
+            <epo:hasPaymentArrangement xml:lang="it">
+               &lt;P&gt;Autofinanziamento.&lt;/P&gt;
+            </epo:hasPaymentArrangement>
+          </epo:ContractTerm>
+        </reg2015:applies>
+        <epo:hasTitle xml:lang="it">
+               &lt;P&gt;Servizio di revisione generale di apparati pneumatici di frenatura installati sui carrelli e a bordo dei treni metropolitani Meneghino&lt;/P&gt;
+            </epo:hasTitle>
+        <reg2015:applies>
+          <epo:OpeningTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#OpeningTermfb5150b4-4833-438d-bd90-d6ec8ba4cc7c">
+            <epo:hasOpeningDateTime>2018-02-09+14:30</epo:hasOpeningDateTime>
+            <epo:hasOpeningDescription xml:lang="it">
+                  &lt;P&gt;Come indicato nel documento “Disciplinare di gara” reperibile all’indirizzo Azienda Trasporti Milanesi S.p.A.– Acquisti, Appalti e Gare - Viale Stelvio, 2 - 20159 Milano - Italia - Tel. 0248038301 - Fax. 026887778 oppure visionabile all’indirizzo www.atm.it;&lt;/P&gt;
+               </epo:hasOpeningDescription>
+            <epo:hasOpeningDescription xml:lang="it">
+                  &lt;P&gt;ATM S.p.A. - Viale Stelvio, 2 - 20159 Milano.&lt;/P&gt;
+               </epo:hasOpeningDescription>
+          </epo:OpeningTerm>
+        </reg2015:applies>
+        <reg2015:hasBuyerMainActivity rdf:resource="http://publications.europa.eu/resource/authority/main-activity/urttb"/>
+        <reg2015:hasCriteriaInProcurementDocument rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002295#SelectionCriterionEconomic99904f25-6a1c-4e42-90e7-62b6efd7fe3d"/>
+        <epo:hasOverallPurpose>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#Purposeae0118e4-8db2-49c2-8dbd-cc3db5978f33">
+            <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/services"/>
+            <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/50221400"/>
+          </epo:Purpose>
+        </epo:hasOverallPurpose>
+        <epo:uses>
+          <epo:AccessTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#AccessTermsFull1b1fc6ea-d155-4be1-ae07-88d0c354c3a2">
+            <epo:hasProcurementDocumentLandingPage>www.atm.it</epo:hasProcurementDocumentLandingPage>
+          </epo:AccessTerm>
+        </epo:uses>
+        <reg2015:hasCriteriaInProcurementDocument>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#SelectionCriterionTechnicala61175b2-8b51-4924-961d-7884c56f6888">
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/tp-abil"/>
+          </epo:SelectionCriterion>
+        </reg2015:hasCriteriaInProcurementDocument>
+        <reg2015:hasGPAUsage>true</reg2015:hasGPAUsage>
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#ProcedureId1403f855-8625-44ed-a473-151fb11dea1e">
+            <epo:hasIdentifierValue>Appalto n. 840</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+        <reg2015:applies>
+          <epo:ReviewTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#ReviewTermsa08269eb-bd1d-4577-ac8a-8c31db0fe024">
+            <epo:hasReviewProcedure xml:lang="it">
+               &lt;P&gt;30 giorni decorrenti dall'ultima delle comunicazioni del provvedimento di aggiudicazione di cui all’art. 76 D. Lgs. 50/2016 o,per le clausole di gara immediatamente lesive, dalla pubblicazione dell’Avviso sulla Gazzetta ufficiale della Repubblica italiana, ai sensi del D. Lgs. 104/2010.&lt;/P&gt;
+            </epo:hasReviewProcedure>
+          </epo:ReviewTerm>
+        </reg2015:applies>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#Lotc617fbe7-c866-4729-b800-9e9c47abc9c9">
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002295#Procedure9476917a-fc7f-470d-b050-4185d9e91157"/>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#ValueValObject9915e889-5a5c-4c5d-a819-ba2f93b98ad6">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#AmountValObjectaf7334ec-1835-4ac2-abfe-760551f51bc6">
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                    <ccts:hasAmountValue>2406320.00</ccts:hasAmountValue>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#ContractTermLot57bbdc9b-3fc7-4a4a-bf59-964ffb026c32">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#ObjectContractAddressf37d556a-d972-4263-ac9c-98d3119a42af">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/ITC4C"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasRenewalIndicator>false</epo:hasRenewalIndicator>
+                <epo:hasPlaceOfPerformanceAdditionalInformation
+                 xml:lang="it">
+                  &lt;P&gt;Milano.&lt;/P&gt;
+               </epo:hasPlaceOfPerformanceAdditionalInformation>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#PurposeAdditionalcaa143f0-5e97-4be8-aed4-2248aab139d2">
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#PeriodDurationb9049880-3fd5-41de-bb3c-0f2a7a092315">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#Measure3f349613-2354-426b-89ec-ee74cb58af0d">
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                    <ccts:hasMeasureValue>48</ccts:hasMeasureValue>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+            <epo:hasDescription xml:lang="it">
+                  &lt;P&gt;Servizio di revisione generale di apparati pneumatici di frenatura (denominati complessivi) installati sui carrelli e a bordo dei treni metropolitani Meneghino (n. 220 carrelli e n. 11 treni), in esercizio sulle linee 1, 2 e 3.&lt;/P&gt;
+               </epo:hasDescription>
+          </epo:Lot>
+        </epo:specifies>
+        <reg2015:applies rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002295#SelectionCriterionTechnicala61175b2-8b51-4924-961d-7884c56f6888"/>
+        <epo:hasDescription xml:lang="it">
+               &lt;P&gt;Servizio di revisione generale di apparati pneumatici di frenatura (denominati complessivi) installati sui carrelli e a bordo dei treni metropolitani Meneghino (n. 220 carrelli e n. 11 treni), in esercizio sulle linee 1, 2 e 3 — CIG n. 73173769B1.&lt;/P&gt;
+            </epo:hasDescription>
+        <epo:hasProcedureType rdf:resource="http://publications.europa.eu/resource/authority/procurement-procedure-type/open"/>
+        <epo:notifies>
+          <epo:ContractNotice rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#ContractNotice17d256d2-8ce3-40e4-a913-57bf7231bd69">
+            <epo:notifies rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002295#Procedure9476917a-fc7f-470d-b050-4185d9e91157"/>
+            <epo:isMadeAvailableVia>
+              <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#ChannelCNe3b8cad7-32c5-41ba-9572-372307540153">
+                <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:002295-2018:TEXT:IT:HTML</epo:hasURL>
+              </epo:Channel>
+            </epo:isMadeAvailableVia>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#ContractNoticeIdb8668423-0f61-4b91-9060-ed616db32a42">
+                <epo:hasIdentifierValue>2018/S 002-002295</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:hasDispatchDate>2018-01-02</epo:hasDispatchDate>
+            <epo:hasRecurrence>false</epo:hasRecurrence>
+            <epo:hasPublicationDate>2018-01-04</epo:hasPublicationDate>
+            <skos:editorialNote>Please note that some elements from the F05 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+CONTRACTING_BODY/ADDRESS_FURTHER_INFO/URL_BUYER
+CONTRACTING_BODY/ADDRESS_PARTICIPATION/URL_BUYER
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/LOT_DIVISION
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/OBJECT_DESCR/AC/AC_PROCUREMENT_DOC
+OBJECT_CONTRACT/OBJECT_DESCR/NB_ENVISAGED_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MIN_LIMIT_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MAX_LIMIT_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/CRITERIA_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NO_EU_PROGR_RELATED
+LEFTI/RULES_CRITERIA
+LEFTI/PARTICULAR_PROFESSION
+LEFTI/REFERENCE_TO_LAW
+PROCEDURE//FRAMEWORK/SINGLE_OPERATOR
+PROCEDURE/FRAMEWORK/SEVERAL_OPERATORS
+PROCEDURE/FRAMEWORK/NB_PARTICIPANTS</skos:editorialNote>
+          </epo:ContractNotice>
+        </epo:notifies>
+      </epo:Procedure>
+    </reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures>
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002295#Procedure9476917a-fc7f-470d-b050-4185d9e91157"/>
+  </epo:ProcurementServiceProvider>
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#Reviewer61fc750f-fc61-4abd-96d9-0602aee9a8a6">
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#ContactPointReviewBodyac538282-c3f2-4090-a7da-2afae6ed446c"/>
+    </epo:has>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#OrganisationReviewBodyfcddabef-0052-48ad-b73c-b2b9c36d468f">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#LocationReviewBody4134bc11-d45a-4ceb-8282-62e9cb7e577a">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#AddressReviewBodyb275de9a-3cc6-4a71-9f57-fe94c1670297">
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/ITA"/>
+                <epo:hasCityName>Milano</epo:hasCityName>
+                <epo:hasPostalZone>20122</epo:hasPostalZone>
+                <epo:hasStreetName>Via Corridoni 39</epo:hasStreetName>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="it">TAR per la Lombardia — Sede di Milano — Ufficio Accettazione Ricorsi</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002295#Procedure9476917a-fc7f-470d-b050-4185d9e91157"/>
+  </epo:Reviewer>
+  <epo:Mediator rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#Mediator75f588b9-b5e4-4dd0-b36c-0fb72ebdedf2">
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#ContactPointMediation4c98b968-4ddb-4659-9492-15380d02d4ce"/>
+    </epo:has>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#OrganisationMediation4d84f0b3-4ec6-4000-b25f-117ebe928679">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#LocationMediation3711164f-0314-4a0d-b033-8ae5804769a9">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2018/s-002-002295#AddressMediation037571fd-20a7-46e6-a39c-2a034cbf6b47">
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/ITA"/>
+                <epo:hasCityName>Milano</epo:hasCityName>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="it">TAR per la Lombardia — Sede di Milano — Ufficio Accettazione Ricorsi</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2018/s-002-002295#Procedure9476917a-fc7f-470d-b050-4185d9e91157"/>
+  </epo:Mediator>
+</rdf:RDF>

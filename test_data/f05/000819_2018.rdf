@@ -1,0 +1,425 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:ProcurementServiceProvider rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ProcurementServiceProviderComp2d60c94e-7181-4cf0-85e5-7850c51c0844">
+    <reg2015:isInvolvedIn>
+      <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#Procedurea80c36b7-06c6-450f-b728-0efc91756b5c">
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ProcedureId7ffa2736-02e9-4246-92dd-14f4472faa7c">
+            <epo:hasIdentifierValue>4011-V-1/17</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+        <reg2015:hasBuyerMainActivity rdf:resource="http://publications.europa.eu/resource/authority/main-activity/electricity"/>
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#SelectionCriterionSuitabilityb442ed7e-43c6-421d-b67f-e48abf59c187">
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/sui-act"/>
+            <epo:hasDescription xml:lang="hr">
+               &lt;P&gt;Gospodarski subjekti mora biti upisan u sudski, obrtni, strukovni ili drugi odgovarajući registar u državi njegova poslovnog nastana,&lt;/P&gt;
+               &lt;P&gt;Za potrebe utvrđivanja sposobnosti iz ove točke ponuditelji moraju popuniti odgovor u dijelu IV. Odjeljak A. točku 1. ESPD obrasca.&lt;/P&gt;
+               &lt;P&gt;U slučaju da Naručitelj traži provjeru informacija navedenih u ESPD sposobnost za obavljanje profesionalne djelatnosti gospodarskog subjekta iz točke 4.1. dokazuje se:&lt;/P&gt;
+               &lt;P&gt;— izvatkom iz sudskog, obrtnog, strukovnog ili drugog odgovarajućeg registra koji se vodi u državi članici njegova poslovnog nastana.&lt;/P&gt;
+               &lt;P&gt;Gospodarsku subjekt mora posjedovati dokaz o posjedovanju ovlaštenja ili članstva u sljedećim organizacijama:&lt;/P&gt;
+               &lt;P&gt;— Važećom Licencom za izvođenje radova uzgajanja šuma i važećom Licencom za pridobivanje drveta iz šume izdanu od strane Hrvatske komore inženjera šumarstva i drvne tehnologije.&lt;/P&gt;
+               &lt;P&gt;— Važećom Licencom za izvođenje radova izgradnje i održavanja šumske infrastrukture izdanu od strane Hrvatske komore inženjera šumarstva i drvne tehnologije.&lt;/P&gt;
+               &lt;P&gt;Za potrebe utvrđivanja sposobnosti iz ove točke ponuditelji moraju popuniti odgovor u dijelu IV. Odjeljak A. točka 2. ESPD obrasca.&lt;/P&gt;
+               &lt;P&gt;U slučaju da Naručitelj traži provjeru informacija navedenih u ESPD sposobnost za obavljanje profesionalne djelatnosti gospodarskog subjekta iz točke 4.1. dokazuje se:&lt;/P&gt;
+               &lt;P&gt;— Potvrdom o ovlaštenju ili članstvu u traženim organizacijama.&lt;/P&gt;
+               &lt;P&gt;Ako se u državi poslovnog nastana gospodarskog subjekta ne izdaju takvi dokumenti ili ako ne obuhvaćaju sve okolnosti, oni mogu biti zamijenjeni izjavom pod prisegom ili, ako izjava pod prisegom prema pravu dotične države ne postoji, izjavom davatelja s ovjerenim potpisom kod nadležne sudske ili upravne vlasti, javnog bilježnika ili strukovnog ili trgovinskog tijela u državi poslovnog nastana gospodarskog subjekta, odnosno državi čiji je osoba državljanin.&lt;/P&gt;
+            </epo:hasDescription>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#SelectionCriterionTechnicalb3cdae57-d156-4d01-ae21-15c1e1675734">
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/tp-abil"/>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <epo:isResponsibilityOf>
+          <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#Buyer6cb13991-3a92-47a0-9a54-8731fab0e7f6">
+            <epo:isRoleOf>
+              <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#Organisation3b3c18b6-23cf-4c9e-8e20-1205301d9356">
+                <epo:hasID>
+                  <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#OrganisationId380b2268-08c7-45b3-967e-98702bbfbb7e">
+                    <epo:hasIdentifierValue>46830600751</epo:hasIdentifierValue>
+                  </epo:Identifier>
+                </epo:hasID>
+                <epo:hasLocation>
+                  <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#Location6e84a624-2074-42f1-85b9-6e5c5bc6d92f">
+                    <epo:hasPostalAddress>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#Address4338697d-22eb-423d-8c23-5e82a55764c9">
+                        <epo:hasCityName>Zagreb</epo:hasCityName>
+                        <epo:hasStreetName>Ulica grada Vukovara 37</epo:hasStreetName>
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/HR036"/>
+                        <epo:hasPostalZone>10000</epo:hasPostalZone>
+                        <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/HRV"/>
+                      </epo:Address>
+                    </epo:hasPostalAddress>
+                  </epo:Location>
+                </epo:hasLocation>
+                <epo:hasName xml:lang="hr">HEP – Operator distribucijskog sustava d.o.o.</epo:hasName>
+              </epo:Organisation>
+            </epo:isRoleOf>
+            <reg2015:providesAdditionalInformationAboutProcurementProcedure rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000819#Procedurea80c36b7-06c6-450f-b728-0efc91756b5c"/>
+            <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000819#Procedurea80c36b7-06c6-450f-b728-0efc91756b5c"/>
+            <epo:has>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ContactPointc2ef5f17-7274-47d4-99ab-028f519b3858">
+                <epo:hasFax>+385 527783</epo:hasFax>
+                <epo:hasInternetAddress>www.hep.hr/ods</epo:hasInternetAddress>
+                <epo:hasEmail>nabava-elektroistra@hep.hr</epo:hasEmail>
+                <epo:hasTelephone>+385 527623</epo:hasTelephone>
+                <epo:hasDescription xml:lang="hr">Odjel za skladište i potporu nabavi</epo:hasDescription>
+              </epo:ContactPoint>
+            </epo:has>
+            <epo:hasContractingEntity>true</epo:hasContractingEntity>
+          </epo:Buyer>
+        </epo:isResponsibilityOf>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#Lot86b10102-71af-4b0a-b6ed-502de9658110">
+            <epo:hasDescription xml:lang="hr">
+                  &lt;P&gt;Pružanje usluga sječe granja i raslinja na trasama distribucijskih nadzemnih vodova na području Elektroistre Pula.&lt;/P&gt;
+               </epo:hasDescription>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ValueValObject69c925c3-716c-4a3d-af1a-09ec3677c2c7">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#AmountValObjecta8e61042-eca8-4032-8d7a-6083d3562c84">
+                    <ccts:hasAmountValue>2970230.00</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/HRK"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#LotId9da44561-acb9-4c82-a54e-38cd9948664a">
+                <epo:hasIdentifierValue>3</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+            <epo:hasTitle xml:lang="hr">
+                  &lt;P&gt;Pula, Labin&lt;/P&gt;
+               </epo:hasTitle>
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ContractTermLot6e7fc045-d8b5-4348-b00a-96ffc6bd8a95">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ObjectContractAddress1d5e5f4f-2277-4036-b2d1-6565173bb498">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/HR036"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasRenewalIndicator>false</epo:hasRenewalIndicator>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000819#Procedurea80c36b7-06c6-450f-b728-0efc91756b5c"/>
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#PeriodDurationf8d096c3-d451-48b2-86f8-f8b15ca2f2ff">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#Measureead68486-7397-4f33-a4dc-b758495170a1">
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                    <ccts:hasMeasureValue>24</ccts:hasMeasureValue>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#PurposeAdditional169a5edc-4f48-420a-82d3-ec52d5f8f8f4">
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/77341000"/>
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+              </epo:Purpose>
+            </epo:has>
+          </epo:Lot>
+        </epo:specifies>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#Lot3db21ff2-f396-45f7-81b3-f627e4ccb109">
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#PurposeAdditional83f9ea67-809c-48de-ab82-62e378675fe0">
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/77341000"/>
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:hasTitle xml:lang="hr">
+                  &lt;P&gt;Pazin, Buzet&lt;/P&gt;
+               </epo:hasTitle>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ValueValObject43f67323-d3de-4cf1-8eb0-7de5cf93065a">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#AmountValObject96b3809f-a164-4abe-a8b0-aed75b29ce82">
+                    <ccts:hasAmountValue>2880800.00</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/HRK"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000819#Procedurea80c36b7-06c6-450f-b728-0efc91756b5c"/>
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#PeriodDuration8af009d9-965d-414d-be7c-3ab85f86f1cd">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#Measure7c87591d-c24a-4445-995d-f0945a40f086">
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                    <ccts:hasMeasureValue>24</ccts:hasMeasureValue>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ContractTermLot4244233c-4dc9-4ba4-ba4e-5683d6fc034c">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ObjectContractAddress590dd7c3-8aed-433a-a53a-d17dff702d34">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/HR036"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasRenewalIndicator>false</epo:hasRenewalIndicator>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:hasDescription xml:lang="hr">
+                  &lt;P&gt;Pružanje usluga sječe granja i raslinja na trasama distribucijskih nadzemnih vodova na području Elektroistre Pula.&lt;/P&gt;
+               </epo:hasDescription>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#LotId9683e163-97be-4059-99ad-df4bf40b4b0d">
+                <epo:hasIdentifierValue>2</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+          </epo:Lot>
+        </epo:specifies>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#Lote8878585-cea9-4c98-a388-4df369f2d789">
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ContractTermLot3179463d-af41-4aa6-8205-19d090cac151">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ObjectContractAddress58778708-b73f-4e20-a2f0-fb5771848d27">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/HR036"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasRenewalIndicator>false</epo:hasRenewalIndicator>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ValueValObject5c74b8ae-a21f-40b0-a961-27f350747b2c">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#AmountValObject928b6c68-1a9d-4b3f-8db9-8455f556ea8c">
+                    <ccts:hasAmountValue>2666060.00</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/HRK"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#LotId99a22736-9775-437e-a6d9-f0a1f580fc30">
+                <epo:hasIdentifierValue>1</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:hasTitle xml:lang="hr">
+                  &lt;P&gt;Poreč, Rovinj, Buje&lt;/P&gt;
+               </epo:hasTitle>
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#PeriodDuration42d1f378-f9b4-4b6c-be41-ac79f391edaa">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#Measure7a8eeac0-b8be-437b-bb7e-d42151a03f4c">
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                    <ccts:hasMeasureValue>24</ccts:hasMeasureValue>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:hasDescription xml:lang="hr">
+                  &lt;P&gt;Pružanje usluga sječe granja i raslinja na trasama distribucijskih nadzemnih vodova na području Elektroistre Pula.&lt;/P&gt;
+               </epo:hasDescription>
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000819#Procedurea80c36b7-06c6-450f-b728-0efc91756b5c"/>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#PurposeAdditional36b6957e-842e-49b2-948d-df70f7b648f4">
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/77341000"/>
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+              </epo:Purpose>
+            </epo:has>
+          </epo:Lot>
+        </epo:specifies>
+        <reg2015:hasCriteriaInProcurementDocument rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000819#SelectionCriterionTechnicalb3cdae57-d156-4d01-ae21-15c1e1675734"/>
+        <reg2015:uses>
+          <epo:FrameworkAgreementTechnique rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#Frameworkb41013f0-9c15-4f3d-99b1-d2abbd91a734"/>
+        </reg2015:uses>
+        <reg2015:applies>
+          <epo:OpeningTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#OpeningTerm84e6fd88-1889-4ca7-97d7-4188071c1b46">
+            <epo:hasOpeningDescription xml:lang="hr">
+                  &lt;P&gt;Vergerijeva 6, Pula.&lt;/P&gt;
+               </epo:hasOpeningDescription>
+            <epo:hasOpeningDateTime>2018-02-06+09:00</epo:hasOpeningDateTime>
+          </epo:OpeningTerm>
+        </reg2015:applies>
+        <reg2015:applies>
+          <epo:ReviewTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ReviewTerms9cf1c202-f665-4ce9-b5aa-94757b8ee98b">
+            <epo:hasReviewProcedure xml:lang="hr">
+               &lt;P&gt;Pravo na žalbu ima svaki gospodarski subjekt koji ima ili je imao pravni interes za dobivanje određenog Okvirnog sporazuma i koji je pretrpio ili bi mogao pretrpjeti štetu od navodnoga kršenja subjektivnih prava.&lt;/P&gt;
+               &lt;P&gt;Pravo na žalbu ima i središnje tijelo državne uprave nadležno za politiku javne nabave i nadležno državno odvjetništvo.&lt;/P&gt;
+               &lt;P&gt;Žalba se izjavljuje Državnoj komisiji za kontrolu postupaka javne nabave, Koturaška cesta 43/IV, HR-10000 Zagreb.&lt;/P&gt;
+               &lt;P&gt;Žalba se izjavljuje u pisanom obliku. Žalba se dostavlja neposredno, putem ovlaštenog davatelja poštanskih usluga ili elektroničkim sredstvima komunikacije putem međusobno povezanih informacijskih sustava Državne komisije i EOJN-a RH.&lt;/P&gt;
+               &lt;P&gt;Žalitelj je obvezan primjerak žalbe dostaviti Naručitelju u roku za žalbu.&lt;/P&gt;
+               &lt;P&gt;Žalba se izjavljuje u roku od 10 dana, i to od dana:&lt;/P&gt;
+               &lt;P&gt;— objave poziva na nadmetanje, u odnosu na sadržaj poziva ili dokumentacije o nabavi,&lt;/P&gt;
+               &lt;P&gt;— objave obavijesti o ispravku, u odnosu na sadržaj ispravka,&lt;/P&gt;
+               &lt;P&gt;— objave izmjene dokumentacije o nabavi, u odnosu na sadržaj izmjene dokumentacije,&lt;/P&gt;
+               &lt;P&gt;— otvaranja ponuda u odnosu na propuštanje Naručitelja da valjano odgovori na pravodobno dostavljen zahtjev dodatne informacije, objašnjenja ili izmjene dokumentacije o nabavi te na postupak otvaranja ponuda,&lt;/P&gt;
+               &lt;P&gt;— primitka odluke o odabiru ili poništenju, u odnosu na postupak pregleda, ocjene i odabira ponuda, ili razloge poništenja.&lt;/P&gt;
+               &lt;P&gt;Žalitelj koji je propustio izjaviti žalbu u određenoj fazi otvorenog postupka javne nabave sukladno gore navedenim opcijama nema pravo na žalbu u kasnijoj fazi postupka za prethodnu fazu.&lt;/P&gt;
+               &lt;P&gt;Žalba mora sadržavati najmanje podatke i dokaze navedene u članku 420. ZJN-a 2016.&lt;/P&gt;
+            </epo:hasReviewProcedure>
+          </epo:ReviewTerm>
+        </reg2015:applies>
+        <reg2015:hasCriteriaInProcurementDocument>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#SelectionCriterionEconomic81e8d9ba-f884-44f1-a89e-157fbd4cbb41">
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/ef-stand"/>
+          </epo:SelectionCriterion>
+        </reg2015:hasCriteriaInProcurementDocument>
+        <epo:hasDescription xml:lang="hr">
+               &lt;P&gt;Pružanje usluga sječe granja i raslinja na trasama distribucijskih nadzemnih vodova na području Elektroistre Pula.&lt;/P&gt;
+            </epo:hasDescription>
+        <epo:notifies>
+          <epo:ContractNotice rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ContractNotice0bc9621c-b29a-445b-90dd-1c2ee4b2d6fb">
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ContractNoticeIdd4c37a4b-5df6-4aef-84be-3582b6a61132">
+                <epo:hasIdentifierValue>2018/S 001-000819</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:notifies rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000819#Procedurea80c36b7-06c6-450f-b728-0efc91756b5c"/>
+            <epo:isMadeAvailableVia>
+              <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ChannelCN28b75000-7068-4abc-ad3e-f9bf3325c51b">
+                <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:000819-2018:TEXT:HR:HTML</epo:hasURL>
+              </epo:Channel>
+            </epo:isMadeAvailableVia>
+            <skos:editorialNote>Please note that some elements from the F05 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+CONTRACTING_BODY/ADDRESS_FURTHER_INFO/URL_BUYER
+CONTRACTING_BODY/ADDRESS_PARTICIPATION/URL_BUYER
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/LOT_DIVISION
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/OBJECT_DESCR/AC/AC_PROCUREMENT_DOC
+OBJECT_CONTRACT/OBJECT_DESCR/NB_ENVISAGED_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MIN_LIMIT_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MAX_LIMIT_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/CRITERIA_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NO_EU_PROGR_RELATED
+LEFTI/RULES_CRITERIA
+LEFTI/PARTICULAR_PROFESSION
+LEFTI/REFERENCE_TO_LAW
+PROCEDURE//FRAMEWORK/SINGLE_OPERATOR
+PROCEDURE/FRAMEWORK/SEVERAL_OPERATORS
+PROCEDURE/FRAMEWORK/NB_PARTICIPANTS</skos:editorialNote>
+            <epo:hasDispatchDate>2017-12-29</epo:hasDispatchDate>
+            <epo:hasPublicationDate>2018-01-03</epo:hasPublicationDate>
+            <epo:hasRecurrence>false</epo:hasRecurrence>
+          </epo:ContractNotice>
+        </epo:notifies>
+        <reg2015:hasGPAUsage>false</reg2015:hasGPAUsage>
+        <reg2015:applies rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000819#SelectionCriterionEconomic81e8d9ba-f884-44f1-a89e-157fbd4cbb41"/>
+        <epo:hasTitle xml:lang="hr">
+               &lt;P&gt;Pružanje usluga sječe granja i raslinja na trasama distribucijskih nadzemnih vodova na području Elektroistre Pula&lt;/P&gt;
+            </epo:hasTitle>
+        <epo:hasLotSubmissionLimit>3</epo:hasLotSubmissionLimit>
+        <epo:hasProcedureType rdf:resource="http://publications.europa.eu/resource/authority/procurement-procedure-type/open"/>
+        <epo:hasEstimatedValue>
+          <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#Valuec69f8247-6909-4494-85ac-08101733b0d2">
+            <epo:hasOverallAmount>
+              <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#Amount5827f502-0b5e-4f03-b5da-04baa0e06da1">
+                <ccts:hasAmountValue>8517090.00</ccts:hasAmountValue>
+                <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/HRK"/>
+              </ccts:Amount>
+            </epo:hasOverallAmount>
+            <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+          </epo:Value>
+        </epo:hasEstimatedValue>
+        <epo:hasOverallPurpose>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#Purposee905fb88-be68-414e-b27b-a6ed9338f4d2">
+            <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/77341000"/>
+            <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/services"/>
+          </epo:Purpose>
+        </epo:hasOverallPurpose>
+        <epo:uses>
+          <epo:AccessTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#AccessTermsFull36a53b38-d9a7-4b06-a960-aa9481928739">
+            <epo:hasProcurementDocumentLandingPage>https://eojn.nn.hr/SPIN/application/ipn/DocumentManagement/DokumentPodaciFrm.aspx?OznakaDokumenta=2017/S+0F5-0027960</epo:hasProcurementDocumentLandingPage>
+          </epo:AccessTerm>
+        </epo:uses>
+      </epo:Procedure>
+    </reg2015:isInvolvedIn>
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000819#Procedurea80c36b7-06c6-450f-b728-0efc91756b5c"/>
+  </epo:ProcurementServiceProvider>
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#Reviewerb5bd9435-10fb-4aab-ad6a-0a99fece7c45">
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#OrganisationReviewBodyb776f767-c707-4c83-b0ac-7e44800b19a5">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#LocationReviewBody945ed2ca-cda0-4445-a06d-415b7e5fea1d">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#AddressReviewBodya8a08658-2b5d-4e3a-a2e9-9261747c2a7c">
+                <epo:hasCityName>Zagreb</epo:hasCityName>
+                <epo:hasStreetName>Koturaška cesta 43/IV</epo:hasStreetName>
+                <epo:hasPostalZone>10000</epo:hasPostalZone>
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/HRV"/>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="hr">Državna komisija za kontrolu postupaka javne nabave</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000819#Procedurea80c36b7-06c6-450f-b728-0efc91756b5c"/>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ContactPointReviewBody846383ef-9f4f-48df-82bd-00d1f6ac245d">
+        <epo:hasFax>+385 14559933</epo:hasFax>
+        <epo:hasInternetAddress>www.dkom.hr</epo:hasInternetAddress>
+        <epo:hasEmail>dkom@dkom.hr</epo:hasEmail>
+        <epo:hasTelephone>+385 14559930</epo:hasTelephone>
+      </epo:ContactPoint>
+    </epo:has>
+  </epo:Reviewer>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#AwardCriterionCost21d4fe61-47fa-4553-9b9f-da3fca0eb157">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000819#Lot3db21ff2-f396-45f7-81b3-f627e4ccb109"/>
+    <epo:hasAwardCriterionType rdf:resource="http://publications.europa.eu/resource/authority/award-criterion-type/cost"/>
+    <epo:hasFormula>90</epo:hasFormula>
+    <epo:hasName xml:lang="hr">Cijena</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#ChannelSubmissiond8a1ea72-5079-4d6d-b4ba-484069aef7a8">
+    <epo:hasURL>https://eojn.nn.hr/Oglasnik</epo:hasURL>
+  </epo:Channel>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#AwardCriterionQualityd769cc17-d48d-470a-99a2-330517761060">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000819#Lot3db21ff2-f396-45f7-81b3-f627e4ccb109"/>
+    <epo:hasAwardCriterionType rdf:resource="http://publications.europa.eu/resource/authority/award-criterion-type/quality"/>
+    <epo:hasFormula>10</epo:hasFormula>
+    <epo:hasName xml:lang="hr">Vrijeme odziva na interventnu sječu</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#AwardCriterionQuality24bcc2a7-d802-4113-9e33-74cd6bdfaa81">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000819#Lot86b10102-71af-4b0a-b6ed-502de9658110"/>
+    <epo:hasAwardCriterionType rdf:resource="http://publications.europa.eu/resource/authority/award-criterion-type/quality"/>
+    <epo:hasFormula>10</epo:hasFormula>
+    <epo:hasName xml:lang="hr">Vrijeme odziva na interventnu sječu</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#AwardCriterionQualityfbd7acd0-296a-45d3-beb2-0c877eb46108">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000819#Lote8878585-cea9-4c98-a388-4df369f2d789"/>
+    <epo:hasAwardCriterionType rdf:resource="http://publications.europa.eu/resource/authority/award-criterion-type/quality"/>
+    <epo:hasFormula>10</epo:hasFormula>
+    <epo:hasName xml:lang="hr">Vrijeme odziva na interventnu sječu</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#AwardCriterionCostd640ea34-7c82-4336-bb38-a90f8e965c0c">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000819#Lote8878585-cea9-4c98-a388-4df369f2d789"/>
+    <epo:hasAwardCriterionType rdf:resource="http://publications.europa.eu/resource/authority/award-criterion-type/cost"/>
+    <epo:hasFormula>90</epo:hasFormula>
+    <epo:hasName xml:lang="hr">Cijena</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000819#AwardCriterionCosta2cbd747-c59c-4beb-82bd-01793b62bf3e">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000819#Lot86b10102-71af-4b0a-b6ed-502de9658110"/>
+    <epo:hasAwardCriterionType rdf:resource="http://publications.europa.eu/resource/authority/award-criterion-type/cost"/>
+    <epo:hasFormula>10</epo:hasFormula>
+    <epo:hasName xml:lang="hr">Cijena</epo:hasName>
+  </epo:AwardCriterion>
+</rdf:RDF>

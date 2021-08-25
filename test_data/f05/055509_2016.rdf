@@ -1,0 +1,298 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#AwardCriterionPrice08f9d95b-98c9-4134-ac9f-18a4e40ce0eb">
+    <epo:isUsedToAward>
+      <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#Lota08e5adc-35f6-4fd4-8595-1d8d41531590">
+        <epo:hasContractDuration>
+          <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#PeriodDurationa5624cf0-318b-4918-bde1-fd970a416926">
+            <epo:hasDurationMeasure>
+              <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#Measure7c85ec80-7eab-4ae2-9667-f40ea2171489">
+                <ccts:hasMeasureValue>24</ccts:hasMeasureValue>
+                <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+              </ccts:Measure>
+            </epo:hasDurationMeasure>
+          </epo:Period>
+        </epo:hasContractDuration>
+        <epo:hasEstimatedValue>
+          <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#ValueValObject93b92eba-6bd8-4252-95f2-dd78f0bdd194">
+            <epo:hasOverallAmount>
+              <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#AmountValObjectb4a256e0-c3dc-4271-a4bd-44e9aae3b661">
+                <ccts:hasAmountValue>80000000.00</ccts:hasAmountValue>
+                <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/DKK"/>
+              </ccts:Amount>
+            </epo:hasOverallAmount>
+            <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+          </epo:Value>
+        </epo:hasEstimatedValue>
+        <epo:has>
+          <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#ContractTermLot410da848-967a-4cd1-97b2-a07c53ecb619">
+            <epo:hasSpecificPlaceOfPerformance>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#ObjectContractAddress20eb8b86-5882-4d86-a68c-c5fa324d701a">
+                <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/DK011"/>
+              </epo:Address>
+            </epo:hasSpecificPlaceOfPerformance>
+            <epo:hasRenewalDescription xml:lang="da">
+&lt;P&gt;Aftalen forventes at træde i kraft den 16.6.2016 og er gældende frem til den 15.6.2018, med mulighed for forlængelse på 2 x 1 år.&lt;/P&gt;
+</epo:hasRenewalDescription>
+            <epo:hasRenewalIndicator>true</epo:hasRenewalIndicator>
+          </epo:ContractTerm>
+        </epo:has>
+        <epo:has>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#PurposeAdditional18edfb3f-585e-45c3-b831-0fd4652a3a18">
+            <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/09135100"/>
+            <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/09132000"/>
+            <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/09134100"/>
+            <epo:hasOptionsDescription xml:lang="da">
+&lt;P&gt;Aftalen forventes at træde i kraft den 16.6.2016 og er gældende frem til den 15.6.2018, med mulighed for forlængelse på 2 x 1 år.&lt;/P&gt;
+</epo:hasOptionsDescription>
+            <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/allowed"/>
+          </epo:Purpose>
+        </epo:has>
+        <epo:isSpecifiedIn>
+          <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#Procedure4d029910-0872-423f-b217-11b7267ea7d9">
+            <reg2015:hasBuyerMainActivity rdf:resource="http://publications.europa.eu/resource/authority/main-activity/gas-heat"/>
+            <reg2015:hasGPAUsage>true</reg2015:hasGPAUsage>
+            <epo:uses>
+              <epo:AccessTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#AccessTermsFulld526d13b-7f31-4f29-aec9-33f7b488d5f5">
+                <epo:hasProcurementDocumentLandingPage>http://www.hofor.dk/installatoerer-og-leverandoerer/igangvaerende-udbud/</epo:hasProcurementDocumentLandingPage>
+              </epo:AccessTerm>
+            </epo:uses>
+            <reg2015:applies>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#ContractTerm5d542398-aca4-4595-b275-bf6e49f6c809">
+                <epo:hasContractorLegalFormRequirementDescription
+                 xml:lang="da">
+&lt;P&gt;Såfremt indkøbet tildeles en sammenslutning af virksomheder skal deltagerne påtage sig solidarisk, direkte og ubetinget hæftelse for kontraktens opfyldelse over for ordregiver samt udpege en solidarisk hæftende deltager som fælles fuldmægtig.&lt;/P&gt;
+</epo:hasContractorLegalFormRequirementDescription>
+                <epo:hasPaymentArrangement xml:lang="da">
+&lt;P&gt;Der henvises til udbudsmaterialet.&lt;/P&gt;
+</epo:hasPaymentArrangement>
+                <epo:hasPerformanceConditions xml:lang="da">
+&lt;P&gt;Der gælder særlige vilkår for opfyldelse af kontrakten. Grundet forsyningssikkerhed skal fyringsolieleverancen påbegyndes indenfor 6 timer jf. udbudsmaterialet.&lt;/P&gt;
+</epo:hasPerformanceConditions>
+              </epo:ContractTerm>
+            </reg2015:applies>
+            <epo:hasProcedureType rdf:resource="http://publications.europa.eu/resource/authority/procurement-procedure-type/neg-w-call"/>
+            <reg2015:applies>
+              <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#SelectionCriterionEconomic9e050785-d05d-43f2-a651-d27ad30930e1">
+                <epo:hasDescription xml:lang="da">
+&lt;P&gt;Den økonomiske aktørs samlede årsomsætning for de sidste 3 regnskabsår og i dette tilfælde omsætningen inden for det aktivitetsområde kontrakten vedrører i de seneste 3 disponible regnskabsår, afhængig af hvornår den økonomiske aktør blev etableret eller startede sin virksomhed op.&lt;/P&gt;
+&lt;P&gt;Se ESPD (som skal udfyldes) del IV, punkt C, 1b skal udfyldes.&lt;/P&gt;
+</epo:hasDescription>
+                <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/ef-stand"/>
+              </epo:SelectionCriterion>
+            </reg2015:applies>
+            <reg2015:applies>
+              <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#SelectionCriterionTechnicalffd66ace-04df-42f4-9d4d-e812eecd2c48">
+                <epo:hasDescription xml:lang="da">
+&lt;P&gt;— Ansøgere skal dokumentere at have bemandede tankstationer i hovedstadsområdet hvorfra der kan købes kørevidereprodukter. Se ESPD Del IV, punkt C, nr. 9 som skal udfyldes&lt;/P&gt;
+&lt;P&gt;— Mindstekrav at ansøger har et miljøledelsessystem. Ansøger er certificeret efter ISO 14001. Se ESPD, del IV, Punkt D som skal udfyldes.&lt;/P&gt;
+&lt;P&gt;Hvis der anvendes et ikke-certificeret system, skal ansøgeren:&lt;/P&gt;
+&lt;P&gt;a) beskrive virksomhedens overordnede politik for miljøledelse med oplysning om navn og stilling på den ansvarlige for virksomhedens miljøledelse&lt;/P&gt;
+&lt;P&gt;b) beskrive hvordan virksomheden sikrer, at systemer, procedurer og/eller arbejdsgange til opfølgning på uønskede hændelser, følges&lt;/P&gt;
+&lt;P&gt;c) beskrive hvordan virksomheden evaluerer sit miljøledelsessystem&lt;/P&gt;
+&lt;P&gt;d) beskrive virksomhedens arbejde med at reducere sine miljøpåvirkninger&lt;/P&gt;
+&lt;P&gt;e) beskrive hvordan virksomheden har lært af sager, hvor der er udstedt påbud, pålagt bøder for overtrædelse af miljølovgivningen.&lt;/P&gt;
+</epo:hasDescription>
+                <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/tp-abil"/>
+              </epo:SelectionCriterion>
+            </reg2015:applies>
+            <epo:isResponsibilityOf>
+              <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#Buyerf533cd53-fc5d-49f4-8e5d-b78a7847da09">
+                <reg2015:receivesTenders rdf:resource="http://data.europa.eu/a4g/resource/2016/s-035-055509#Procedure4d029910-0872-423f-b217-11b7267ea7d9"/>
+                <reg2015:receivesRequestsToParticipate rdf:resource="http://data.europa.eu/a4g/resource/2016/s-035-055509#Procedure4d029910-0872-423f-b217-11b7267ea7d9"/>
+                <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2016/s-035-055509#Procedure4d029910-0872-423f-b217-11b7267ea7d9"/>
+                <reg2015:providesAdditionalInformationAboutProcurementProcedure rdf:resource="http://data.europa.eu/a4g/resource/2016/s-035-055509#Procedure4d029910-0872-423f-b217-11b7267ea7d9"/>
+                <epo:has>
+                  <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#ContactPoint90537360-0192-45b1-8d78-666b2533d7d2">
+                    <epo:hasTelephone>+45 27953811</epo:hasTelephone>
+                    <epo:hasEmail>aiam@hofor.dk</epo:hasEmail>
+                    <epo:hasInternetAddress>http://www.hofor.dk</epo:hasInternetAddress>
+                  </epo:ContactPoint>
+                </epo:has>
+                <epo:isRoleOf>
+                  <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#Organisation9ba6f8c9-21eb-450e-b003-1c7bc58e8899">
+                    <epo:hasLocation>
+                      <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#Locationfc5b9c44-bc39-44ad-8ed6-58116ed28cb8">
+                        <epo:hasPostalAddress>
+                          <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#Addressa1e323bd-210d-4b35-930d-3da1d35ce6eb">
+                            <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/DNK"/>
+                            <epo:hasPostalZone>2300</epo:hasPostalZone>
+                            <epo:hasStreetName>Ørestads Boulevard 35</epo:hasStreetName>
+                            <epo:hasCityName>København S</epo:hasCityName>
+                            <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/DK011"/>
+                          </epo:Address>
+                        </epo:hasPostalAddress>
+                      </epo:Location>
+                    </epo:hasLocation>
+                    <epo:hasName xml:lang="da">HOFOR A/S</epo:hasName>
+                  </epo:Organisation>
+                </epo:isRoleOf>
+                <epo:hasContractingEntity>true</epo:hasContractingEntity>
+              </epo:Buyer>
+            </epo:isResponsibilityOf>
+            <epo:hasOverallPurpose>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#Purpose28d6d43f-8353-408c-847c-ec5f9a88abe4">
+                <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/supplies"/>
+                <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/09100000"/>
+              </epo:Purpose>
+            </epo:hasOverallPurpose>
+            <epo:hasDescription xml:lang="da">
+&lt;P&gt;Køb af brændstof (diesel og benzin) fra tankstationer og som bulkleverance, levering af smøremidler til HOFOR lokationer og levering af fyringsolie til opvarmning til produktions formålet.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasTitle xml:lang="da">
+&lt;P&gt;Brændstof, smøremidler og fyringsolie 2016+.&lt;/P&gt;
+</epo:hasTitle>
+            <reg2015:applies>
+              <epo:ReviewTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#ReviewTermsdd6a73c3-6364-463b-b55b-91027b2dab29">
+                <epo:hasReviewProcedure xml:lang="da">
+&lt;P&gt;Klage over udbud skal være indgivet til Klagenævnet for Udbud inden 6 måneder efter at ordregiveren har indgået en rammeaftale regnet fra dagen efter den dag, hvor ordregiveren har underrettet de berørte ansøgere og tilbudsgivere, jf. Håndhævelseslovens § 7, stk. 2, nummer 3 (lov nr. 492 af 12.5.2010 med senere ændringer).&lt;/P&gt;
+&lt;P&gt;Senest samtidig med at en klage indgives til Klagenævnet for Udbud, skal klageren skriftligt underrette ordregiveren om, at klage indgives til Klagenævnet for Udbud, og om, hvorvidt klagen er indgivet i standstill-perioden, jf. Håndhævelseslovens § 6, stk. 3. I tilfælde, hvor klagen ikke er indgivet i standstill-perioden, skal klageren tillige angive, hvorvidt der begæres opsættende virkning af klagen, jf. Håndhævelseslovens § 12, stk.1.&lt;/P&gt;
+&lt;P&gt;Klager over ikke at være prækvalificeret skal være indgivet til klagenævnet for udbud inden 20 dage regnet fra den dag ordregiver har afsendt en underretning til de berørte ansøgere om hvem der er blevet prækvalificeret jf. Håndhævelseslovens § 7 stk.1. (lov nr. 492 af 12.5.2010 med senere ændringer).&lt;/P&gt;
+</epo:hasReviewProcedure>
+              </epo:ReviewTerm>
+            </reg2015:applies>
+            <epo:notifies>
+              <epo:ContractNotice rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#ContractNotice634d692f-7994-451b-8f52-9a946cb2bb59">
+                <epo:hasRecurrence>true</epo:hasRecurrence>
+                <epo:refersToPrevious>
+                  <epo:Notice rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#PrevNotice05ffcfa8-35d3-45ab-a144-dd90257bb6d4">
+                    <epo:hasID>
+                      <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#PrevNoticeIded3d1aa4-c67d-4cdc-8930-f996ec4ebc6d">
+                        <epo:hasIdentifierValue>2015/S 244-444221</epo:hasIdentifierValue>
+                      </epo:Identifier>
+                    </epo:hasID>
+                  </epo:Notice>
+                </epo:refersToPrevious>
+                <epo:notifies rdf:resource="http://data.europa.eu/a4g/resource/2016/s-035-055509#Procedure4d029910-0872-423f-b217-11b7267ea7d9"/>
+                <epo:hasDispatchDate>2016-02-18</epo:hasDispatchDate>
+                <skos:editorialNote>Please note that some elements from the F05 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+CONTRACTING_BODY/ADDRESS_FURTHER_INFO/URL_BUYER
+CONTRACTING_BODY/ADDRESS_PARTICIPATION/URL_BUYER
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/LOT_DIVISION
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/OBJECT_DESCR/AC/AC_PROCUREMENT_DOC
+OBJECT_CONTRACT/OBJECT_DESCR/NB_ENVISAGED_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MIN_LIMIT_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MAX_LIMIT_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/CRITERIA_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NO_EU_PROGR_RELATED
+LEFTI/RULES_CRITERIA
+LEFTI/PARTICULAR_PROFESSION
+LEFTI/REFERENCE_TO_LAW
+PROCEDURE//FRAMEWORK/SINGLE_OPERATOR
+PROCEDURE/FRAMEWORK/SEVERAL_OPERATORS
+PROCEDURE/FRAMEWORK/NB_PARTICIPANTS</skos:editorialNote>
+                <epo:hasID>
+                  <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#ContractNoticeIdd42a7849-cc47-425a-9dc2-470348cb684d">
+                    <epo:hasIdentifierValue>2016/S 035-055509</epo:hasIdentifierValue>
+                  </epo:Identifier>
+                </epo:hasID>
+                <epo:refersToPrevious>
+                  <epo:Notice rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#PreviousNoticeef69dcb1-8f87-4f10-bb42-a1e404c2614e">
+                    <epo:hasID>
+                      <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#NoticeId7f838e72-71f2-4e70-91de-dcbc17691d7e">
+                        <epo:hasIdentifierValue>2015/S 244-444221</epo:hasIdentifierValue>
+                      </epo:Identifier>
+                    </epo:hasID>
+                  </epo:Notice>
+                </epo:refersToPrevious>
+                <epo:isMadeAvailableVia>
+                  <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#ChannelCN55ff505b-caf7-48ae-b13d-74a7ad16f08d">
+                    <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:055509-2016:TEXT:DA:HTML</epo:hasURL>
+                  </epo:Channel>
+                </epo:isMadeAvailableVia>
+                <epo:hasPublicationDate>2016-02-19</epo:hasPublicationDate>
+              </epo:ContractNotice>
+            </epo:notifies>
+            <reg2015:applies>
+              <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#SelectionCriterionSuitability5508d4b7-903d-4f55-8c7a-23a4e57e4b14">
+                <epo:hasDescription xml:lang="da">
+&lt;P&gt;Se ESPD (som skal udfyldes) del III, udelukkelsesgrunde samt IV udvælgelseskriterier som skal udfyldes.&lt;/P&gt;
+</epo:hasDescription>
+                <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/sui-act"/>
+              </epo:SelectionCriterion>
+            </reg2015:applies>
+            <epo:specifies rdf:resource="http://data.europa.eu/a4g/resource/2016/s-035-055509#Lota08e5adc-35f6-4fd4-8595-1d8d41531590"/>
+          </epo:Procedure>
+        </epo:isSpecifiedIn>
+        <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+        <epo:hasDescription xml:lang="da">
+&lt;P&gt;Køb af brændstof (diesel og benzin) fra tankstationer og som bulkleverance, levering af smøremidler til HOFOR lokationer og levering af fyringsolie til opvarmning til produktions formålet.&lt;/P&gt;
+&lt;P&gt;Aftalen omfatter bulkleverancer af fyringsolie og brændstof primært i Københavns Kommune.&lt;/P&gt;
+&lt;P&gt;Forventet årligt volume køb af brændstof og fyringsolie:&lt;/P&gt;
+&lt;P&gt;diesel &gt; 200 000 liter pr. år&lt;/P&gt;
+&lt;P&gt;benzin &gt;100 000 liter pr år.&lt;/P&gt;
+&lt;P&gt;fyringsolie mellem 1 000 000 — 3 000 000 liter pr. år&lt;/P&gt;
+&lt;P&gt;Anslået værdi mellem 35 000 000 og 80 000 000 DKK.&lt;/P&gt;
+</epo:hasDescription>
+        <epo:hasAdditionalInformation xml:lang="da">
+&lt;P&gt;Ansøgning om prækvalifikation kan kun ske via ESPD (udbudsdokument) som ligger på HOFOR.dk hjemmeside. Linket til hvor udbudsdokumenter findes, er angivet i starten af bekendtgørelsen. Prækvalifikationsmaterialet skal indleveres i 2 eksemplarer i papirformat samt 1 eksemplar i elektronisk format på USB-nøgle.&lt;/P&gt;
+</epo:hasAdditionalInformation>
+      </epo:Lot>
+    </epo:isUsedToAward>
+    <epo:hasAwardCriterionType rdf:resource="http://publications.europa.eu/resource/authority/award-criterion-type/price"/>
+  </epo:AwardCriterion>
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#Reviewer120c3271-5d6d-42e1-88be-b9cd0827a3e2">
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-035-055509#Procedure4d029910-0872-423f-b217-11b7267ea7d9"/>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#ContactPointReviewBody709d42a2-d237-4280-89a5-e83c630a11a6">
+        <epo:hasEmail>klfu@erst.dk</epo:hasEmail>
+      </epo:ContactPoint>
+    </epo:has>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#OrganisationReviewBody5206af19-783b-4b75-9a04-25ce9e5ba355">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#LocationReviewBodyfb9071c0-1aa0-4f0a-913b-945d764dade5">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#AddressReviewBodyc2d270ee-77b9-4bbf-8977-62aef5ed748a">
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/DNK"/>
+                <epo:hasStreetName>Dahlerups Pakhus, Langelinie Allé 17</epo:hasStreetName>
+                <epo:hasCityName>København Ø</epo:hasCityName>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="da">Klagenævnet for Udbud</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+  </epo:Reviewer>
+  <epo:ProcurementServiceProvider rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#ProcurementServiceProviderCompbd190a6b-1fc0-4726-940f-50f8ca8c2bb0">
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2016/s-035-055509#Procedure4d029910-0872-423f-b217-11b7267ea7d9"/>
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-035-055509#Procedure4d029910-0872-423f-b217-11b7267ea7d9"/>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#ContactPointReviewInfoe75b0fbf-bd0d-4a32-b27a-2dd68dbb901f"/>
+    </epo:has>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#OrganisationReviewInfocbe07839-0168-4838-bdce-7c4fa8a6b13c">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#LocationReviewInfoc0cad3aa-75ae-40ca-ae04-420957ba6890">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-035-055509#AddressReviewInfo2568cfd9-7ea8-4e6b-a392-7411f21a59f3">
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/DNK"/>
+                <epo:hasPostalZone>2500</epo:hasPostalZone>
+                <epo:hasStreetName>Carl Jacobsens Vej 35</epo:hasStreetName>
+                <epo:hasCityName>Valby</epo:hasCityName>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="da">Konkurrence- og Forbrugerstyrelsen</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+  </epo:ProcurementServiceProvider>
+</rdf:RDF>

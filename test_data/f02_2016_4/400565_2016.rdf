@@ -1,0 +1,273 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#Reviewere83d2b83-fc95-4873-9422-0231be07878b">
+    <reg2015:isInvolvedIn>
+      <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#Procedure91aeec00-3607-40a1-a53a-c150687fe6ff">
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#SelectionCriterionSuitability319ae216-82ab-40e2-9173-7ff540171e96">
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;— lettre de candidature (imprimé DC1 disponible sur http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat ou équivalent) comportant l'ensemble des indications permettant d'identifier le candidat ou l'ensemble des membres du groupement en cas de réponse en groupement,&lt;/P&gt;
+&lt;P&gt;— une déclaration sur l'honneur signée attestant que le candidat ne fait pas l'objet d'une des interdictions de soumissionner telles que définies aux articles 45 et 48 de l'ordonnance du 23.7.2015 et qu'il est en règle au regard des articles L 1512-1 à L 1512-11 du code du travail concernant l'emploi des travailleurs handicapés,&lt;/P&gt;
+&lt;P&gt;— le candidat en redressement judiciaire devra produire copie du ou des jugements prononcés à cet effet,&lt;/P&gt;
+&lt;P&gt;— adresse électronique valide, à laquelle le Grand port maritime de Dunkerque pourra lui transmettre les éléments actualisés en cas de modification de la consultation.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/sui-act"/>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Les travaux consistent principalement à:&lt;/P&gt;
+&lt;P&gt;— réaliser une rampe et une piste d'accès au pied de la digue depuis l'Est de l'ouvrage,&lt;/P&gt;
+&lt;P&gt;— mettre en place, avant et après période estivale, un rideau de palplanches métalliques en pied de digue sur un linéaire de 850 m, côté canal exutoire, pour assurer la stabilité au grand glissement de la digue vis-à-vis des aléas sismiques,&lt;/P&gt;
+&lt;P&gt;— créer un dispositif de filtration des écoulements de ressuage lors du marnage du canal exutoire pour éviter les pertes de matériaux sur un linéaire de 850 m,&lt;/P&gt;
+&lt;P&gt;— restaurer le parement du talus aval de la digue pour pérenniser ses fonctions,&lt;/P&gt;
+&lt;P&gt;— restaurer les éléments en béton armé de crête de la digue,&lt;/P&gt;
+&lt;P&gt;— fournir et poser des supports de prisme d'auscultation topographique et fournir 2 prismes adaptés à ces supports.&lt;/P&gt;
+</epo:hasDescription>
+        <epo:isResponsibilityOf>
+          <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#Buyer94b3da9a-3085-4d5d-8507-af5620f3dbaa">
+            <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400565#Procedure91aeec00-3607-40a1-a53a-c150687fe6ff"/>
+            <epo:isRoleOf>
+              <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#Organisation82cdc6b2-b723-426b-a64b-a9ada39e66da">
+                <epo:hasLocation>
+                  <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#Location729694b0-8133-4c51-84fd-301d98b7cc34">
+                    <epo:hasPostalAddress>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#Address8efe176b-5363-43d1-bb0d-633871471b2f">
+                        <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                        <epo:hasPostalZone>59386</epo:hasPostalZone>
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR301"/>
+                        <epo:hasStreetName>port 2505 — 2505 route de l'Écluse Trystram — BP 46534</epo:hasStreetName>
+                        <epo:hasCityName>Dunkerque Cedex 01</epo:hasCityName>
+                      </epo:Address>
+                    </epo:hasPostalAddress>
+                  </epo:Location>
+                </epo:hasLocation>
+                <epo:hasName xml:lang="fr">Grand port maritime de Dunkerque</epo:hasName>
+              </epo:Organisation>
+            </epo:isRoleOf>
+            <epo:has>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#ContactPointa9aaa6bb-4611-4399-98b6-bda90af3712c">
+                <epo:hasTelephone>+33 328287662</epo:hasTelephone>
+                <epo:hasFax>+33 3328287657</epo:hasFax>
+                <epo:hasInternetAddress>http://www.dunkerque-port.fr</epo:hasInternetAddress>
+                <epo:hasEmail>agroux@portdedunkerque.fr</epo:hasEmail>
+              </epo:ContactPoint>
+            </epo:has>
+            <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400565#Procedure91aeec00-3607-40a1-a53a-c150687fe6ff"/>
+          </epo:Buyer>
+        </epo:isResponsibilityOf>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#Lote452c100-2ddd-431c-8bff-8d5c205d9156">
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#ContractTermLot63750b19-0d22-4151-96b7-c1307bbf9ddd">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#ObjectContractAddress6463de5d-9fb4-4bfe-a865-e86c13a4dcea">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR301"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasRenewalIndicator>false</epo:hasRenewalIndicator>
+                <epo:hasPlaceOfPerformanceAdditionalInformation
+                 xml:lang="fr">
+&lt;P&gt;Grand port maritime de Dunkerque.&lt;/P&gt;
+</epo:hasPlaceOfPerformanceAdditionalInformation>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#PurposeAdditional1d617708-48ce-4bd1-bcb8-4c1c18a4d705">
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/45262330"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#PeriodDuration26295df8-5869-4c84-a636-92ca7ae5a8e5">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#Measure791fb01e-7722-4f4d-a47b-9113bb326666">
+                    <ccts:hasMeasureValue>18</ccts:hasMeasureValue>
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400565#Procedure91aeec00-3607-40a1-a53a-c150687fe6ff"/>
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Le présent marché est divisé en une tranche ferme et une tranche optionnelle.&lt;/P&gt;
+&lt;P&gt;L'ensemble des travaux sont compris dans la tranche ferme.&lt;/P&gt;
+&lt;P&gt;La tranche optionnelle intègre uniquement les conséquences des incidences suite au décalage temporel de la réalisation des travaux de la tranche ferme du fait des contraintes de l'arrêté préfectoral complémentaire à savoir:&lt;/P&gt;
+&lt;P&gt;— la réalisation d'une piste d'accès provisoire d'environ 300 m linéaire en pied de digue permettant l'acheminement des matériels et matériaux à la zone de 1949,&lt;/P&gt;
+&lt;P&gt;— les frais d'immobilisation et de remobilisation du matériel de battage.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+          </epo:Lot>
+        </epo:specifies>
+        <reg2015:hasGPAUsage>true</reg2015:hasGPAUsage>
+        <epo:hasTitle xml:lang="fr">
+&lt;P&gt;Travaux de réparation de la digue des alliés.&lt;/P&gt;
+</epo:hasTitle>
+        <epo:hasProcedureType rdf:resource="http://publications.europa.eu/resource/authority/procurement-procedure-type/open"/>
+        <epo:uses>
+          <epo:AccessTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#AccessTermsFulld574666c-dcc2-41e2-80bb-9c690898459b">
+            <epo:hasProcurementDocumentLandingPage>http://www.dunkerque-port.fr</epo:hasProcurementDocumentLandingPage>
+          </epo:AccessTerm>
+        </epo:uses>
+        <epo:notifies>
+          <epo:ContractNotice rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#ContractNoticefd1bf5e8-3b44-4f5c-b440-127d0441b5a5">
+            <epo:notifies rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400565#Procedure91aeec00-3607-40a1-a53a-c150687fe6ff"/>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#ContractNoticeIde1c89bdd-6e1d-40e0-88c7-4c39db1a8358">
+                <epo:hasIdentifierValue>2016/S 220-400565</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:isMadeAvailableVia>
+              <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#ChannelCN0750b761-fede-463e-87f2-52bf3aacee68">
+                <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:400565-2016:TEXT:FR:HTML</epo:hasURL>
+              </epo:Channel>
+            </epo:isMadeAvailableVia>
+            <epo:hasPublicationDate>2016-11-15</epo:hasPublicationDate>
+            <epo:hasRecurrence>false</epo:hasRecurrence>
+            <epo:hasDispatchDate>2016-11-10</epo:hasDispatchDate>
+            <skos:editorialNote>Please note that some elements from the F02 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+CONTRACTING_BODY/ADDRESS_PARTICIPATION/URL_BUYER 
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE 
+OBJECT_CONTRACT/LOT_DIVISION 
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE 
+OBJECT_CONTRACT/OBJECT_DESCR/AC/AC_PROCUREMENT_DOC 
+OBJECT_CONTRACT/OBJECT_DESCR/NB_ENVISAGED_CANDIDATE 
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MIN_LIMIT_CANDIDATE 
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MAX_LIMIT_CANDIDATE 
+OBJECT_CONTRACT/OBJECT_DESCR/CRITERIA_CANDIDATE 
+LEFTI/PARTICULAR_PROFESSION 
+LEFTI/REFERENCE_TO_LAW 
+PROCEDURE/FRAMEWORK/SINGLE_OPERATOR 
+PROCEDURE/FRAMEWORK/SEVERAL_OPERATORS 
+PROCEDURE/FRAMEWORK/NB_PARTICIPANTS</skos:editorialNote>
+          </epo:ContractNotice>
+        </epo:notifies>
+        <reg2015:hasBuyerMainActivityDescription xml:lang="fr"
+        >EPIC</reg2015:hasBuyerMainActivityDescription>
+        <reg2015:applies>
+          <epo:OpeningTerm rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#OpeningTermcb22e3c4-2781-442c-9d68-decc4e1ab1b7">
+            <epo:hasOpeningDateTime>2016-12-20+10:00</epo:hasOpeningDateTime>
+          </epo:OpeningTerm>
+        </reg2015:applies>
+        <reg2015:hasBuyerLegalType rdf:resource="http://publications.europa.eu/resource/authority/buyer-legal-type/body-pl"/>
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#SelectionCriterionTechnical2bb064d9-5458-46d3-ae7f-692ac2a4bcf8">
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;— une liste des travaux exécutés au cours des 5 dernières années, assortie d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, la date et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin,&lt;/P&gt;
+&lt;P&gt;— une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les 3 dernières années,&lt;/P&gt;
+&lt;P&gt;— une description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/tp-abil"/>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#ProcedureIdd4bc022d-ff5b-4979-b8e3-62719a753a0e">
+            <epo:hasIdentifierValue>16AMO002</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+        <epo:hasOverallPurpose>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#Purposec466b007-50cf-45bc-aef9-0eacf4e3c7db">
+            <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/works"/>
+            <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/45262330"/>
+          </epo:Purpose>
+        </epo:hasOverallPurpose>
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#SelectionCriterionEconomic0ee25e79-0845-4e64-affc-645d31c4c407">
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;— déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les 3 derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles. Si pour une raison justifiée, le candidat n'est pas en mesure de produire les renseignements et documents demandés, il pourra prouver sa capacité économique et financière par tout autre moyen considéré comme approprié par le GPMD,&lt;/P&gt;
+&lt;P&gt;— l'attestation d'assurance responsabilité civile professionnelle en cours de validité.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/ef-stand"/>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+      </epo:Procedure>
+    </reg2015:isInvolvedIn>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#OrganisationReviewBodycbe6a0c5-8380-4fdf-808a-c0d778597d5d">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#LocationReviewBody76fac627-359d-4981-9d44-f714450d513a">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#AddressReviewBody8281c04e-0a76-4ebe-bd86-d5513b8312ef">
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                <epo:hasPostalZone>59014</epo:hasPostalZone>
+                <epo:hasStreetName>143 rue Jacquemars Giélée — BP 2039</epo:hasStreetName>
+                <epo:hasCityName>Lille Cedex</epo:hasCityName>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="fr">Tribunal administratif de Lille</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#ContactPointReviewBodydeab6480-fe3d-4859-835b-4bfc3628156a">
+        <epo:hasTelephone>+33 320631300</epo:hasTelephone>
+        <epo:hasFax>+33 320631347</epo:hasFax>
+        <epo:hasEmail>greffe.talille@juradm.fr</epo:hasEmail>
+      </epo:ContactPoint>
+    </epo:has>
+  </epo:Reviewer>
+  <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#ChannelSubmission25f671f7-fc95-4f61-b291-073129ce4d48">
+    <epo:hasURL>http://www.dunkerque-port.fr</epo:hasURL>
+  </epo:Channel>
+  <epo:ProcurementServiceProvider rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#ProcurementServiceProvider1e2635a7-2d40-4985-8708-0ef29be3386b">
+    <reg2015:providesAdditionalInformationAboutProcurementProcedure rdf:resource="http://data.europa.eu/a4g/resource/2016/s-220-400565#Procedure91aeec00-3607-40a1-a53a-c150687fe6ff"/>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#OrganisationPSP4e437a65-defa-4070-af5e-86e6ed4b6924">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#LocationPSP5b60e45f-1dd8-4d2e-a8d4-6ca9f1ca6f90">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#AddressPSP2cbd2e92-96f8-49f4-9a9a-bbbabd4a7341">
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                <epo:hasPostalZone>59386</epo:hasPostalZone>
+                <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR301"/>
+                <epo:hasStreetName>port 2505 — 2505 route de l'Écluse Trystram</epo:hasStreetName>
+                <epo:hasCityName>Dunkerque Cedex 01</epo:hasCityName>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="fr">Grand port maritime de Dunkerque — Département AMO</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#ContactPointPSPffd77b0d-3127-4f6d-8b7a-4a3313cd387e">
+        <epo:hasTelephone>+33 328287446</epo:hasTelephone>
+        <epo:hasInternetAddress>http://www.dunkerque-port.fr</epo:hasInternetAddress>
+        <epo:hasEmail>moubarikia@portdedunkerque.fr</epo:hasEmail>
+      </epo:ContactPoint>
+    </epo:has>
+  </epo:ProcurementServiceProvider>
+  <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#OrganisationReviewInfo09015689-b6ad-4af2-825a-66528f97ca7e">
+    <epo:hasLocation>
+      <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#LocationReviewInfo16a25d7e-7566-47f7-900d-bc48cc1b1d98">
+        <epo:hasPostalAddress>
+          <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#AddressReviewInfo6f16ab3a-f3a5-4c99-abf6-73bc6dea2c5d">
+            <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+            <epo:hasPostalZone>59386</epo:hasPostalZone>
+            <epo:hasStreetName>port 2505 — 2505 route de l'Écluse Trystram — BP 46534</epo:hasStreetName>
+            <epo:hasCityName>Dunkerque Cedex 01</epo:hasCityName>
+          </epo:Address>
+        </epo:hasPostalAddress>
+      </epo:Location>
+    </epo:hasLocation>
+    <epo:hasName xml:lang="fr">Grand port maritime de Dunkerque</epo:hasName>
+  </epo:Organisation>
+  <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2016/s-220-400565#ContactPointReviewInfo75adf543-8330-4f2a-b427-b9703041f3cc">
+    <epo:hasFax>+33 328287657</epo:hasFax>
+    <epo:hasEmail>achatsmarches@portdedunkerque.fr</epo:hasEmail>
+  </epo:ContactPoint>
+</rdf:RDF>

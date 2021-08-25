@@ -1,0 +1,313 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#AwardCriterionQualityS0176770500-190d-4889-aed1-1a6bc8c471a6">
+    <epo:isUsedToAward>
+      <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#Lot39531225-4cbc-488f-888f-4fc0c3289daa">
+        <epo:hasContractDuration>
+          <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#PeriodDurationadc12105-57b5-4475-a007-ceb524231203">
+            <epo:hasDurationMeasure>
+              <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#Measure8f76a7a5-8e60-483d-bc14-ed717e58d07f">
+                <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                <ccts:hasMeasureValue>180</ccts:hasMeasureValue>
+              </ccts:Measure>
+            </epo:hasDurationMeasure>
+          </epo:Period>
+        </epo:hasContractDuration>
+        <epo:hasEstimatedUserConcessionRevenue>
+          <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#EstimatedUserConcessionRevenuedfc78282-8403-4b4d-8d3d-f0abc9cb6c7d">
+            <epo:hasOverallAmount>
+              <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#EstimatedUserConcessionRevenueAmounte9db2883-0289-4f87-a801-23f96cddcf22">
+                <ccts:hasAmountValue>10692422</ccts:hasAmountValue>
+                <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+              </ccts:Amount>
+            </epo:hasOverallAmount>
+            <epo:hasVATIncludedIndicator>false</epo:hasVATIncludedIndicator>
+          </epo:Value>
+        </epo:hasEstimatedUserConcessionRevenue>
+        <epo:isSpecifiedIn>
+          <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#Procedure3996349b-cc48-48d1-8107-8c2ab821b4e8">
+            <reg2015:hasAdditionalInformation xml:lang="fr">
+&lt;P&gt;La procédure est passée en application des articles L 1411-1 et suivants, R 1411-1 et suivants et D 1411-3 à D 1411-5 du code général des collectivités territoriales (CGCT).&lt;/P&gt;
+</reg2015:hasAdditionalInformation>
+            <epo:hasOverallPurpose>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#Purposefa77731c-dd52-43ed-9f53-f1c83c7aa364">
+                <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/90400000"/>
+                <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/services"/>
+              </epo:Purpose>
+            </epo:hasOverallPurpose>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#Valuee84e957a-4564-4b50-8593-4b24f0a75833">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#Amount416ef3fb-96cd-4590-b038-95766e45f736">
+                    <ccts:hasAmountValue>9000000</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <reg2015:hasBuyerMainActivityDescription xml:lang="fr"
+            >Assainissement des eaux usées</reg2015:hasBuyerMainActivityDescription>
+            <epo:hasTotalValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#ValueTotal6603ff61-60a1-43b6-98a0-5cba56703a81">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#AmountTotal754234bb-cebd-4c24-b978-86f9a74e354b">
+                    <ccts:hasAmountValue>10692422</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasTotalValue>
+            <epo:isResponsibilityOf>
+              <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#Buyer6aa245eb-e99f-40a8-9779-9f19b8a36b78">
+                <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2017/s-001-000934#Procedure3996349b-cc48-48d1-8107-8c2ab821b4e8"/>
+                <epo:has>
+                  <epo:BuyerProfile rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#BuyerProfile08db11f8-2bc2-4c1c-8f80-1f228a15b28c">
+                    <epo:hasURL>http://www.avispublicsdebretagne.com</epo:hasURL>
+                  </epo:BuyerProfile>
+                </epo:has>
+                <epo:has>
+                  <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#ContactPointf5c32361-3986-4a72-8fa3-02562e7b78eb">
+                    <epo:hasEmail>landivisiau@ville-landivisiau.fr</epo:hasEmail>
+                    <epo:hasInternetAddress>http://www.landivisiau.fr</epo:hasInternetAddress>
+                    <epo:hasDescription xml:lang="fr">Marie Lemoine</epo:hasDescription>
+                  </epo:ContactPoint>
+                </epo:has>
+                <epo:isRoleOf>
+                  <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#Organisation92456095-d4f4-489f-af82-bcd09b6510af">
+                    <epo:hasLocation>
+                      <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#Location859bf2a3-b2e9-43c2-84ec-584494abce79">
+                        <epo:hasPostalAddress>
+                          <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#Address302b74b4-453a-45df-ad22-c7525c4b7981">
+                            <epo:hasCityName>Landivisiau Cedex</epo:hasCityName>
+                            <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR522"/>
+                            <epo:hasStreetName>Hôtel de Ville, 19 rue Georges Clemenceau, CS 90609</epo:hasStreetName>
+                            <epo:hasPostalZone>29406</epo:hasPostalZone>
+                            <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                          </epo:Address>
+                        </epo:hasPostalAddress>
+                      </epo:Location>
+                    </epo:hasLocation>
+                    <epo:hasName xml:lang="fr">SI assainissement Landivisiau Lampaul</epo:hasName>
+                  </epo:Organisation>
+                </epo:isRoleOf>
+              </epo:Buyer>
+            </epo:isResponsibilityOf>
+            <epo:leadsTo>
+              <epo:Contract rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#Contract2ac1cab9-2a7d-41ad-9ee6-852da47b195f">
+                <epo:refersTo rdf:resource="http://data.europa.eu/a4g/resource/2017/s-001-000934#Lot39531225-4cbc-488f-888f-4fc0c3289daa"/>
+                <epo:hasProcurementValue>
+                  <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#TotalValueValTotalOldc009e413-03d2-4ff9-98e8-647bb52188e5">
+                    <epo:hasOverallAmount>
+                      <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#ValueAwardedAmountOld579bf810-c090-425d-8c93-78050083bc8a">
+                        <ccts:hasAmountValue>10692422</ccts:hasAmountValue>
+                        <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                      </ccts:Amount>
+                    </epo:hasOverallAmount>
+                    <epo:hasVATIncludedIndicator>false</epo:hasVATIncludedIndicator>
+                  </epo:Value>
+                </epo:hasProcurementValue>
+              </epo:Contract>
+            </epo:leadsTo>
+            <epo:hasDescription xml:lang="fr">
+&lt;P&gt;4 900 usagers, assiette facturation: 549 000 m&lt;FT TYPE="SUP"&gt;3&lt;/FT&gt; — lieu d'exécution: territoire du syndicat — 1 station boues activées: 39 000 ÉQH — 87 km de réseaux gravitaires en séparatifs, 5.5 km de réseaux de refoulement, 14 postes de relèvement.&lt;/P&gt;
+</epo:hasDescription>
+            <epo:hasTitle xml:lang="fr">
+&lt;P&gt;Concession (délégation) du service public d'assainissement collectif.&lt;/P&gt;
+</epo:hasTitle>
+            <epo:specifies rdf:resource="http://data.europa.eu/a4g/resource/2017/s-001-000934#Lot39531225-4cbc-488f-888f-4fc0c3289daa"/>
+            <reg2015:hasBuyerLegalType rdf:resource="http://publications.europa.eu/resource/authority/buyer-legal-type/cga"/>
+            <reg2015:applies>
+              <epo:ReviewTerm rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#ReviewTermsd6604fe4-7a48-4b54-a867-042a1fc1f111">
+                <epo:hasReviewProcedure xml:lang="fr">
+&lt;P&gt;2 mois.&lt;/P&gt;
+</epo:hasReviewProcedure>
+              </epo:ReviewTerm>
+            </reg2015:applies>
+          </epo:Procedure>
+        </epo:isSpecifiedIn>
+        <epo:has>
+          <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#ContractTermLotef6a884b-dc73-4026-8d2e-05947d5b136c">
+            <epo:hasSpecificPlaceOfPerformance>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#ObjectContractAddressb5acc9bf-7585-4604-9668-cc91a85678a5">
+                <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR522"/>
+              </epo:Address>
+            </epo:hasSpecificPlaceOfPerformance>
+            <epo:hasPlaceOfPerformanceAdditionalInformation xml:lang="fr"
+            >
+&lt;P&gt;Siall.&lt;/P&gt;
+</epo:hasPlaceOfPerformanceAdditionalInformation>
+          </epo:ContractTerm>
+        </epo:has>
+        <epo:has>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#PurposeAdditionalc32bee53-9236-4c5f-abe7-da1689a98a61">
+            <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90400000"/>
+          </epo:Purpose>
+        </epo:has>
+        <epo:providesAdditionalInformation>
+          <epo:StatisticalInformation rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#StatisticalInformation5fa93121-72ca-4235-84dd-de694bd6f2cc">
+            <epo:hasReceivedSMETenderLots>0</epo:hasReceivedSMETenderLots>
+            <epo:ElectronicTendersLots>0</epo:ElectronicTendersLots>
+            <epo:hasReceivedTenderLots>2</epo:hasReceivedTenderLots>
+          </epo:StatisticalInformation>
+        </epo:providesAdditionalInformation>
+        <epo:hasDescription xml:lang="fr">
+&lt;P&gt;Gestion des ouvrages et équipements de collecte et de traitement des eaux usées, gestion des boues et sous produits, autosurveillance, entretien et renouvellement, gestion clientèle, facturation, permanence de service. Le concessionnaire sera rémunéré auprès des abonnés. Mise à jour des plans de réseaux et inventaires du patrimoine. Rédaction des comptes rendus de gestion conformément aux dispositions légales et réglementaires. Petits travaux de réhabilitation de réseaux.&lt;/P&gt;
+</epo:hasDescription>
+      </epo:Lot>
+    </epo:isUsedToAward>
+    <epo:hasName xml:lang="fr">Astreinte et réaction face aux situations d'urgence</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:AwardDecision rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#AwardDecision61554178-7f91-495b-b260-885a98c88ce1">
+    <epo:isReferedByA rdf:resource="http://data.europa.eu/a4g/resource/2017/s-001-000934#Contract2ac1cab9-2a7d-41ad-9ee6-852da47b195f"/>
+    <epo:refersTo rdf:resource="http://data.europa.eu/a4g/resource/2017/s-001-000934#Lot39531225-4cbc-488f-888f-4fc0c3289daa"/>
+    <epo:has>
+      <epo:Winner rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#WinnerNoGroup8f468bf9-4190-43db-83b2-c96130101255">
+        <epo:isRoleOf>
+          <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#WinnerOrganisationNoAwardedGroupOld48612eae-c382-4062-b078-d6056a1f524f">
+            <epo:hasLocation>
+              <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#WinnerLocationNoAwardedToGroupOld671e826c-8a87-4922-b7b7-a52be13845ae">
+                <epo:hasPostalAddress>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#WinnerAddressNoAwardedGroupOld320eca12-2ce2-4603-9f7d-a744700818b3">
+                    <epo:hasCityName>Issy-les-Moulineaux</epo:hasCityName>
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR"/>
+                    <epo:hasStreetName>11 chemin de Bretagne</epo:hasStreetName>
+                    <epo:hasPostalZone>92130</epo:hasPostalZone>
+                    <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                  </epo:Address>
+                </epo:hasPostalAddress>
+              </epo:Location>
+            </epo:hasLocation>
+            <epo:hasName xml:lang="fr">Saur</epo:hasName>
+          </epo:Organisation>
+        </epo:isRoleOf>
+      </epo:Winner>
+    </epo:has>
+    <epo:hasAwardStatus rdf:resource="http://publications.europa.eu/resource/authority/winner-selection-status/selec-w"/>
+    <epo:hasAwardDecisionDate>2016-12-07</epo:hasAwardDecisionDate>
+  </epo:AwardDecision>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#AwardCriterionQualityS0128d51021-faa8-4eb1-9630-b529f6a4ea2c">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2017/s-001-000934#Lot39531225-4cbc-488f-888f-4fc0c3289daa"/>
+    <epo:hasName xml:lang="fr">Proposition financière: cohérence et justification du prix proposé et de la formule d'actualisation au regard du compte d'exploitation prévisionnel, produits prévisionnels du délégataire</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#AwardCriterionQualityS011ddcb838-aed2-434f-be28-9e6905ea6a33">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2017/s-001-000934#Lot39531225-4cbc-488f-888f-4fc0c3289daa"/>
+    <epo:hasName xml:lang="fr">Qualité du service aux abonnés: délais de réponse et d'intervention; modalité de paiement des factures, communication</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:ContractAwardNotice rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#ContractAwardNoticed9fe39c4-98f4-459d-856b-8f6da08640d6">
+    <epo:relatesTo rdf:resource="http://data.europa.eu/a4g/resource/2017/s-001-000934#Procedure3996349b-cc48-48d1-8107-8c2ab821b4e8"/>
+    <epo:hasDispatchDate>2016-12-30</epo:hasDispatchDate>
+    <epo:isMadeAvailableVia>
+      <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#ChannelCN3958f1b4-7a21-4d10-8887-c6719e81e640">
+        <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:000934-2017:TEXT:FR:HTML</epo:hasURL>
+      </epo:Channel>
+    </epo:isMadeAvailableVia>
+    <epo:refersToPrevious>
+      <epo:Notice rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#PrevNotice59c505b7-358d-462d-af43-509cb6218be1">
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#PrevNoticeId88b5e264-71d4-4056-b6e5-f73fe5ee7b63">
+            <epo:hasIdentifierValue>2016/S 114-202841</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+      </epo:Notice>
+    </epo:refersToPrevious>
+    <epo:refersToPrevious>
+      <epo:Notice rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#PreviousNotice5fb80299-714a-4c93-b865-c4d8fba1e91a">
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#NoticeIdb0837603-1c2a-488b-8fd4-afad66778988">
+            <epo:hasIdentifierValue>2016/S 114-202841</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+      </epo:Notice>
+    </epo:refersToPrevious>
+    <skos:editorialNote>Please note that some elements from the F25 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/LOT_DIVISION
+OBJECT_CONTRACT/NO_LOT_DIVISION
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/OBJECT_DESCR/NO_EU_PROGR_RELATED
+PROCEDURE/PT_AWARD_CONTRACT_WITH_PRIOR_PUBLICATION
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_ENOTICES
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_TED_ESENDER
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ESENDER_LOGIN
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/CUSTOMER_LOGIN
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/NO_DOC_EXT
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_OTHER_MEANS
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/DATE_DISPATCH_ORIGINAL
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_UNSUCCESSFUL
+AWARD_CONTRACT/AWARDED_CONTRACT/TENDERS/NB_TENDERS_RECEIVED_OTHER_EU
+AWARD_CONTRACT/AWARDED_CONTRACT/TENDERS/NB_TENDERS_RECEIVED_NON_EU
+AWARD_CONTRACT/AWARDED_CONTRACT/CONTRACTORS/NO_AWARDED_TO_GROUP
+PROCEDURE/PT_AWARD_CONTRACT_WITHOUT_PUBLICATION/D_OUTSIDE_SCOPE</skos:editorialNote>
+    <epo:summarises rdf:resource="http://data.europa.eu/a4g/resource/2017/s-001-000934#Procedure3996349b-cc48-48d1-8107-8c2ab821b4e8"/>
+    <epo:hasID>
+      <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#ContractAwardNoticeId45cd01cd-8d6d-44d8-b9e2-7084fcb03aa0">
+        <epo:hasIdentifierValue>2017/S 001-000934</epo:hasIdentifierValue>
+      </epo:Identifier>
+    </epo:hasID>
+    <epo:hasPublicationDate>2017-01-03</epo:hasPublicationDate>
+  </epo:ContractAwardNotice>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#AwardCriterionQualityS01b75156a8-172f-4999-928e-98a2c69949ce">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2017/s-001-000934#Lot39531225-4cbc-488f-888f-4fc0c3289daa"/>
+    <epo:hasName xml:lang="fr">Valeur technique de l'offre, appréciée au regard des informations contenues dans le mémoire méthodologique</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#Reviewerfe51d40a-17dd-44f3-9de0-3edc5e924971">
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#ContactPointReviewBody604f2824-36fc-4c34-a039-8bb2376793d6"/>
+    </epo:has>
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2017/s-001-000934#Procedure3996349b-cc48-48d1-8107-8c2ab821b4e8"/>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#OrganisationReviewBodyfb0fcd56-f9da-4650-8b1f-ef75bf05ef83">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#LocationReviewBody836adc12-15d8-4cf2-b630-af4bd88fc3e8">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#AddressReviewBody654c83df-3df5-43b0-9a03-8a74fdf8572f">
+                <epo:hasCityName>Rennes</epo:hasCityName>
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="fr">Tribunal administratif de Rennes</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2017/s-001-000934#Procedure3996349b-cc48-48d1-8107-8c2ab821b4e8"/>
+  </epo:Reviewer>
+  <epo:Mediator rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#Mediator6ddaf6be-dd5c-435e-8ad6-73ec8e96e7df">
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#ContactPointMediationc88f287b-2444-45fc-98f9-1d71905a9d4b"/>
+    </epo:has>
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2017/s-001-000934#Procedure3996349b-cc48-48d1-8107-8c2ab821b4e8"/>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#OrganisationMediation6c650e4d-10d2-4858-960e-a7e6501c8c84">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#LocationMediationc4645ff8-cb3e-41be-95c7-81e8ebcebbc2">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2017/s-001-000934#AddressMediation116f9e3e-9b72-40aa-945f-0d1e644ca4f5">
+                <epo:hasCityName>Nantes</epo:hasCityName>
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="fr">Tribunal administratif de Nantes</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+  </epo:Mediator>
+</rdf:RDF>

@@ -1,0 +1,389 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:AwardDecision rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#AwardDecisiond3ff1173-7d1d-4afa-a0d2-dd13750a0d7a">
+    <epo:refersTo>
+      <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Lotfdd3223f-180a-4500-93a3-c14e76d4230b">
+        <epo:isSpecifiedIn>
+          <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Procedure79e7bdb6-2c43-4b42-968b-1c9e0b26430a">
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#ProcedureIdefb16c1f-052d-4dd9-9c1b-283275ded216">
+                <epo:hasIdentifierValue>MF19-016</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:specifies>
+              <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Lote181cc90-d224-4dd6-8da6-e073811636e6">
+                <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Procedure79e7bdb6-2c43-4b42-968b-1c9e0b26430a"/>
+                <epo:hasContractDuration>
+                  <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#PeriodDuratione1ada934-f363-4983-88ac-32d43f08bd53">
+                    <epo:hasDurationMeasure>
+                      <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Measurefa30547b-c49e-4c5c-a91c-aa27058a5f1c">
+                        <ccts:hasMeasureValue>96</ccts:hasMeasureValue>
+                        <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                      </ccts:Measure>
+                    </epo:hasDurationMeasure>
+                  </epo:Period>
+                </epo:hasContractDuration>
+                <epo:hasID>
+                  <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#LotId68583899-14f7-4b8a-81cb-310e95f240bc">
+                    <epo:hasIdentifierValue>1</epo:hasIdentifierValue>
+                  </epo:Identifier>
+                </epo:hasID>
+                <epo:has>
+                  <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#ContractTermLote56b4cda-bea2-4504-8e70-c157c035eb73">
+                    <epo:hasSpecificPlaceOfPerformance>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#ObjectContractAddress499bfcc1-1c6c-4620-99da-b668182f780d">
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FRY10"/>
+                      </epo:Address>
+                    </epo:hasSpecificPlaceOfPerformance>
+                    <epo:hasPlaceOfPerformanceAdditionalInformation
+                     xml:lang="fr">&lt;P&gt;Nord Grande-Terre.&lt;/P&gt;</epo:hasPlaceOfPerformanceAdditionalInformation>
+                  </epo:ContractTerm>
+                </epo:has>
+                <epo:has>
+                  <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#PurposeAdditional8f74953d-3cc9-48f2-9b83-4c2c6cd0091c">
+                    <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/60112000"/>
+                  </epo:Purpose>
+                </epo:has>
+                <epo:hasDescription xml:lang="fr">&lt;P&gt;Ligne 11 Anse-Bertrand pointe à pitre via les Mangles, ligne 12 Anse-Bertrand — port Louis-Pointe à Pitre, ligne 13 a Le Moule-Pointe à Pitre, ligne 13 b Saint-François-Pointe à Pitre via Le Moule, amplitude variable le plus souvent du lundi au dimanche premier départ entre 4:30 et 5:00; dernier départ entre 19:00 et 20:00.&lt;/P&gt;</epo:hasDescription>
+                <epo:hasTitle xml:lang="fr">&lt;P&gt;Désserte Nord Grande-Terre&lt;/P&gt;</epo:hasTitle>
+              </epo:Lot>
+            </epo:specifies>
+            <reg2015:hasBuyerLegalType rdf:resource="http://publications.europa.eu/resource/authority/buyer-legal-type/rl-aut"/>
+            <epo:specifies rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Lotfdd3223f-180a-4500-93a3-c14e76d4230b"/>
+            <epo:specifies>
+              <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Lotd2e33bd0-20a2-4c7f-94bc-79d7fbb71727">
+                <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Procedure79e7bdb6-2c43-4b42-968b-1c9e0b26430a"/>
+                <epo:hasContractDuration>
+                  <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#PeriodDurationc05bc498-bbcf-4e4c-9823-566047a2f0c2">
+                    <epo:hasDurationMeasure>
+                      <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Measurec58f939e-b923-4723-b371-08634529c940">
+                        <ccts:hasMeasureValue>96</ccts:hasMeasureValue>
+                        <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                      </ccts:Measure>
+                    </epo:hasDurationMeasure>
+                  </epo:Period>
+                </epo:hasContractDuration>
+                <epo:hasID>
+                  <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#LotId08abb1ac-9263-47eb-893e-5f7b91d28252">
+                    <epo:hasIdentifierValue>3</epo:hasIdentifierValue>
+                  </epo:Identifier>
+                </epo:hasID>
+                <epo:has>
+                  <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#ContractTermLot1e8adced-27af-4766-ba8f-e6168908efce">
+                    <epo:hasSpecificPlaceOfPerformance>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#ObjectContractAddressf0d68d81-6234-4872-9362-5ababcc6f71f">
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FRY10"/>
+                      </epo:Address>
+                    </epo:hasSpecificPlaceOfPerformance>
+                    <epo:hasPlaceOfPerformanceAdditionalInformation
+                     xml:lang="fr">&lt;P&gt;Communes de la Côte sous le Vent, Pointe Noire, Pointe à Pitre, Deshaies, Basse-Terre.&lt;/P&gt;</epo:hasPlaceOfPerformanceAdditionalInformation>
+                  </epo:ContractTerm>
+                </epo:has>
+                <epo:has>
+                  <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#PurposeAdditional2568627a-68af-4778-a8bb-81d482b9eef4">
+                    <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/60112000"/>
+                  </epo:Purpose>
+                </epo:has>
+                <epo:hasDescription xml:lang="fr">&lt;P&gt;Ligne 22 Pointe Noire-Pointe à Pitre (via les Mamelles), ligne 23 Deshaies-Basse-Terre, l'amplitude des services varie mais l'exploitation est à exécuter du lundi au dimanche premier départ entre 4:30 et 5:00, dernier départ entre 19:00 et 20:00.&lt;/P&gt;</epo:hasDescription>
+                <epo:hasTitle xml:lang="fr">&lt;P&gt;Desserte de la Côte sous le Vent&lt;/P&gt;</epo:hasTitle>
+              </epo:Lot>
+            </epo:specifies>
+            <epo:specifies>
+              <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Lot4291b2ef-4842-4c99-a7bd-1589b848bcfc">
+                <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Procedure79e7bdb6-2c43-4b42-968b-1c9e0b26430a"/>
+                <epo:hasContractDuration>
+                  <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#PeriodDurationfb029f95-3c5c-43cb-98dc-31d926704419">
+                    <epo:hasDurationMeasure>
+                      <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Measureded7220e-d442-4a53-814b-50e097997952">
+                        <ccts:hasMeasureValue>96</ccts:hasMeasureValue>
+                        <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                      </ccts:Measure>
+                    </epo:hasDurationMeasure>
+                  </epo:Period>
+                </epo:hasContractDuration>
+                <epo:hasID>
+                  <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#LotId4ce7bd1a-c847-4e3f-9ca2-a377e0133823">
+                    <epo:hasIdentifierValue>4</epo:hasIdentifierValue>
+                  </epo:Identifier>
+                </epo:hasID>
+                <epo:has>
+                  <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#ContractTermLotc4c77d58-ad58-4d5c-81d7-b110f47195ef">
+                    <epo:hasSpecificPlaceOfPerformance>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#ObjectContractAddresse4357e2f-ce53-4231-8c87-635bdd750908">
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FRY10"/>
+                      </epo:Address>
+                    </epo:hasSpecificPlaceOfPerformance>
+                    <epo:hasPlaceOfPerformanceAdditionalInformation
+                     xml:lang="fr">&lt;P&gt;Communes du sud de la Basse-Terre.&lt;/P&gt;</epo:hasPlaceOfPerformanceAdditionalInformation>
+                  </epo:ContractTerm>
+                </epo:has>
+                <epo:has>
+                  <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#PurposeAdditional9901ebd5-e4c9-4df2-bfd0-385bbaf00fae">
+                    <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/60112000"/>
+                  </epo:Purpose>
+                </epo:has>
+                <epo:hasDescription xml:lang="fr">&lt;P&gt;La consistance des lignes est définie dans le document programme annexé au dossier de consultation. Le délégataire est rémunéré par les redevances perçues sur l'usager en contrepartie du droit d'exploiter le service outre une compensation de service public versé par le concédant.&lt;/P&gt;</epo:hasDescription>
+                <epo:hasTitle xml:lang="fr">&lt;P&gt;Desserte du Sud Basse-Terre&lt;/P&gt;</epo:hasTitle>
+              </epo:Lot>
+            </epo:specifies>
+            <epo:hasDescription xml:lang="fr">&lt;P&gt;La Région autorité organisatrice des transports confie un contrat de délégation du service public, de transport routier régulier de voyageurs, à un délégataire sur le ressort de sa compétence territoriale. Le service portera sur l'exploitation des lignes de transport public routier interurbain régionales. Le délégataire aura à sa charge: l'organisation, la production, la gestion, la commercialisation et la promotion des services; la fourniture des moyens en hommes, en matériel, véhicules, y compris la maintenance; la distribution des titres de transport à bord du véhicule. Sa rémunération sera issue des redevances perçues directement sur l'usager, outre la compensation de service public versée par le concédant, et les activités accessoires autorisées.&lt;/P&gt;</epo:hasDescription>
+            <epo:hasMainFeature xml:lang="fr">&lt;P&gt;Procédure déclarée sans suite conformément aux dispositions de l'article R. 2185-1 du code de la commande publique.&lt;/P&gt;</epo:hasMainFeature>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Valueec2399db-277a-4602-828a-5c0ebc181457">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Amounte86637e4-deed-4b84-a7e0-ba2287658e0f">
+                    <ccts:hasAmountValue>22000000</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:hasLegalBasis rdf:resource="http://publications.europa.eu/resource/authority/legal-basis/32014L0023"/>
+            <reg2015:hasBuyerMainActivity rdf:resource="http://publications.europa.eu/resource/authority/main-activity/gen-pub"/>
+            <epo:hasTitle xml:lang="fr">&lt;P&gt;Desserte des lignes interurbaines de transport routier de voyageurs du réseau régional guadeloupéen dans le cadre d'un contrat de concession, délégation de service public&lt;/P&gt;</epo:hasTitle>
+            <epo:isResponsibilityOf>
+              <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Buyer281f9164-baf7-4bf0-81a5-a967f8d4be79">
+                <epo:has>
+                  <epo:BuyerProfile rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#BuyerProfileae50ade7-2a0b-4530-ac1e-cc2aca80200c">
+                    <epo:hasURL>http://www.eguadeloupe.com</epo:hasURL>
+                  </epo:BuyerProfile>
+                </epo:has>
+                <epo:has>
+                  <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#ContactPointe531b07b-5d84-41fd-8659-cfd5a0156fae">
+                    <epo:hasDescription xml:lang="fr">Direction de la commande publique</epo:hasDescription>
+                    <epo:hasEmail>dcp-region@cr-guadeloupe.fr</epo:hasEmail>
+                    <epo:hasInternetAddress>http://www.region-guadeloupe.fr</epo:hasInternetAddress>
+                    <epo:hasFax>+33 590804159</epo:hasFax>
+                    <epo:hasTelephone>+33 590804040</epo:hasTelephone>
+                  </epo:ContactPoint>
+                </epo:has>
+                <epo:isRoleOf>
+                  <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Organisation46dafb65-5baa-48f0-9e33-5448379c106c">
+                    <epo:hasLocation>
+                      <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Location4bde6a63-98b3-4a21-b102-100860b609b6">
+                        <epo:hasPostalAddress>
+                          <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Address2f368638-d6ba-4512-8f9d-754cd9bde378">
+                            <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                            <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR"/>
+                            <epo:hasCityName>Basse-Terre</epo:hasCityName>
+                          </epo:Address>
+                        </epo:hasPostalAddress>
+                      </epo:Location>
+                    </epo:hasLocation>
+                    <epo:hasName xml:lang="fr">Région Guadeloupe</epo:hasName>
+                  </epo:Organisation>
+                </epo:isRoleOf>
+                <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Procedure79e7bdb6-2c43-4b42-968b-1c9e0b26430a"/>
+              </epo:Buyer>
+            </epo:isResponsibilityOf>
+            <epo:hasOverallPurpose>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Purpose0676e10a-17ac-4e08-b675-86c460946b9a">
+                <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/60112000"/>
+                <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/services"/>
+              </epo:Purpose>
+            </epo:hasOverallPurpose>
+          </epo:Procedure>
+        </epo:isSpecifiedIn>
+        <epo:hasContractDuration>
+          <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#PeriodDuration7a569693-1d75-43cb-b8d4-adef4ce10e62">
+            <epo:hasDurationMeasure>
+              <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Measuredc087577-f56d-46ac-8e02-bfbc7532e2fa">
+                <ccts:hasMeasureValue>96</ccts:hasMeasureValue>
+                <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+              </ccts:Measure>
+            </epo:hasDurationMeasure>
+          </epo:Period>
+        </epo:hasContractDuration>
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#LotId7cddce58-a50b-49bd-afe6-ea0ddd748e4b">
+            <epo:hasIdentifierValue>2</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+        <epo:has>
+          <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#ContractTermLot82b08b29-7d91-400e-b915-21738ba8ccf9">
+            <epo:hasSpecificPlaceOfPerformance>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#ObjectContractAddresse961185e-8a88-4128-9178-dd3462ddd41d">
+                <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FRY10"/>
+              </epo:Address>
+            </epo:hasSpecificPlaceOfPerformance>
+            <epo:hasPlaceOfPerformanceAdditionalInformation xml:lang="fr"
+            >&lt;P&gt;Lignes des communes du Nord Basse-Terre, L21 à Deshaies-Sainterose-Pointe à Pitre via le pont de Brefort, L21 b Sainte-Rose-Pointe à Pitre via le Bourg du Lamentin.&lt;/P&gt;</epo:hasPlaceOfPerformanceAdditionalInformation>
+          </epo:ContractTerm>
+        </epo:has>
+        <epo:has>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#PurposeAdditionalb4e5865d-370a-4017-b2c6-414808edbf93">
+            <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/60112000"/>
+          </epo:Purpose>
+        </epo:has>
+        <epo:hasDescription xml:lang="fr">&lt;P&gt;L'amplitude des services varie mais peut se défini ainsi: du lundi au dimanche, premier départ à 4:30 et 5:00; dernier départ entre 19:00 et 20:00.&lt;/P&gt;</epo:hasDescription>
+        <epo:hasTitle xml:lang="fr">&lt;P&gt;Désserte Nord Basse-Terre&lt;/P&gt;</epo:hasTitle>
+      </epo:Lot>
+    </epo:refersTo>
+    <epo:hasAwardStatus rdf:resource="http://publications.europa.eu/resource/authority/winner-selection-status/clos-nw"/>
+  </epo:AwardDecision>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#AwardCriterionQualityS0352b93057-be4a-43ef-89b2-024a4c87242a">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Lot4291b2ef-4842-4c99-a7bd-1589b848bcfc"/>
+    <epo:hasName xml:lang="fr">Critère financier</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#AwardCriterionQualityS031e426d74-dfe3-4727-b8a4-bba19adc2237">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Lot4291b2ef-4842-4c99-a7bd-1589b848bcfc"/>
+    <epo:hasName xml:lang="fr">Critère technique</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#AwardCriterionQualityS03050a76ea-47c6-4592-99bb-218e487f246b">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Lotd2e33bd0-20a2-4c7f-94bc-79d7fbb71727"/>
+    <epo:hasName xml:lang="fr">Critère technique</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:AwardDecision rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#AwardDecisionc13d8ac3-1d23-4fad-9ad1-84d6e2187773">
+    <epo:refersTo rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Lot4291b2ef-4842-4c99-a7bd-1589b848bcfc"/>
+    <epo:hasAwardStatus rdf:resource="http://publications.europa.eu/resource/authority/winner-selection-status/clos-nw"/>
+  </epo:AwardDecision>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#AwardCriterionQualityS038359278b-1d57-47c1-895f-74e0ce02db74">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Lote181cc90-d224-4dd6-8da6-e073811636e6"/>
+    <epo:hasName xml:lang="fr">Critère financier</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#AwardCriterionQualityS03dd09ac84-e4c5-43e2-8248-4767447cdb3d">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Lotfdd3223f-180a-4500-93a3-c14e76d4230b"/>
+    <epo:hasName xml:lang="fr">Critère technique</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#AwardCriterionQualityS03dca35071-cf93-45ac-8df5-43493c86ffc9">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Lotfdd3223f-180a-4500-93a3-c14e76d4230b"/>
+    <epo:hasName xml:lang="fr">Critère financier</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:AwardDecision rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#AwardDecisiondaa7cede-0112-4f9d-8acf-541db0e55f7b">
+    <epo:refersTo rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Lotd2e33bd0-20a2-4c7f-94bc-79d7fbb71727"/>
+    <epo:hasAwardStatus rdf:resource="http://publications.europa.eu/resource/authority/winner-selection-status/clos-nw"/>
+  </epo:AwardDecision>
+  <epo:ContractAwardNotice rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#ContractAwardNoticef8aa1405-6237-4f48-846f-1ff33d6f9be0">
+    <skos:editorialNote>Please note that some elements from the F25 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/LOT_DIVISION
+OBJECT_CONTRACT/NO_LOT_DIVISION
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/OBJECT_DESCR/NO_EU_PROGR_RELATED
+PROCEDURE/PT_AWARD_CONTRACT_WITH_PRIOR_PUBLICATION
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_ENOTICES
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_TED_ESENDER
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ESENDER_LOGIN
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/CUSTOMER_LOGIN
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/NO_DOC_EXT
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_OTHER_MEANS
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/DATE_DISPATCH_ORIGINAL
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_UNSUCCESSFUL
+AWARD_CONTRACT/AWARDED_CONTRACT/TENDERS/NB_TENDERS_RECEIVED_OTHER_EU
+AWARD_CONTRACT/AWARDED_CONTRACT/TENDERS/NB_TENDERS_RECEIVED_NON_EU
+AWARD_CONTRACT/AWARDED_CONTRACT/CONTRACTORS/NO_AWARDED_TO_GROUP
+PROCEDURE/PT_AWARD_CONTRACT_WITHOUT_PUBLICATION/D_OUTSIDE_SCOPE</skos:editorialNote>
+    <epo:hasDispatchDate>2020-01-02</epo:hasDispatchDate>
+    <epo:summarises rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Procedure79e7bdb6-2c43-4b42-968b-1c9e0b26430a"/>
+    <epo:hasID>
+      <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#ContractAwardNoticeId098a9e17-ac62-4f8e-81f8-0f8004e247a8">
+        <epo:hasIdentifierValue>2020/S 003-003904</epo:hasIdentifierValue>
+      </epo:Identifier>
+    </epo:hasID>
+    <epo:hasPublicationDate>2020-01-06</epo:hasPublicationDate>
+    <epo:isMadeAvailableVia>
+      <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#ChannelCN521db872-8a2a-4b47-bb07-51be680d70ee">
+        <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:003904-2020:TEXT:FR:HTML</epo:hasURL>
+      </epo:Channel>
+    </epo:isMadeAvailableVia>
+    <epo:relatesTo rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Procedure79e7bdb6-2c43-4b42-968b-1c9e0b26430a"/>
+    <epo:refersToPrevious>
+      <epo:Notice rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#PreviousNotice08689771-cb41-4c5d-b623-d1d09cc5c762">
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#NoticeId4e8cf867-d489-4bbf-ae48-fec3da64fa72">
+            <epo:hasIdentifierValue>2019/S 096-233132</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+      </epo:Notice>
+    </epo:refersToPrevious>
+    <epo:refersToPrevious>
+      <epo:Notice rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#PrevNotice02ec4d08-8d03-4930-8ac9-028d27315ccb">
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#PrevNoticeIdf18a36cc-a2d3-4da7-8baf-b0f9480d613c">
+            <epo:hasIdentifierValue>2019/S 096-233132</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+      </epo:Notice>
+    </epo:refersToPrevious>
+  </epo:ContractAwardNotice>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#AwardCriterionQualityS0386edf1b9-1d98-4630-8dde-92520eabe3ee">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Lotd2e33bd0-20a2-4c7f-94bc-79d7fbb71727"/>
+    <epo:hasName xml:lang="fr">Critère financier</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Reviewer6d31cd68-47f4-44aa-89f6-1febe44eb2ac">
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Procedure79e7bdb6-2c43-4b42-968b-1c9e0b26430a"/>
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Procedure79e7bdb6-2c43-4b42-968b-1c9e0b26430a"/>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#ContactPointReviewBodyd9d7e34a-954c-43b6-bf77-1ca49c0e342a">
+        <epo:hasEmail>greffe.ta-basse-terre@juradm.fr</epo:hasEmail>
+        <epo:hasTelephone>+33 590814538</epo:hasTelephone>
+      </epo:ContactPoint>
+    </epo:has>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#OrganisationReviewBody1e6e228d-a6b0-474f-9287-225a502385ec">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#LocationReviewBody2563591b-e1a3-4932-a259-6df727f8c32b">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#AddressReviewBody9b48eed6-fd8d-44de-ad34-ead0d82c0b4c">
+                <epo:hasStreetName>6 rue Victor Hugues</epo:hasStreetName>
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                <epo:hasCityName>Basse-Terre</epo:hasCityName>
+                <epo:hasPostalZone>97100</epo:hasPostalZone>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="fr">Tribunal administratif de Guadeloupe</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+  </epo:Reviewer>
+  <epo:Mediator rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#Mediator0a5375f7-c8db-4f8f-a982-8fc24648b715">
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Procedure79e7bdb6-2c43-4b42-968b-1c9e0b26430a"/>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#ContactPointMediation2d756faf-dae0-49a7-ae26-9cf01d06ef75">
+        <epo:hasEmail>greffe.ta.-basseterre@juradm.fr</epo:hasEmail>
+      </epo:ContactPoint>
+    </epo:has>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#OrganisationMediationc30d7ceb-84d7-4d8f-a138-744a64b59817">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#LocationMediation85d57969-e6c4-4ba3-8d78-a84e232d6a0e">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#AddressMediation4cef6d58-fb3d-4402-b416-e602df449136">
+                <epo:hasStreetName>6 rue Victor Hugues</epo:hasStreetName>
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                <epo:hasCityName>Basse-Terre</epo:hasCityName>
+                <epo:hasPostalZone>97100</epo:hasPostalZone>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="fr">Tribunal administratif de Guadeloupe</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+  </epo:Mediator>
+  <epo:AwardDecision rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#AwardDecision0e7dd775-953c-41a9-97c5-23751acb8897">
+    <epo:refersTo rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Lote181cc90-d224-4dd6-8da6-e073811636e6"/>
+    <epo:hasAwardStatus rdf:resource="http://publications.europa.eu/resource/authority/winner-selection-status/clos-nw"/>
+  </epo:AwardDecision>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2020/s-003-003904#AwardCriterionQualityS03459a9029-fab7-4f75-970a-7ea44bd7485e">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2020/s-003-003904#Lote181cc90-d224-4dd6-8da6-e073811636e6"/>
+    <epo:hasName xml:lang="fr">Critère technique</epo:hasName>
+  </epo:AwardCriterion>
+</rdf:RDF>

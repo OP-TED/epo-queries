@@ -1,0 +1,293 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#AwardCriterionQualityc62bc0e0-ed34-40c0-962a-6dfcdf25d427">
+    <epo:isUsedToAward>
+      <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#Lot5ae7383a-9498-4a53-8f06-251c7157f056">
+        <epo:has>
+          <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#ContractTermLot8ad541f6-3706-4174-9f30-ccf1e7b39e84">
+            <epo:hasSpecificPlaceOfPerformance>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#ObjectContractAddressb0dde886-fd17-4f54-b600-2c706b4d78a2">
+                <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/HR041"/>
+              </epo:Address>
+            </epo:hasSpecificPlaceOfPerformance>
+            <epo:hasPlaceOfPerformanceAdditionalInformation xml:lang="hr"
+            >
+                  &lt;P&gt;4TS 15 Cvjetno naselje.&lt;/P&gt;
+               </epo:hasPlaceOfPerformanceAdditionalInformation>
+            <epo:hasRenewalIndicator>false</epo:hasRenewalIndicator>
+          </epo:ContractTerm>
+        </epo:has>
+        <epo:has>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#PurposeAdditional3ab3e3f8-bade-48ef-a7f4-375c6c8a5509">
+            <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+            <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/31682540"/>
+          </epo:Purpose>
+        </epo:has>
+        <epo:hasEstimatedValue>
+          <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#ValueValObject07d31d59-aec3-4358-9099-49f0d3a4cd3c">
+            <epo:hasOverallAmount>
+              <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#AmountValObjectcdb19868-e6a8-4149-91d0-7d718103dfab">
+                <ccts:hasAmountValue>11000000.00</ccts:hasAmountValue>
+                <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/HRK"/>
+              </ccts:Amount>
+            </epo:hasOverallAmount>
+            <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+          </epo:Value>
+        </epo:hasEstimatedValue>
+        <epo:isSpecifiedIn>
+          <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#Procedure6feb420c-6de7-4a2a-a3eb-abd9af65aa5b">
+            <epo:hasOverallPurpose>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#Purposea9ad9175-cbaf-48c5-b513-9f6102cdb1aa">
+                <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/supplies"/>
+                <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/31682540"/>
+              </epo:Purpose>
+            </epo:hasOverallPurpose>
+            <reg2015:applies>
+              <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#SelectionCriterionTechnicaldabb0ca5-8927-4cc5-ba91-2620448a1d4e">
+                <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/tp-abil"/>
+              </epo:SelectionCriterion>
+            </reg2015:applies>
+            <epo:isResponsibilityOf>
+              <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#Buyer25f1ffbd-e6e4-4d4d-b497-961e9c4f9fd9">
+                <epo:has>
+                  <epo:BuyerProfile rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#BuyerProfile7a691686-2078-4fef-8c08-bae2cbbffb39">
+                    <epo:hasURL>www.hep.hr</epo:hasURL>
+                  </epo:BuyerProfile>
+                </epo:has>
+                <epo:has>
+                  <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#ContactPoint7b3798aa-2800-4d00-bfd3-50d195ed02d0">
+                    <epo:hasDescription xml:lang="hr">Vedrana Sever Mićin, dipl. oec.</epo:hasDescription>
+                    <epo:hasTelephone>+385 14601270</epo:hasTelephone>
+                    <epo:hasEmail>vedrana.sever@hep.hr</epo:hasEmail>
+                    <epo:hasInternetAddress>www.hep.hr</epo:hasInternetAddress>
+                    <epo:hasFax>+385 14601435</epo:hasFax>
+                  </epo:ContactPoint>
+                </epo:has>
+                <epo:isRoleOf>
+                  <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#Organisation28930440-c311-4ede-94db-3f73a2b3cfac">
+                    <epo:hasLocation>
+                      <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#Locationc856c9d1-6a3a-46d2-b185-e3d1a9153e9e">
+                        <epo:hasPostalAddress>
+                          <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#Address9bd6559a-b622-4129-91fd-9bd0f95cf672">
+                            <epo:hasCityName>Zagreb</epo:hasCityName>
+                            <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/HR041"/>
+                            <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/HRV"/>
+                            <epo:hasPostalZone>10000</epo:hasPostalZone>
+                            <epo:hasStreetName>Ulica grada Vukovara 37</epo:hasStreetName>
+                          </epo:Address>
+                        </epo:hasPostalAddress>
+                      </epo:Location>
+                    </epo:hasLocation>
+                    <epo:hasID>
+                      <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#OrganisationId6db9d85c-6751-47e2-8f80-4a018852a086">
+                        <epo:hasIdentifierValue>46830600751</epo:hasIdentifierValue>
+                      </epo:Identifier>
+                    </epo:hasID>
+                    <epo:hasName xml:lang="hr">HEP – Operator distribucijskog sustava d.o.o.</epo:hasName>
+                  </epo:Organisation>
+                </epo:isRoleOf>
+                <reg2015:providesAdditionalInformationAboutProcurementProcedure rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000793#Procedure6feb420c-6de7-4a2a-a3eb-abd9af65aa5b"/>
+                <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000793#Procedure6feb420c-6de7-4a2a-a3eb-abd9af65aa5b"/>
+                <epo:hasContractingEntity>true</epo:hasContractingEntity>
+              </epo:Buyer>
+            </epo:isResponsibilityOf>
+            <epo:uses>
+              <epo:AccessTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#AccessTermsFull591588b6-7cf4-458e-a9e5-8177389ab1e3">
+                <epo:hasProcurementDocumentLandingPage>https://eojn.nn.hr/SPIN/application/ipn/DocumentManagement/DokumentPodaciFrm.aspx?OznakaDokumenta=2017/S+0F5-0027961</epo:hasProcurementDocumentLandingPage>
+              </epo:AccessTerm>
+            </epo:uses>
+            <epo:hasTitle xml:lang="hr">
+               &lt;P&gt;Rekonstrukcija 4TS 15 Cvjetno naselje – 20 kV sklopni blokovi i izolirani spojni vodovi&lt;/P&gt;
+            </epo:hasTitle>
+            <reg2015:applies>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#ContractTerm80e203a9-ad25-48a5-9461-89005a7a73f5">
+                <epo:hasPaymentArrangement xml:lang="hr">
+               &lt;P&gt;Sukladno čl. 4. Prijedloga o.s.&lt;/P&gt;
+            </epo:hasPaymentArrangement>
+                <epo:hasPerformanceConditions xml:lang="hr">
+               &lt;P&gt;Sukladno toč. 7. DON-a.&lt;/P&gt;
+            </epo:hasPerformanceConditions>
+              </epo:ContractTerm>
+            </reg2015:applies>
+            <reg2015:hasGPAUsage>false</reg2015:hasGPAUsage>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#Value5d3c3436-530d-4639-9913-2a436eba9703">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#Amounta0ced5a6-bf0f-4043-94c7-3e8bd40a0120">
+                    <ccts:hasAmountValue>11000000.00</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/HRK"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <reg2015:applies>
+              <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#SelectionCriterionSuitabilityba219ab2-0baa-4328-9504-ea9931b10466">
+                <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/sui-act"/>
+                <epo:hasDescription xml:lang="hr">
+               &lt;P&gt;Sukladno toč. 4.1. DON-a.&lt;/P&gt;
+            </epo:hasDescription>
+              </epo:SelectionCriterion>
+            </reg2015:applies>
+            <reg2015:hasBuyerMainActivity rdf:resource="http://publications.europa.eu/resource/authority/main-activity/electricity"/>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#ProcedureId6d492c66-791c-4878-a541-27f3d4e20b7a">
+                <epo:hasIdentifierValue>4001-V-5/17</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <reg2015:hasCriteriaInProcurementDocument>
+              <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#SelectionCriterionEconomicbb7efa36-0fa7-4b5a-8bbe-7013ba45b238">
+                <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/ef-stand"/>
+              </epo:SelectionCriterion>
+            </reg2015:hasCriteriaInProcurementDocument>
+            <epo:hasDescription xml:lang="hr">
+               &lt;P&gt;Rekonstrukcija 4TS 15 Cvjetno naselje – 20 kV sklopni blokovi i izolirani spojni vodovi, a sve u skladu sa DON-om, tehničkom specifikacijom i troškovnikom.&lt;/P&gt;
+            </epo:hasDescription>
+            <epo:hasProcedureType rdf:resource="http://publications.europa.eu/resource/authority/procurement-procedure-type/open"/>
+            <epo:specifies rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000793#Lot5ae7383a-9498-4a53-8f06-251c7157f056"/>
+            <reg2015:applies>
+              <epo:OpeningTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#OpeningTerm6cf844fe-a746-4df0-99f9-6901a0353850">
+                <epo:hasOpeningDateTime>2018-02-19+08:00</epo:hasOpeningDateTime>
+                <epo:hasOpeningDescription xml:lang="hr">
+                  &lt;P&gt;HEP-OPERATOR DISTRIBUCIJSKOG SUSTAVA d.o.o., Elektra Zagreb, Gundulićeva 32, I. kat, soba 110.&lt;/P&gt;
+               </epo:hasOpeningDescription>
+              </epo:OpeningTerm>
+            </reg2015:applies>
+            <epo:notifies>
+              <epo:ContractNotice rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#ContractNotice31e882c5-57ad-471f-a1e8-b61ba8c25c8e">
+                <epo:isMadeAvailableVia>
+                  <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#ChannelCNb097d8bf-5f2d-4574-b434-e0f1109eab79">
+                    <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:000793-2018:TEXT:HR:HTML</epo:hasURL>
+                  </epo:Channel>
+                </epo:isMadeAvailableVia>
+                <epo:notifies rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000793#Procedure6feb420c-6de7-4a2a-a3eb-abd9af65aa5b"/>
+                <epo:hasID>
+                  <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#ContractNoticeId68845d84-5022-4b00-a513-210826ce2f81">
+                    <epo:hasIdentifierValue>2018/S 001-000793</epo:hasIdentifierValue>
+                  </epo:Identifier>
+                </epo:hasID>
+                <epo:hasPublicationDate>2018-01-03</epo:hasPublicationDate>
+                <epo:hasDispatchDate>2017-12-29</epo:hasDispatchDate>
+                <skos:editorialNote>Please note that some elements from the F05 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+CONTRACTING_BODY/ADDRESS_FURTHER_INFO/URL_BUYER
+CONTRACTING_BODY/ADDRESS_PARTICIPATION/URL_BUYER
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/LOT_DIVISION
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/OBJECT_DESCR/AC/AC_PROCUREMENT_DOC
+OBJECT_CONTRACT/OBJECT_DESCR/NB_ENVISAGED_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MIN_LIMIT_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MAX_LIMIT_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/CRITERIA_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NO_EU_PROGR_RELATED
+LEFTI/RULES_CRITERIA
+LEFTI/PARTICULAR_PROFESSION
+LEFTI/REFERENCE_TO_LAW
+PROCEDURE//FRAMEWORK/SINGLE_OPERATOR
+PROCEDURE/FRAMEWORK/SEVERAL_OPERATORS
+PROCEDURE/FRAMEWORK/NB_PARTICIPANTS</skos:editorialNote>
+                <epo:hasRecurrence>false</epo:hasRecurrence>
+              </epo:ContractNotice>
+            </epo:notifies>
+            <reg2015:uses>
+              <epo:FrameworkAgreementTechnique rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#Framework535e5c07-ce0f-454d-91d9-2b69083fc8d9"/>
+            </reg2015:uses>
+            <reg2015:applies rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000793#SelectionCriterionEconomicbb7efa36-0fa7-4b5a-8bbe-7013ba45b238"/>
+            <reg2015:hasCriteriaInProcurementDocument rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000793#SelectionCriterionTechnicaldabb0ca5-8927-4cc5-ba91-2620448a1d4e"/>
+            <reg2015:applies>
+              <epo:ReviewTerm rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#ReviewTermsb6da632a-5466-4098-9f4b-3d3c3380ed73">
+                <epo:hasReviewProcedure xml:lang="hr">
+               &lt;P&gt;Žalba se izjavljuje u roku od 10 dana, i to od dana:&lt;/P&gt;
+               &lt;P&gt;— objave poziva na nadmetanje, u odnosu na sadržaj poziva ili dokumentacije o nabavi,&lt;/P&gt;
+               &lt;P&gt;— objave obavijesti o ispravku, u odnosu na sadržaj ispravka,&lt;/P&gt;
+               &lt;P&gt;— objave izmjene dokumentacije o nabavi, u odnosu na sadržaj izmjene dokumentacije,&lt;/P&gt;
+               &lt;P&gt;— otvaranja ponuda u odnosu na propuštanje Naručitelja da valjano odgovori na pravodobno dostavljen zahtjev dodatne informacije, objašnjenja ili izmjene dokumentacije o nabavi te na postupak otvaranja ponuda,&lt;/P&gt;
+               &lt;P&gt;— primitka odluke o odabiru ili poništenju, u odnosu na postupak pregleda, ocjene i odabira ponuda, ili razloge poništenja.&lt;/P&gt;
+            </epo:hasReviewProcedure>
+              </epo:ReviewTerm>
+            </reg2015:applies>
+          </epo:Procedure>
+        </epo:isSpecifiedIn>
+        <epo:hasContractDuration>
+          <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#PeriodDurationf9700286-e739-4e81-b3c0-a23fc35b8efc">
+            <epo:hasDurationMeasure>
+              <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#Measure512d37f3-5d9e-4f96-a5c1-1e548f949f5b">
+                <ccts:hasMeasureValue>24</ccts:hasMeasureValue>
+                <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+              </ccts:Measure>
+            </epo:hasDurationMeasure>
+          </epo:Period>
+        </epo:hasContractDuration>
+        <epo:hasDescription xml:lang="hr">
+                  &lt;P&gt;Rekonstrukcija 4TS 15 Cvjetno naselje – 20 kV sklopni blokovi i izolirani spojni vodovi, a sve u skladu sa DON-om, tehničkom specifikacijom i troškovnikom.&lt;/P&gt;
+               </epo:hasDescription>
+        <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+      </epo:Lot>
+    </epo:isUsedToAward>
+    <epo:hasName xml:lang="hr">Rok isporuke Jamstveni rok Vrijeme odziva na servisnu intervenciju</epo:hasName>
+    <epo:hasFormula>10 % 10 % 10 %</epo:hasFormula>
+    <epo:hasAwardCriterionType rdf:resource="http://publications.europa.eu/resource/authority/award-criterion-type/quality"/>
+  </epo:AwardCriterion>
+  <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#ValidityPeriodd645053b-0bed-4b70-8df9-ee6a34ffc3ca">
+    <epo:hasDurationMeasure>
+      <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#ValidityMeasure0a1237cd-db1c-4a59-be9d-899b34f42df1">
+        <ccts:hasMeasureValue>3</ccts:hasMeasureValue>
+        <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+      </ccts:Measure>
+    </epo:hasDurationMeasure>
+  </epo:Period>
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#Reviewer207f562c-d029-4e08-b2f7-e7e325157e3f">
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#ContactPointReviewBodyaf81acdb-785c-4607-b36f-a2e6886fbc7b">
+        <epo:hasTelephone>+385 14559930</epo:hasTelephone>
+        <epo:hasEmail>dkom@dkom.hr</epo:hasEmail>
+        <epo:hasInternetAddress>www.dkom.hr</epo:hasInternetAddress>
+        <epo:hasFax>+385 14559933</epo:hasFax>
+      </epo:ContactPoint>
+    </epo:has>
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000793#Procedure6feb420c-6de7-4a2a-a3eb-abd9af65aa5b"/>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#OrganisationReviewBody3ee8eea6-70fd-4d1c-9ea0-2444357a4675">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#LocationReviewBody353cad23-12ad-408c-b8b5-4685d2e2ab0c">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#AddressReviewBody1e2c18b4-4038-438b-ac3e-d69c6407ed43">
+                <epo:hasCityName>Zagreb</epo:hasCityName>
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/HRV"/>
+                <epo:hasPostalZone>10000</epo:hasPostalZone>
+                <epo:hasStreetName>Koturaška cesta 43/IV</epo:hasStreetName>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="hr">Državna komisija za kontrolu postupaka javne nabave</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+  </epo:Reviewer>
+  <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#ChannelSubmission963710e6-d017-4c40-8f9a-e9591cf7773a">
+    <epo:hasURL>https://eojn.nn.hr/Oglasnik</epo:hasURL>
+  </epo:Channel>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#AwardCriterionPrice037b33f2-ab3b-4e6a-9598-5e45f326ada4">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000793#Lot5ae7383a-9498-4a53-8f06-251c7157f056"/>
+    <epo:hasFormula>70 %</epo:hasFormula>
+    <epo:hasAwardCriterionType rdf:resource="http://publications.europa.eu/resource/authority/award-criterion-type/price"/>
+  </epo:AwardCriterion>
+  <epo:ProcurementServiceProvider rdf:about="http://data.europa.eu/a4g/resource/2018/s-001-000793#ProcurementServiceProviderCompc3784eaf-468b-4731-9709-862755f2d8d4">
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000793#Procedure6feb420c-6de7-4a2a-a3eb-abd9af65aa5b"/>
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2018/s-001-000793#Procedure6feb420c-6de7-4a2a-a3eb-abd9af65aa5b"/>
+  </epo:ProcurementServiceProvider>
+</rdf:RDF>

@@ -1,0 +1,238 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#ChannelSubmissionccc36395-ccae-4b6d-8bd5-ee03de7c1772">
+    <epo:hasURL>https://eten.publicprocurement.be/etendering/viewWorkspacesBasedOnExtUrl.do?wsName=bpost-2018-1-045-F05</epo:hasURL>
+  </epo:Channel>
+  <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#ValidityPeriodefa117c5-7504-4730-b7ef-38d4662940e1">
+    <epo:hasDurationMeasure>
+      <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#ValidityMeasureec6df0c7-5011-4e18-8b7c-61ee494cc4cf">
+        <ccts:hasMeasureValue>4</ccts:hasMeasureValue>
+        <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+      </ccts:Measure>
+    </epo:hasDurationMeasure>
+  </epo:Period>
+  <epo:ProcurementServiceProvider rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#ProcurementServiceProviderComp959e7a13-d974-47c7-aa91-c94486bbbf4e">
+    <reg2015:isInvolvedIn>
+      <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#Procedureb23a61f7-4376-4c6a-9ca3-6f1380b612ae">
+        <epo:hasTitle xml:lang="fr">&lt;P&gt;Prestations d’un courtier en assurances&lt;/P&gt;</epo:hasTitle>
+        <reg2015:hasGPAUsage>true</reg2015:hasGPAUsage>
+        <reg2015:hasBuyerMainActivity rdf:resource="http://publications.europa.eu/resource/authority/main-activity/post"/>
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#SelectionCriterionEconomic2c728fec-fda2-4d2d-b931-3bbe3a9e5c8e">
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/ef-stand"/>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <reg2015:applies>
+          <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#SelectionCriterionTechnical6f0084ff-f01f-4456-a20c-6d679987682c">
+            <epo:hasSelectionCriterionType rdf:resource="http://publications.europa.eu/resource/authority/selection-criterion/tp-abil"/>
+          </epo:SelectionCriterion>
+        </reg2015:applies>
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#ProcedureId886c96f0-ff10-4ed0-b6a7-457e04623e78">
+            <epo:hasIdentifierValue>bpost-2018-1-045-F05_0</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+        <epo:hasDescription xml:lang="nl">&lt;P&gt;Om de overheidsopdracht voor de hernieuwing van haar verzekeringspolissen (oor schade aan eigendommen en bedrijfsschade (terrorisme inbegrepen) en voor de Burgerlijke Aansprakelijkheid van de bestuurders en directeurs) te kunnen lanceren, wil bpost gebruikmaken van de adviesverlening van een verzekeringsmakelaar bij het opstellen van het Bestek en de technische specificaties inzake verzekeringen, alsook voor ondersteuning bij de gunning van deze overheidsopdracht voor verzekeringen in overeenstemming met de wetgeving inzake overheidsopdrachten.&lt;/P&gt;&lt;P&gt;In het geval bpost besluit te kiezen voor een internationaal programma voor haar verzekeringen, wenst bpost gebruik te maken van de dienstverlening van een verzekeringsmakelaar tijdens de uitvoeringsfase van de overheidsopdracht voor de “Property” verzekering om alle polissen te beheren en op te volgen.&lt;/P&gt;</epo:hasDescription>
+        <reg2015:hasCriteriaInProcurementDocument rdf:resource="http://data.europa.eu/a4g/resource/2019/s-003-004247#SelectionCriterionEconomic2c728fec-fda2-4d2d-b931-3bbe3a9e5c8e"/>
+        <reg2015:hasAwardedByCPB rdf:resource="http://data.europa.eu/a4g/ontology#Cpb-awa"/>
+        <epo:hasDescription xml:lang="fr">&lt;P&gt;Afin de lancer le marché public pour renouveler ses polices d’assurances (dommage matériel et pertes d’exploitation (et terrorisme inclus) ainsi que la responsabilité civile des dirigeants et administrateurs), BPOST souhaite bénéficier des services de consultance d’un courtier en assurance pour le support à la rédaction du Cahier spécial des charges et des spécifications techniques relatives aux assurances et, également, pour le support à l’attribution de ce marché public d’assurances dans le respect de la législation relative aux marchés publics.&lt;/P&gt;&lt;P&gt;Dans le cas où BPOST décide d’opter pour un programme international pour ses assurances, elle souhaite bénéficier des services d’un courtier pour la phase d’exécution du marché public d’assurance «Property» afin de gérer et suivre l’ensemble des polices.&lt;/P&gt;</epo:hasDescription>
+        <epo:uses>
+          <epo:AccessTerm rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#AccessTermsRestr04518f6f-1952-474b-a6c1-7c34035ceb15">
+            <epo:hasRestrictedAccessAddress>
+              <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#Channelfeb8c21e-b809-4471-b882-ee4b7ba73072">
+                <epo:hasURL>https://enot.publicprocurement.be/enot-war/preViewNotice.do?noticeId=329377</epo:hasURL>
+              </epo:Channel>
+            </epo:hasRestrictedAccessAddress>
+          </epo:AccessTerm>
+        </epo:uses>
+        <epo:hasLegalBasis rdf:resource="http://publications.europa.eu/resource/authority/legal-basis/32014L0025"/>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#Lot1cd2bc1c-bbef-4c51-b88d-e1e0c21b6472">
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#ContractTermLotd7cdbff0-3b22-42e1-abe5-c3a183cf53cf">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#ObjectContractAddress2c36d0a8-93e7-43de-84e0-8755627f7cd8">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/BE"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+                <epo:hasRenewalDescription xml:lang="nl">&lt;P&gt;12 maanden + 12 maanden + 12 maanden + 12 maanden&lt;/P&gt;</epo:hasRenewalDescription>
+                <epo:hasRenewalDescription xml:lang="fr">&lt;P&gt;12 mois + 12 mois + 12 mois + 12 mois.&lt;/P&gt;</epo:hasRenewalDescription>
+                <epo:hasRenewalIndicator>true</epo:hasRenewalIndicator>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#PurposeAdditionalef4d0ee5-ed4a-4203-aef4-bd7a4a98a35f">
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/66518100"/>
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#PeriodDuration540e8d33-cf6e-4d67-80ae-d80550fa1382">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#Measure333866bd-b050-49dc-85e6-b986404d8d4f">
+                    <ccts:hasMeasureValue>48</ccts:hasMeasureValue>
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2019/s-003-004247#Procedureb23a61f7-4376-4c6a-9ca3-6f1380b612ae"/>
+            <epo:hasVariantPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/not-allowed"/>
+            <epo:hasDescription xml:lang="nl">&lt;P&gt;Bpost wenst haar verzekeringspolissen voor schade aan eigendommen en bedrijfsschade (terrorisme inbegrepen) te hernieuwen evenals de verzekering voor de Burgerlijke Aansprakelijkheid van de bestuurders en directeurs van bpost NV, haar Belgische dochterondernemingen en eventueel ook haar buitenlandse dochterondernemingen.&lt;/P&gt;&lt;P&gt;De dochterondernemingen waarop deze procedure betrekking heeft, zijn vermeld in een bijlage van deze Selectieleidraad (zie document "Lijst met dochterondernemingen van bpost group").&lt;/P&gt;&lt;P&gt;Om de overheidsopdracht voor de hernieuwing van haar verzekeringspolissen te kunnen lanceren, wil bpost gebruikmaken van de adviesverlening van een verzekeringsmakelaar bij het opstellen van het Bestek en de technische specificaties inzake verzekeringen, alsook voor ondersteuning bij de gunning van deze overheidsopdracht voor verzekeringen in overeenstemming met de wetgeving inzake overheidsopdrachten.&lt;/P&gt;&lt;P&gt;In het geval bpost besluit te kiezen voor een internationaal programma voor haar verzekeringen, wenst bpost gebruik te maken van de dienstverlening van een verzekeringsmakelaar tijdens de uitvoeringsfase van de overheidsopdracht voor de “Property” verzekering om alle polissen te beheren en op te volgen.&lt;/P&gt;</epo:hasDescription>
+            <epo:hasDescription xml:lang="fr">&lt;P&gt;BPOST souhaite renouveler ses polices d’assurances dommage matériel et pertes d’exploitation (et terrorisme inclus) ainsi que la responsabilité civile des dirigeants et administrateurs pour BPOST SA et ses filiales belges et éventuellement pour ses filiales étrangères.&lt;/P&gt;&lt;P&gt;Les filiales concernées par la présente procédure sont celles reprises dans la liste en annexe au présent guide de sélection (voir document intitulé «Liste des filiales de BPOST group»).&lt;/P&gt;&lt;P&gt;Afin de lancer le marché public pour renouveler ses polices d’assurances, BPOST souhaite bénéficier des services de consultance d’un courtier en assurance pour le support à la rédaction du cahier spécial des charges et des spécifications techniques relatives aux assurances et, également, pour le support à l’attribution de ce marché public d’assurances dans le respect de la législation relative aux marchés publics.&lt;/P&gt;&lt;P&gt;Dans le cas où BPOST décide d’opter pour un programme international pour ses assurances, elle souhaite bénéficier des services d’un courtier pour la phase d’exécution du marché public d’assurance «dommage matériel et pertes d’exploitation» afin de gérer et suivre l’ensemble des polices.&lt;/P&gt;</epo:hasDescription>
+          </epo:Lot>
+        </epo:specifies>
+        <epo:hasProcedureType rdf:resource="http://publications.europa.eu/resource/authority/procurement-procedure-type/neg-w-call"/>
+        <epo:isResponsibilityOf>
+          <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#Buyer724a0669-8993-43a2-97d1-6d60ea43bced">
+            <reg2015:providesAdditionalInformationAboutProcurementProcedure rdf:resource="http://data.europa.eu/a4g/resource/2019/s-003-004247#Procedureb23a61f7-4376-4c6a-9ca3-6f1380b612ae"/>
+            <epo:isRoleOf>
+              <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#Organisatione3daa18e-e5f7-4465-b011-ad66b2a33cad">
+                <epo:hasLocation>
+                  <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#Locationb6be9911-2df3-43ed-b6a8-e6234690951c">
+                    <epo:hasPostalAddress>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#Address57f4af23-eef0-4b1b-83f8-0bad497fbbd1">
+                        <epo:hasStreetName>Muntcenter</epo:hasStreetName>
+                        <epo:hasStreetName>Centre monnaie</epo:hasStreetName>
+                        <epo:hasCityName>Brussel</epo:hasCityName>
+                        <epo:hasCityName>Bruxelles</epo:hasCityName>
+                        <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/BE100"/>
+                        <epo:hasPostalZone>1000</epo:hasPostalZone>
+                      </epo:Address>
+                    </epo:hasPostalAddress>
+                  </epo:Location>
+                </epo:hasLocation>
+                <epo:hasID>
+                  <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#OrganisationId5f869b54-d88d-4937-a157-055d2ec783d8">
+                    <epo:hasIdentifierValue>0214.596.464_26604</epo:hasIdentifierValue>
+                  </epo:Identifier>
+                </epo:hasID>
+                <epo:hasName xml:lang="nl">Bpost</epo:hasName>
+                <epo:hasName xml:lang="fr">BPOST</epo:hasName>
+              </epo:Organisation>
+            </epo:isRoleOf>
+            <epo:has>
+              <epo:BuyerProfile rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#BuyerProfile02f2ca66-9f71-4170-a9b5-62b5fac7b47b">
+                <epo:hasURL>https://enot.publicprocurement.be/enot-war/preViewNotice.do?noticeId=329377</epo:hasURL>
+              </epo:BuyerProfile>
+            </epo:has>
+            <epo:has>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#ContactPoint8911cb0b-6263-432f-8cf5-c366ad30751d">
+                <epo:hasInternetAddress>http://www.bpost.be</epo:hasInternetAddress>
+                <epo:hasTelephone>+32 24322340</epo:hasTelephone>
+                <epo:hasEmail>steffymaeva.mbole@bpost.be</epo:hasEmail>
+                <epo:hasDescription xml:lang="fr">Steffy Maeva Mbole</epo:hasDescription>
+              </epo:ContactPoint>
+            </epo:has>
+            <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2019/s-003-004247#Procedureb23a61f7-4376-4c6a-9ca3-6f1380b612ae"/>
+            <epo:hasContractingEntity>true</epo:hasContractingEntity>
+          </epo:Buyer>
+        </epo:isResponsibilityOf>
+        <epo:notifies>
+          <epo:ContractNotice rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#ContractNotice8923cca5-5bc8-428f-86d6-1dc52e44a334">
+            <epo:notifies rdf:resource="http://data.europa.eu/a4g/resource/2019/s-003-004247#Procedureb23a61f7-4376-4c6a-9ca3-6f1380b612ae"/>
+            <epo:isMadeAvailableVia>
+              <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#ChannelCN96c81217-a295-4507-b2cc-00c2a5b339dd">
+                <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:004247-2019:TEXT:NL:HTML</epo:hasURL>
+                <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:004247-2019:TEXT:FR:HTML</epo:hasURL>
+              </epo:Channel>
+            </epo:isMadeAvailableVia>
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#ContractNoticeIdcba82d48-150a-4a81-8968-662577e08778">
+                <epo:hasIdentifierValue>2019/S 003-004247</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:hasDispatchDate>2019-01-03</epo:hasDispatchDate>
+            <epo:hasPublicationDate>2019-01-04</epo:hasPublicationDate>
+            <skos:editorialNote>Please note that some elements from the F05 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+CONTRACTING_BODY/ADDRESS_FURTHER_INFO/URL_BUYER
+CONTRACTING_BODY/ADDRESS_PARTICIPATION/URL_BUYER
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/LOT_DIVISION
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/OBJECT_DESCR/AC/AC_PROCUREMENT_DOC
+OBJECT_CONTRACT/OBJECT_DESCR/NB_ENVISAGED_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MIN_LIMIT_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NB_MAX_LIMIT_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/CRITERIA_CANDIDATE
+OBJECT_CONTRACT/OBJECT_DESCR/NO_EU_PROGR_RELATED
+LEFTI/RULES_CRITERIA
+LEFTI/PARTICULAR_PROFESSION
+LEFTI/REFERENCE_TO_LAW
+PROCEDURE//FRAMEWORK/SINGLE_OPERATOR
+PROCEDURE/FRAMEWORK/SEVERAL_OPERATORS
+PROCEDURE/FRAMEWORK/NB_PARTICIPANTS</skos:editorialNote>
+            <epo:hasRecurrence>false</epo:hasRecurrence>
+          </epo:ContractNotice>
+        </epo:notifies>
+        <reg2015:has>
+          <epo:MultipleStageProcedureTerm rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#MultipleStageProcedureTerm4e909544-711d-45f3-a541-b3b83b34e25d">
+            <epo:hasSuccessiveReduction>true</epo:hasSuccessiveReduction>
+          </epo:MultipleStageProcedureTerm>
+        </reg2015:has>
+        <reg2015:hasCriteriaInProcurementDocument rdf:resource="http://data.europa.eu/a4g/resource/2019/s-003-004247#SelectionCriterionTechnical6f0084ff-f01f-4456-a20c-6d679987682c"/>
+        <reg2015:hasAdditionalInformation xml:lang="nl">&lt;P&gt;Tweefasige procedure.&lt;/P&gt;&lt;P&gt;— Na de uiterste datum van indiening van de aanvragen tot deelneming zal bpost evalueren wie kan worden geselecteerd.&lt;/P&gt;&lt;P&gt;— De geselecteerde kandidaten zullen het bijzonder bestek ontvangen en zullen de mogelijkheid hebben om een offerte in te dienen.&lt;/P&gt;&lt;P&gt;Verplicht gebruik selectieleidraad.&lt;/P&gt;&lt;P&gt;U dient verplicht de instructies te volgen vermeld in de selectieleidraad. Gelieve deze aandachtig door te nemen.&lt;/P&gt;&lt;P&gt;Overige vragen? Aarzel niet de contactpersoon die op I.1 vermeld is te contacteren als u een probleem ervaart bij het openen van de bijlagen van deze aankondiging of bij vragen i.v.m. de inhoud van de documenten (met inbegrip van de selectieleidraad).&lt;/P&gt;&lt;P&gt;Gelieve de procedure voor vraagstelling beschreven in hoofdstuk 2.7.1 van de selectieleidraad in acht te nemen.&lt;/P&gt;</reg2015:hasAdditionalInformation>
+        <reg2015:uses>
+          <epo:FrameworkAgreementTechnique rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#Framework618f9484-47ab-491f-a382-a4558678fa0c"/>
+        </reg2015:uses>
+        <reg2015:applies>
+          <epo:ReviewTerm rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#ReviewTermsb34586af-c6a0-4ed3-a447-80dec11a738d">
+            <epo:hasReviewProcedure xml:lang="nl">&lt;P&gt;Overeenkomstig artikel 23, §1 – 3, van de rechtsbeschermingswet.&lt;/P&gt;&lt;P&gt;Van 17-6-2013, dient een verhaalprocedure bij de Raad van State, op straffe van niet-ontvankelijkheid, ingesteld te worden binnen de in deze wet bepaalde termijnen vanaf de bekendmaking, de kennisgeving of de kennisneming van de rechtshandeling (al naargelang):&lt;/P&gt;&lt;P&gt;— vordering tot schorsing: 15 dagen,&lt;/P&gt;&lt;P&gt;— vordering tot vernietiging: 60 dagen.&lt;/P&gt;</epo:hasReviewProcedure>
+            <epo:hasReviewProcedure xml:lang="fr">&lt;P&gt;Indication précise du ou des délais pour les procédures de recours:&lt;/P&gt;&lt;P&gt;Conformément à l'article 23, §§ 1-3 de la loi recours du 17.6.2013, une procédure de recours auprès du Conseil d'État doit être introduite, à peine d'irrecevabilité, dans les délais visés dans cette loi, à compter de la publication, de la communication ou de la prise de connaissance de l'acte, selon le cas:&lt;/P&gt;&lt;P&gt;— demande de suspension: 15 jours,&lt;/P&gt;&lt;P&gt;— demande d'annulation: 60 jours.&lt;/P&gt;</epo:hasReviewProcedure>
+          </epo:ReviewTerm>
+        </reg2015:applies>
+        <epo:hasOverallPurpose>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#Purposebc3283bf-7eda-4c20-bfda-c5064e281b58">
+            <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/services"/>
+            <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/66518100"/>
+          </epo:Purpose>
+        </epo:hasOverallPurpose>
+        <epo:hasTitle xml:lang="nl">&lt;P&gt;Dienstverlening door een verzekeringsmakelaar&lt;/P&gt;</epo:hasTitle>
+        <reg2015:hasAdditionalInformation xml:lang="fr">&lt;P&gt;Procédure en deux étapes&lt;/P&gt;&lt;P&gt;— après la date limite de dépôt des demandes de participation, BPOST évaluera qui peut être sélectionné,&lt;/P&gt;&lt;P&gt;— les candidats sélectionnés recevront le Cahier des charges et auront la possibilité de soumettre une offre.&lt;/P&gt;&lt;P&gt;Utilisation obligatoire du guide de sélection.&lt;/P&gt;&lt;P&gt;Vous devez suivre les instructions mentionnées dans le guide de sélection. Merci de les lire attentivement.&lt;/P&gt;&lt;P&gt;D'autres questions? N'hésitez pas à prendre contact avec la personne mentionnée au point I.1° si vous rencontrez un problème&lt;/P&gt;&lt;P&gt;Lors de l'ouverture des annexes au présent avis ou si vous avez des questions au sujet du contenu des documents (y compris le guide de sélection).&lt;/P&gt;</reg2015:hasAdditionalInformation>
+      </epo:Procedure>
+    </reg2015:isInvolvedIn>
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2019/s-003-004247#Procedureb23a61f7-4376-4c6a-9ca3-6f1380b612ae"/>
+  </epo:ProcurementServiceProvider>
+  <epo:SelectionCriterion rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#SelectionCriterionSuitability2639b2b4-b191-4a9a-8c18-41d967d889dc"/>
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#Reviewerd0b3a52e-fa68-4af2-ae28-c41e6096509e">
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2019/s-003-004247#Procedureb23a61f7-4376-4c6a-9ca3-6f1380b612ae"/>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#OrganisationReviewBody4cf7ff7c-9933-4403-9089-f7667cf0f040">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#LocationReviewBodyd95cbf2a-3401-4f9a-a42b-fc599ef29786">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#AddressReviewBody29454c3a-a4bf-4053-913c-4825ffab7462">
+                <epo:hasStreetName>Wetenschapsstraat 33</epo:hasStreetName>
+                <epo:hasStreetName>Rue de la Science 33</epo:hasStreetName>
+                <epo:hasCityName>Brussel</epo:hasCityName>
+                <epo:hasCityName>Bruxelles</epo:hasCityName>
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+                <epo:hasPostalZone>1040</epo:hasPostalZone>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="nl">Raad Van State</epo:hasName>
+        <epo:hasName xml:lang="fr">Conseil d'État</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2019/s-003-004247#ContactPointReviewBody13da33c7-e33d-4810-bb5e-bf9ac62c06dc"/>
+    </epo:has>
+  </epo:Reviewer>
+</rdf:RDF>

@@ -1,0 +1,257 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#Reviewer7b4a162f-7506-4189-8214-f8c8e8015d3a">
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#OrganisationReviewBody0eb43ec5-d7f3-4c0e-a849-ef8eddbca8ef">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#LocationReviewBody29bbfa61-56ca-4015-83b6-99a0aca7118b">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#AddressReviewBody8c81c3d0-8772-421f-b8f2-562ddc510f47">
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                <epo:hasStreetName>56 avenue de Saint-Cloud</epo:hasStreetName>
+                <epo:hasCityName>Versailles</epo:hasCityName>
+                <epo:hasPostalZone>78011</epo:hasPostalZone>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="fr">Tribunal administratif de Versailles</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+    <reg2015:isInvolvedIn>
+      <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#Procedure9b655f0d-81ad-4a7c-afb9-9be067ff4156">
+        <epo:isResponsibilityOf>
+          <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#Buyer614b4fe1-bb17-47bd-a663-b5807bb262ce">
+            <epo:isRoleOf>
+              <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#Organisationa10c9022-4acb-42f2-be3b-e749a4ddedc7">
+                <epo:hasID>
+                  <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#OrganisationIdf415de88-cf44-4831-9534-e3dae262b428">
+                    <epo:hasIdentifierValue>20003558200010</epo:hasIdentifierValue>
+                  </epo:Identifier>
+                </epo:hasID>
+                <epo:hasLocation>
+                  <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#Location60d40da6-4d19-42e7-8e34-5b88deacdf53">
+                    <epo:hasPostalAddress>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#Addressb171e895-cbeb-4563-b6a4-53685a8cbb02">
+                        <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR104"/>
+                        <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                        <epo:hasStreetName>19 route de Saint-Arnoult</epo:hasStreetName>
+                        <epo:hasCityName>Ollainville</epo:hasCityName>
+                        <epo:hasPostalZone>91340</epo:hasPostalZone>
+                      </epo:Address>
+                    </epo:hasPostalAddress>
+                  </epo:Location>
+                </epo:hasLocation>
+                <epo:hasName xml:lang="fr">Syndicat mixte du bassin supérieur de l'Orge</epo:hasName>
+              </epo:Organisation>
+            </epo:isRoleOf>
+            <epo:has>
+              <epo:BuyerProfile rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#BuyerProfilec59dfc45-1117-480d-b4f6-728b0135e254">
+                <epo:hasURL>http://www.marchespublics-idf-centre.fr/</epo:hasURL>
+              </epo:BuyerProfile>
+            </epo:has>
+            <epo:has>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#ContactPointb865a339-37a4-4bb3-818c-3cf858fc87c9">
+                <epo:hasEmail>contact@sibso.fr</epo:hasEmail>
+                <epo:hasInternetAddress>http://www.sibso.fr</epo:hasInternetAddress>
+                <epo:hasTelephone>+33 164594742</epo:hasTelephone>
+              </epo:ContactPoint>
+            </epo:has>
+            <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2019/s-010-020319#Procedure9b655f0d-81ad-4a7c-afb9-9be067ff4156"/>
+          </epo:Buyer>
+        </epo:isResponsibilityOf>
+        <epo:hasDescription xml:lang="fr">&lt;P&gt;Gestion du service public de l'assainissement collectif et de ses installations, ce qui inclut notamment: &lt;/P&gt;&lt;P&gt;— le droit exclusif pour le délégataire d'assurer le service public de collecte et de traitement des eaux usées aux abonnés à l'intérieur du périmètre, &lt;/P&gt;&lt;P&gt;— l'obligation pour le délégataire d'assurer les relations du service avec les abonnés, &lt;/P&gt;&lt;P&gt;— l'obligation pour le délégataire, pendant la durée du contrat, d'exploiter les ouvrages et installations du service conformément aux réglementations en vigueur et d'en assurer le fonctionnement, la surveillance, l'entretien, la maintenance, et les renouvellements. &lt;/P&gt;&lt;P&gt;— les travaux d'entretien des canalisations et ouvrages. &lt;/P&gt;&lt;P&gt;— le renouvellement des matériels tournants, des accessoires hydrauliques, des équipements électromécaniques des installations, &lt;/P&gt;&lt;P&gt;— le renouvellement de 2 des 4 boxes de membranes de la station de Moulin Neuf dans un délai maximal de 8 mois à compter de la prise d'effet du contrat.&lt;/P&gt;</epo:hasDescription>
+        <reg2015:hasBuyerMainActivity rdf:resource="http://publications.europa.eu/resource/authority/main-activity/env-pro"/>
+        <epo:hasTitle xml:lang="fr">&lt;P&gt;Exploitation des réseaux d'assainissement et des stations d'épuration du Sibso dont celle du Moulin Neuf à Ollainville de type membranaire et d'une capacité de 60 000 Eh dans le cadre d'une DSP&lt;/P&gt;</epo:hasTitle>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#Lota835d8cb-ddbe-46a1-824a-26e7a317ada7">
+            <epo:providesAdditionalInformation>
+              <epo:StatisticalInformation rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#StatisticalInformationc9a4ec62-a48f-4668-becb-643b6d84bf2b">
+                <epo:hasReceivedTenderLots>1</epo:hasReceivedTenderLots>
+              </epo:StatisticalInformation>
+            </epo:providesAdditionalInformation>
+            <epo:hasContractDuration>
+              <epo:Period rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#PeriodDuration1f8c8799-6b69-4a50-9afd-245b33e316e2">
+                <epo:hasDurationMeasure>
+                  <ccts:Measure rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#Measure77e0ef57-1a1b-4fba-a0bf-4254382ebfe5">
+                    <ccts:hasMeasureValue>84</ccts:hasMeasureValue>
+                    <ccts:hasUnitCode rdf:resource="http://publications.europa.eu/resource/authority/timeperiod/MONTH"/>
+                  </ccts:Measure>
+                </epo:hasDurationMeasure>
+              </epo:Period>
+            </epo:hasContractDuration>
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#ContractTermLot1a68dcc8-57ca-4dfd-a6a9-3f2394593b93">
+                <epo:hasSpecificPlaceOfPerformance>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#ObjectContractAddress1e6d9279-0f43-4b6c-af15-9657354609e4">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR104"/>
+                  </epo:Address>
+                </epo:hasSpecificPlaceOfPerformance>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#PurposeAdditionalda90e1e4-1efd-491b-9466-549cc8334db3">
+                <epo:hasAdditionalClassification rdf:resource="http://data.europa.eu/cpv/cpv/90400000"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2019/s-010-020319#Procedure9b655f0d-81ad-4a7c-afb9-9be067ff4156"/>
+            <epo:hasDescription xml:lang="fr">&lt;P&gt;Gestion du service public de l'assainissement collectif et de ses installations, ce qui inclut notamment: 
+&lt;/P&gt;&lt;P&gt;
+— le droit exclusif pour le délégataire d'assurer le service public de collecte et de traitement des eaux usées aux abonnés à l'intérieur du périmètre,  &lt;/P&gt;&lt;P&gt;
+— l'obligation pour le délégataire d'assurer les relations du service avec les abonnés,  &lt;/P&gt;&lt;P&gt;
+— l'obligation pour le délégataire, pendant la durée du contrat, d'exploiter les ouvrages et installations du service conformément aux réglementations en vigueur et d'en assurer le fonctionnement, la surveillance, l'entretien, la maintenance, et les renouvellements.  &lt;/P&gt;&lt;P&gt;
+— les travaux d'entretien des canalisations et ouvrages.  &lt;/P&gt;&lt;P&gt;
+— le renouvellement des matériels tournants, des accessoires hydrauliques, des équipements électromécaniques des installations,  &lt;/P&gt;&lt;P&gt;
+— le renouvellement de 2 des 4 boxes de membranes de la station de Moulin Neuf dans un délai maximal de 8 mois à compter de la prise d'effet du contrat.&lt;/P&gt;</epo:hasDescription>
+          </epo:Lot>
+        </epo:specifies>
+        <epo:hasTotalValue>
+          <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#ValueTotal0e3785b5-7fb8-486d-bed1-f4760f86524e">
+            <epo:hasOverallAmount>
+              <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#AmountTotald2190fae-ccf6-47a7-9a1c-6db63a477970">
+                <ccts:hasAmountValue>12000000</ccts:hasAmountValue>
+                <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+              </ccts:Amount>
+            </epo:hasOverallAmount>
+            <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+          </epo:Value>
+        </epo:hasTotalValue>
+        <reg2015:hasBuyerLegalType rdf:resource="http://publications.europa.eu/resource/authority/buyer-legal-type/rl-aut"/>
+        <epo:hasLegalBasis rdf:resource="http://publications.europa.eu/resource/authority/legal-basis/32014L0023"/>
+        <epo:leadsTo>
+          <epo:Contract rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#Contract01000645-fbf2-44f2-bced-d0aab655e1e9">
+            <epo:hasProcurementValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#TotalValueb74c62c5-74e5-41e1-9d42-183ec5de6f2e">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#ValueAwardedAmountff3b92f3-4d84-49ff-8aac-3b7acdb5aa3a">
+                    <ccts:hasAmountValue>14700000</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/EUR"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:hasVATIncludedIndicator>false</epo:hasVATIncludedIndicator>
+              </epo:Value>
+            </epo:hasProcurementValue>
+            <epo:refersTo rdf:resource="http://data.europa.eu/a4g/resource/2019/s-010-020319#Lota835d8cb-ddbe-46a1-824a-26e7a317ada7"/>
+          </epo:Contract>
+        </epo:leadsTo>
+        <epo:hasOverallPurpose>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#Purposee28951b7-6567-466a-b4cf-75288f9cc54a">
+            <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/services"/>
+            <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/90400000"/>
+          </epo:Purpose>
+        </epo:hasOverallPurpose>
+      </epo:Procedure>
+    </reg2015:isInvolvedIn>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#ContactPointReviewBody091357f0-c843-4fe1-9f50-6292d71258e4">
+        <epo:hasEmail>greffe.ta-versailles@juradm.fr</epo:hasEmail>
+        <epo:hasFax>+33 139205487</epo:hasFax>
+        <epo:hasTelephone>+33 139205400</epo:hasTelephone>
+      </epo:ContactPoint>
+    </epo:has>
+  </epo:Reviewer>
+  <epo:AwardDecision rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#AwardDecision6ef553ad-b5e1-4e26-9781-20c342e7e1f0">
+    <epo:isReferedByA rdf:resource="http://data.europa.eu/a4g/resource/2019/s-010-020319#Contract01000645-fbf2-44f2-bced-d0aab655e1e9"/>
+    <epo:refersTo rdf:resource="http://data.europa.eu/a4g/resource/2019/s-010-020319#Lota835d8cb-ddbe-46a1-824a-26e7a317ada7"/>
+    <epo:has>
+      <epo:Winner rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#WinnerContractors2e8c5c8a-8f33-4aaa-aea6-408669842a9c">
+        <epo:isRoleOf>
+          <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#WinnerOrganisationNoAwardedGroup4c81c8ab-fb95-4e7e-8f14-2e18154a46f7">
+            <epo:hasLocation>
+              <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#WinnerLocationNoAwardedToGroupe8ae742f-8a5f-436e-86f5-117325699d84">
+                <epo:hasPostalAddress>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#WinnerAddressNoAwardedToGroup8ab52fba-5625-4c9e-a903-933f45dcb414">
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/FR104"/>
+                    <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+                    <epo:hasStreetName>27 route de Lisses</epo:hasStreetName>
+                    <epo:hasCityName>Corbeil-Essonnes</epo:hasCityName>
+                    <epo:hasPostalZone>91813</epo:hasPostalZone>
+                  </epo:Address>
+                </epo:hasPostalAddress>
+              </epo:Location>
+            </epo:hasLocation>
+            <epo:hasName xml:lang="fr">See</epo:hasName>
+          </epo:Organisation>
+        </epo:isRoleOf>
+      </epo:Winner>
+    </epo:has>
+    <epo:hasAwardStatus rdf:resource="http://publications.europa.eu/resource/authority/winner-selection-status/selec-w"/>
+    <epo:hasAwardDecisionDate>2018-12-14</epo:hasAwardDecisionDate>
+  </epo:AwardDecision>
+  <epo:ContractAwardNotice rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#ContractAwardNotice9535efd7-8019-4db9-afc9-dcee8a54ce27">
+    <epo:refersToPrevious>
+      <epo:Notice rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#PreviousNotice29236d3c-1ac3-4e2f-98bd-fb1600fdac57">
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#NoticeIde917a4e7-7b39-4141-a5d0-b2e3066ae8ab">
+            <epo:hasIdentifierValue>2018/S 100-229691</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+      </epo:Notice>
+    </epo:refersToPrevious>
+    <epo:hasID>
+      <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#ContractAwardNoticeIdfa27ffc5-576d-4c1f-b4cf-a4e56438fdcd">
+        <epo:hasIdentifierValue>2019/S 010-020319</epo:hasIdentifierValue>
+      </epo:Identifier>
+    </epo:hasID>
+    <skos:editorialNote>Please note that some elements from the F25 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/LOT_DIVISION
+OBJECT_CONTRACT/NO_LOT_DIVISION
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/OBJECT_DESCR/NO_EU_PROGR_RELATED
+PROCEDURE/PT_AWARD_CONTRACT_WITH_PRIOR_PUBLICATION
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_ENOTICES
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_TED_ESENDER
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ESENDER_LOGIN
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/CUSTOMER_LOGIN
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/NO_DOC_EXT
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_OTHER_MEANS
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/DATE_DISPATCH_ORIGINAL
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_UNSUCCESSFUL
+AWARD_CONTRACT/AWARDED_CONTRACT/TENDERS/NB_TENDERS_RECEIVED_OTHER_EU
+AWARD_CONTRACT/AWARDED_CONTRACT/TENDERS/NB_TENDERS_RECEIVED_NON_EU
+AWARD_CONTRACT/AWARDED_CONTRACT/CONTRACTORS/NO_AWARDED_TO_GROUP
+PROCEDURE/PT_AWARD_CONTRACT_WITHOUT_PUBLICATION/D_OUTSIDE_SCOPE</skos:editorialNote>
+    <epo:summarises rdf:resource="http://data.europa.eu/a4g/resource/2019/s-010-020319#Procedure9b655f0d-81ad-4a7c-afb9-9be067ff4156"/>
+    <epo:refersToPrevious>
+      <epo:Notice rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#PrevNotice8ebc644c-2dc3-49fa-b539-6667318f9797">
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#PrevNoticeIdb794dbf8-d397-4d40-9369-f56fcbd667f3">
+            <epo:hasIdentifierValue>2018/S 100-229691</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+      </epo:Notice>
+    </epo:refersToPrevious>
+    <epo:relatesTo rdf:resource="http://data.europa.eu/a4g/resource/2019/s-010-020319#Procedure9b655f0d-81ad-4a7c-afb9-9be067ff4156"/>
+    <epo:hasDispatchDate>2019-01-11</epo:hasDispatchDate>
+    <epo:isMadeAvailableVia>
+      <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#ChannelCN11220841-ce8b-4340-bd41-de6414dafda4">
+        <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:020319-2019:TEXT:FR:HTML</epo:hasURL>
+      </epo:Channel>
+    </epo:isMadeAvailableVia>
+    <epo:hasPublicationDate>2019-01-15</epo:hasPublicationDate>
+  </epo:ContractAwardNotice>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#AwardCriterionQualityS033a95126e-390d-4f81-ac6c-6e6a48c3afb2">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2019/s-010-020319#Lota835d8cb-ddbe-46a1-824a-26e7a317ada7"/>
+    <epo:hasName xml:lang="fr">La concession est attribuée sur la base des critères énoncés dans les documents du marché.</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:ProcurementServiceProvider rdf:about="http://data.europa.eu/a4g/resource/2019/s-010-020319#ProcurementServiceProviderComp90d2a5d9-4c02-457e-9dc3-73097e008ee4">
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2019/s-010-020319#Procedure9b655f0d-81ad-4a7c-afb9-9be067ff4156"/>
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2019/s-010-020319#Procedure9b655f0d-81ad-4a7c-afb9-9be067ff4156"/>
+  </epo:ProcurementServiceProvider>
+</rdf:RDF>
