@@ -1,0 +1,49 @@
+PREFIX epo: <http://data.europa.eu/a4g/ontology#>
+select distinct ?ProcedureID ?Lot ?CIG
+where {
+?ProcedureURI a epo:Procedure;
+epo:hasTitle ?ProcedureTitle ;
+epo:specifies ?Lot ;
+epo:isResponsiblityOf/epo:isRoleOf/epo:hasLocation/epo:hasPostalAddress/epo:hasCountryCode <http://publications.europa.eu/resource/authority/country/ITA> .
+OPTIONAL {
+?ProcedureURI epo:hasID/epo:identifierValue ?ProcedureID .
+}
+FILTER ( LANG(?ProcedureTitle) = "it" ).
+OPTIONAL {
+ ?Lot epo:hasTitle ?LotTitle .
+}
+OPTIONAL {
+    ?Lot epo:hasDescription ?LotDescription .
+}
+OPTIONAL {
+     ?Lot epo:hasAdditionalInformation ?LotAdditionalInfo .
+}
+BIND (IF (
+        REGEX(STR(?ProcedureTitle), ".*C\\.?I\\.?G\\.?(?: ANAC\\s*)?:?\\s?(?:n\\.\\s*)?\\[?([\\dA-Z]+)\\]?.*"),
+        REPLACE(STR(?ProcedureTitle), ".*C\\.?I\\.?G\\.?(?: ANAC\\s*)?:?\\s?(?:n\\.\\s*)?\\[?([\\dA-Z]+)\\]?.*", "$1"),
+        "") AS ?CIGProcedureTitle)
+BIND (IF (
+        REGEX(STR(?ProcedureID), ".*C\\.?I\\.?G\\.?(?: ANAC\\s*)?:?\\s?(?:n\\.\\s*)?\\[?([\\dA-Z]+)\\]?.*"),
+        REPLACE(STR(?ProcedureID), ".*C\\.?I\\.?G\\.?(?: ANAC\\s*)?:?\\s?(?:n\\.\\s*)?\\[?([\\dA-Z]+)\\]?.*", "$1"),
+        "") AS ?CIGProcedureID)
+BIND (IF (
+        REGEX(STR(?LotTitle), ".*C\\.?I\\.?G\\.?(?: ANAC\\s*)?:?\\s?(?:n\\.\\s*)?\\[?([\\dA-Z]+)\\]?.*"),
+        REPLACE(STR(?LotTitle), ".*C\\.?I\\.?G\\.?(?: ANAC\\s*)?:?\\s?(?:n\\.\\s*)?\\[?([\\dA-Z]+)\\]?.*", "$1"),
+        "") AS ?CIGLotTitle)
+BIND (IF (
+        REGEX(STR(?LotDescription), ".*C\\.?I\\.?G\\.?(?: ANAC\\s*)?:?\\s?(?:n\\.\\s*)?\\[?([\\dA-Z]+)\\]?.*"),
+        REPLACE(STR(?LotDescription), ".*C\\.?I\\.?G\\.?(?: ANAC\\s*)?:?\\s?(?:n\\.\\s*)?\\[?([\\dA-Z]+)\\]?.*", "$1"),
+        "") AS ?CIGLotDescription)
+BIND (IF (
+        REGEX(STR(?LotAdditionalInfo), ".*C\\.?I\\.?G\\.?(?: ANAC\\s*)?:?\\s?(?:n\\.\\s*)?\\[?([\\dA-Z]+)\\]?.*"),
+        REPLACE(STR(?LotAdditionalInfo), ".*C\\.?I\\.?G\\.?(?: ANAC\\s*)?:?\\s?(?:n\\.\\s*)?\\[?([\\dA-Z]+)\\]?.*", "$1"),
+        "") AS ?CIGLotAdditionalInfo)
+BIND (
+    if(BOUND(?CIGLotAdditionalInfo) && ?CIGLotAdditionalInfo != "", ?CIGLotAdditionalInfo,
+        if(BOUND(?CIGLotDescription) && ?CIGLotDescription != "", ?CIGLotDescription,
+            if(BOUND(?CIGLotTitle) && ?CIGLotTitle != "", ?CIGLotTitle,
+                if(BOUND(?CIGProcedureID) && ?CIGProcedureID != "", ?CIGProcedureID,
+                    if(BOUND(?CIGProcedureTitle) && ?CIGProcedureTitle != "", ?CIGProcedureTitle, ""))) ))
+    as ?CIG)
+FILTER ( ?CIG != "" || (BOUND(?ProcedureID) && STRLEN(?ProcedureID) = 10) )
+} 
