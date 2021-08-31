@@ -1,0 +1,106 @@
+# Analysis of receivedTenderLots
+
+PREFIX epo: <http://data.europa.eu/a4g/ontology#>
+PREFIX ccts: <http://www.unece.org/cefact#>
+
+
+SELECT ?ProcedureIDValue
+    ?ProcedureTitle
+    ?Lot
+    ?ReceivedTenderLots
+
+    ?OrganisationIDValue
+    ?OrganisationName
+    ?CountryCode
+    ?ProcedureTypeCode
+    ?LotIDValue
+    ?LotTitle
+    ?ContractOverallAmountValue
+    ?ContractOverallAmountCurrency
+    ?PurposeMainClassificationCode
+    ?PurposeContractNatureCode
+
+    ?AccelerationJustification
+    ?ProcedureisAccelerated
+
+    ?ContractConclusionDate
+    ?AwardedDecisionDate
+
+WHERE {
+
+    # get procedure info
+    ?Procedure a epo:Procedure .
+    ?Procedure epo:hasTitle ?ProcedureTitle .
+    ?Procedure epo:hasProcedureType ?ProcedureTypeCode .
+    OPTIONAL {
+        ?Procedure epo:hasID ?ProcedureID .
+        ?ProcedureID epo:hasIdentifierValue ?ProcedureIDValue . #
+    }
+    OPTIONAL {
+        ?Procedure epo:hasOverallPurpose ?Purpose .
+        ?Purpose epo:hasMainClassification ?PurposeMainClassificationCode .
+        ?Purpose epo:hasContractNatureType ?PurposeContractNatureCode .
+    }
+
+    # Procedure acceleration
+    OPTIONAL {
+        ?Procedure epo:hasAcceleratedProcedureJustification ?AccelerationJustification .
+    }
+    OPTIONAL {
+        ?Procedure epo:hasAccelerated ?ProcedureisAccelerated .
+    }
+
+    # get Organisation info
+    ?Procedure epo:isResponsibilityOf ?Buyer . # epo:isResponsiblityOf / epo:isResponsibilityOf
+    ?Buyer epo:isRoleOf ?Organisation .
+    ?Organisation epo:hasName ?OrganisationName .
+    OPTIONAL {
+        ?Organisation epo:hasLocation ?Location .
+        ?Location epo:hasPostalAddress ?Address .
+        ?Address epo:hasCountryCode ?CountryCode .
+    }
+    OPTIONAL {
+        ?Organisation epo:hasID ?OrganisationID .
+        ?OrganisationID epo:hasIdentifierValue ?OrganisationIDValue .
+    }
+
+    # get Lot info
+    ?Procedure epo:specifies ?Lot .
+    OPTIONAL {
+        ?Lot epo:hasID ?LotID .
+        ?LotID epo:hasIdentifierValue ?LotIDValue .
+    }
+    OPTIONAL {
+        ?Lot epo:hasTitle ?LotTitle .
+    }
+
+    # get StatisticalInformation
+    OPTIONAL {
+        ?Lot epo:providesAdditionalInformation ?StatisticalInformation .
+        ?StatisticalInformation a epo:StatisticalInformation .
+        ?StatisticalInformation epo:hasReceivedTenderLots ?ReceivedTenderLots .
+    }
+
+    # get AwardedValue
+    # from Lot to the Contract
+    OPTIONAL {
+        ?Contract epo:refersTo ?Lot .
+        ?Contract epo:hasProcurementValue ?ContractProcurementValue .
+        ?ContractProcurementValue epo:hasOverallAmount ?ContractOverallAmount .
+        ?ContractOverallAmount epo:hasCurrencyCode ?ContractOverallAmountCurrency .
+        ?ContractOverallAmount ccts:hasAmountValue ?ContractOverallAmountValue .
+    }
+
+    # get ContractConclusionDate
+    OPTIONAL {
+        ?Contract epo:refersTo ?Lot .
+        ?Contract epo:hasContractConclusionDate ?ContractConclusionDate .
+    }
+
+    # get AwardDecisionDate
+    OPTIONAL {
+        ?AwardDecision epo:refersTo ?Lot .
+        ?AwardDecision epo:hasAwardDecisionDate ?AwardDecisionDate .
+    }
+
+}

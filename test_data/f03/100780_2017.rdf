@@ -1,0 +1,298 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:epodata="http://data.europa.eu/a4g/resource#"
+    xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC"
+    xmlns:epo="http://data.europa.eu/a4g/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+    xmlns:ccts="http://www.unece.org/cefact#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:reg2015data="http://data.europa.eu/a4g/extension/resource#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <epo:ContractAwardNotice rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#ContractAwardNotice58996b3e-ea7d-45b0-a22f-7769532300ca">
+    <epo:relatesTo>
+      <epo:Procedure rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#Procedure90579b93-da8f-4601-92ad-620c02eb6f05">
+        <epo:hasProcedureType rdf:resource="http://publications.europa.eu/resource/authority/procurement-procedure-type/open"/>
+        <reg2015:hasBuyerMainActivity rdf:resource="http://publications.europa.eu/resource/authority/main-activity/education"/>
+        <reg2015:hasBuyerLegalType rdf:resource="http://publications.europa.eu/resource/authority/buyer-legal-type/body-pl"/>
+        <reg2015:hasGPAUsage>true</reg2015:hasGPAUsage>
+        <epo:isResponsibilityOf>
+          <epo:Buyer rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#Buyer92be5efe-db90-45d6-b9ac-18c43329c3c1">
+            <epo:isResponsibleFor rdf:resource="http://data.europa.eu/a4g/resource/2017/s-054-100780#Procedure90579b93-da8f-4601-92ad-620c02eb6f05"/>
+            <epo:isRoleOf>
+              <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#Organisationbfb3a65c-1252-4302-bc3f-13f8d8033761">
+                <epo:hasID>
+                  <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#OrganisationId0857acc1-9bd1-48f4-9acc-5d05bbe43440">
+                    <epo:hasIdentifierValue>874 789 542</epo:hasIdentifierValue>
+                  </epo:Identifier>
+                </epo:hasID>
+                <epo:hasLocation>
+                  <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#Locationc17e800a-4027-4fee-8eca-bb897c93adf7">
+                    <epo:hasPostalAddress>
+                      <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#Addressa10c1320-3631-4c19-a9fb-2f11d7e7e219">
+                        <epo:hasPostalZone>5020</epo:hasPostalZone>
+                        <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/NOR"/>
+                        <epo:hasCityName>Bergen</epo:hasCityName>
+                        <epo:hasStreetName>Pb 7800</epo:hasStreetName>
+                      </epo:Address>
+                    </epo:hasPostalAddress>
+                  </epo:Location>
+                </epo:hasLocation>
+                <epo:hasName xml:lang="en">Universitetet i Bergen</epo:hasName>
+              </epo:Organisation>
+            </epo:isRoleOf>
+            <epo:has>
+              <epo:BuyerProfile rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#BuyerProfileae0c8218-210c-4068-8fb4-4ab433f0dea7">
+                <epo:hasURL>https://kgv.doffin.no/ctm/Company/CompanyInformation/Index/3543</epo:hasURL>
+              </epo:BuyerProfile>
+            </epo:has>
+            <epo:has>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#ContactPoint0fc6ebe1-455b-4db4-85d2-89fef2745397">
+                <epo:hasTelephone>+47 55584212</epo:hasTelephone>
+                <epo:hasEmail>bruvold@uib.no</epo:hasEmail>
+                <epo:hasInternetAddress>http://www.uib.no/oka/77486/seksjons-innkj%C3%B8p</epo:hasInternetAddress>
+                <epo:hasDescription xml:lang="en">Per O. Bruvold</epo:hasDescription>
+              </epo:ContactPoint>
+            </epo:has>
+          </epo:Buyer>
+        </epo:isResponsibilityOf>
+        <epo:hasTitle xml:lang="en">
+&lt;P&gt;ANSK-2468-16: Library equipment: Self-serve machines, gates, RFID, etc.&lt;/P&gt;
+</epo:hasTitle>
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#ProcedureId27b40af0-8545-4950-a13b-abdf8299f57d">
+            <epo:hasIdentifierValue>ANSK-2468-16</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+        <epo:specifies>
+          <epo:Lot rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#Lotd781df74-2068-4b30-ac4d-e2dbc59b27ac">
+            <epo:isSpecifiedIn rdf:resource="http://data.europa.eu/a4g/resource/2017/s-054-100780#Procedure90579b93-da8f-4601-92ad-620c02eb6f05"/>
+            <epo:providesAdditionalInformation>
+              <epo:StatisticalInformation rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#StatisticalInformation370a3984-b0d9-4b2b-b61a-07b5d57719b7">
+                <epo:ElectronicTendersLots>3</epo:ElectronicTendersLots>
+                <epo:hasReceivedTenderLots>3</epo:hasReceivedTenderLots>
+              </epo:StatisticalInformation>
+            </epo:providesAdditionalInformation>
+            <epo:has>
+              <epo:ContractTerm rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#ContractTermLot8bbac761-7855-447c-be2b-6c118ff799ed">
+                <epo:hasPlaceOfPerformanceAdditionalInformation
+                 xml:lang="en">
+&lt;P&gt;Bergen, Norway.&lt;/P&gt;
+</epo:hasPlaceOfPerformanceAdditionalInformation>
+              </epo:ContractTerm>
+            </epo:has>
+            <epo:has>
+              <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#PurposeAdditional8230c344-3ba8-4662-ab7f-a3cc128fee0b">
+                <epo:hasOptionsDescription xml:lang="en">
+&lt;P&gt;We request an option on hand-held shelf-readers.&lt;/P&gt;
+</epo:hasOptionsDescription>
+                <epo:hasOptionsPermission rdf:resource="http://publications.europa.eu/resource/authority/permission/allowed"/>
+              </epo:Purpose>
+            </epo:has>
+            <epo:hasEstimatedValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#EstimatedValueOld7eba659d-f397-4bed-bdf4-11fe21bd3d6f">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#ValueOverallAmountOld7e1d6af7-2386-4b97-8298-c25a61ca1cb7">
+                    <ccts:hasAmountValue>2500000.00</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/NOK"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:hasVATIncludedIndicator>false</epo:hasVATIncludedIndicator>
+              </epo:Value>
+            </epo:hasEstimatedValue>
+            <epo:hasDescription xml:lang="en">
+&lt;P&gt;UB Bergen wants to procure new lending machines with sorting, alarm portals, antennae RFID chips and software. We request an option on hand-held shelf-readers. The solution shall appear functional and user-friendly.&lt;/P&gt;
+</epo:hasDescription>
+          </epo:Lot>
+        </epo:specifies>
+        <epo:hasDescription xml:lang="en">
+&lt;P&gt;The library shall procure a total of 7 lending machines (1 at each library, but 2 at the Library of Humanities). All shall contain return functions but only 4 of these shall be taken into use at installation. At the Library for Humanities and the Library for Social Sciences, the current return automates will be replaced. We shall purchase approx. 75 antennae, and alarm portals for 8 doors; 1 of which is double, and the middle alarm can be removed.&lt;/P&gt;
+&lt;P&gt;The tender offer must also contain information about cost of demolition, installation and training.&lt;/P&gt;
+</epo:hasDescription>
+        <epo:hasTotalValue>
+          <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#ValueTotal09ba5fad-8e03-40e6-9dcd-dded37b5e40c">
+            <epo:hasOverallAmount>
+              <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#AmountTotal9dca48b1-7335-4f67-9a82-2a7179a66383">
+                <ccts:hasAmountValue>3000000.00</ccts:hasAmountValue>
+                <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/NOK"/>
+              </ccts:Amount>
+            </epo:hasOverallAmount>
+            <epo:VATIncludedIndicator>false</epo:VATIncludedIndicator>
+          </epo:Value>
+        </epo:hasTotalValue>
+        <epo:hasOverallPurpose>
+          <epo:Purpose rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#Purpose453e7630-fef9-4af5-b758-66eaaf5716d9">
+            <epo:hasContractNatureType rdf:resource="http://publications.europa.eu/resource/authority/contract-nature/supplies"/>
+            <epo:hasMainClassification rdf:resource="http://data.europa.eu/cpv/cpv/30238000"/>
+          </epo:Purpose>
+        </epo:hasOverallPurpose>
+        <epo:leadsTo>
+          <epo:Contract rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#Contract72c8a5cd-e8b3-420a-b96a-445dd712850d">
+            <epo:refersTo rdf:resource="http://data.europa.eu/a4g/resource/2017/s-054-100780#Lotd781df74-2068-4b30-ac4d-e2dbc59b27ac"/>
+            <epo:hasProcurementValue>
+              <epo:Value rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#TotalValueValTotalOldbafa43ab-70fa-499e-8383-eccba1e550c6">
+                <epo:hasOverallAmount>
+                  <ccts:Amount rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#ValueAwardedAmountOld3fe3e67b-2c3e-4cee-9bda-cdcc88d1155f">
+                    <ccts:hasAmountValue>2500000.00</ccts:hasAmountValue>
+                    <epo:hasCurrencyCode rdf:resource="http://publications.europa.eu/resource/authority/currency/NOK"/>
+                  </ccts:Amount>
+                </epo:hasOverallAmount>
+                <epo:hasVATIncludedIndicator>false</epo:hasVATIncludedIndicator>
+              </epo:Value>
+            </epo:hasProcurementValue>
+            <epo:hasTitle xml:lang="en">
+&lt;P&gt;ANSK-2468-16: Library equipment: Self-serve machines, gates, RFID, etc.&lt;/P&gt;
+</epo:hasTitle>
+            <epo:hasContractConclusionDate>2017-02-08</epo:hasContractConclusionDate>
+          </epo:Contract>
+        </epo:leadsTo>
+      </epo:Procedure>
+    </epo:relatesTo>
+    <epo:hasPublicationDate>2017-03-17</epo:hasPublicationDate>
+    <epo:hasID>
+      <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#ContractAwardNoticeId6493cadb-525f-43d7-b566-b56efac6919a">
+        <epo:hasIdentifierValue>2017/S 054-100780</epo:hasIdentifierValue>
+      </epo:Identifier>
+    </epo:hasID>
+    <epo:summarises rdf:resource="http://data.europa.eu/a4g/resource/2017/s-054-100780#Procedure90579b93-da8f-4601-92ad-620c02eb6f05"/>
+    <epo:hasDispatchDate>2017-03-15</epo:hasDispatchDate>
+    <epo:isMadeAvailableVia>
+      <epo:Channel rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#ChannelCNee15fa50-cbd1-43d7-93f4-6a7d6c48b425">
+        <epo:hasURL>http://ted.europa.eu/udl?uri=TED:NOTICE:100780-2017:TEXT:EN:HTML</epo:hasURL>
+      </epo:Channel>
+    </epo:isMadeAvailableVia>
+    <epo:refersToPrevious>
+      <epo:Notice rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#PrevNoticeab34c8a9-7491-4b9a-8471-a53bbe786cfc">
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#PrevNoticeIdba437c4d-da7b-450e-af5f-d2386648c6c8">
+            <epo:hasIdentifierValue>2016/S 164-296527</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+      </epo:Notice>
+    </epo:refersToPrevious>
+    <epo:refersToPrevious>
+      <epo:Notice rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#PreviousNoticeb7940181-3460-432a-9164-e8cc4d5e0af9">
+        <epo:hasID>
+          <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#NoticeIdd4799ab2-0d24-47f1-ae5e-e35b4a6107b3">
+            <epo:hasIdentifierValue>2016/S 164-296527</epo:hasIdentifierValue>
+          </epo:Identifier>
+        </epo:hasID>
+      </epo:Notice>
+    </epo:refersToPrevious>
+    <skos:editorialNote>Please note that some elements from the F03 are not mappable to the eProcurement Ontology which was designed in the eNotification phase for Commission Implementing Regulation (EU) 2019/1780 . The population of the knowledge graph will therefore not take into consideration the following xpaths from the published notices:
+OBJECT_CONTRACT/CPV_MAIN/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/LOT_DIVISION
+OBJECT_CONTRACT/NO_LOT_DIVISION
+OBJECT_CONTRACT/OBJECT_DESCR/CPV_ADDITIONAL/CPV_SUPPLEMENTARY_CODE
+OBJECT_CONTRACT/OBJECT_DESCR/NO_EU_PROGR_RELATED
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_ENOTICES
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_TED_ESENDER
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ESENDER_LOGIN
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/CUSTOMER_LOGIN
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/NO_DOC_EXT
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/ORIGINAL_OTHER_MEANS
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_DISCONTINUED/DATE_DISPATCH_ORIGINAL
+AWARD_CONTRACT/NO_AWARDED_CONTRACT/PROCUREMENT_UNSUCCESSFUL
+AWARD_CONTRACT/AWARDED_CONTRACT/TENDERS/NB_TENDERS_RECEIVED_OTHER_EU
+AWARD_CONTRACT/AWARDED_CONTRACT/TENDERS/NB_TENDERS_RECEIVED_NON_EU
+AWARD_CONTRACT/AWARDED_CONTRACT/CONTRACTORS/NO_AWARDED_TO_GROUP
+AWARD_CONTRACT/AWARDED_CONTRACT/VAL_SUBCONTRACTING
+AWARD_CONTRACT/AWARDED_CONTRACT/VAL_SUBCONTRACTING/CURRENCY
+AWARD_CONTRACT/AWARDED_CONTRACT/PCT_SUBCONTRACTING
+AWARD_CONTRACT/AWARDED_CONTRACT/VAL_SUBCONTRACTING/INFO_ADD_SUBCONTRACTING
+/PROCEDURE/PT_AWARD_CONTRACT_WITHOUT_CALL/D_OUTSIDE_SCOPE</skos:editorialNote>
+  </epo:ContractAwardNotice>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#AwardCriterionPricea77baf62-0457-4749-abe1-2ce90c3968ba">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2017/s-054-100780#Lotd781df74-2068-4b30-ac4d-e2dbc59b27ac"/>
+    <epo:hasFormula>40</epo:hasFormula>
+    <epo:hasAwardCriterionType rdf:resource="http://publications.europa.eu/resource/authority/award-criterion-type/price"/>
+  </epo:AwardCriterion>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#AwardCriterionQuality1673c7e8-38f2-4de3-a421-755c7f903c18">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2017/s-054-100780#Lotd781df74-2068-4b30-ac4d-e2dbc59b27ac"/>
+    <epo:hasFormula>30</epo:hasFormula>
+    <epo:hasAwardCriterionType rdf:resource="http://publications.europa.eu/resource/authority/award-criterion-type/quality"/>
+    <epo:hasName xml:lang="en">Delivery, quality of delivery and maintenance agreements.</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:AwardDecision rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#AwardDecisionba61a006-5ab5-4bcf-947f-dd90873fbbbe">
+    <epo:refersTo rdf:resource="http://data.europa.eu/a4g/resource/2017/s-054-100780#Lotd781df74-2068-4b30-ac4d-e2dbc59b27ac"/>
+    <epo:isReferedByA rdf:resource="http://data.europa.eu/a4g/resource/2017/s-054-100780#Contract72c8a5cd-e8b3-420a-b96a-445dd712850d"/>
+    <epo:has>
+      <epo:Winner rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#WinnerNoGroupe2d97f9f-dace-451f-8bbb-f5ef0a0fd286">
+        <epo:isRoleOf>
+          <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#WinnerOrganisationNoAwardedGroupOld48c4f5f2-29da-44ab-918f-6ae4ce998947">
+            <epo:hasID>
+              <epo:Identifier rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#WinnerOrganisationNoAwardedToGroupOldId02fea8ef-9b17-4ef6-8a7b-3e9ac79ed10b">
+                <epo:hasIdentifierValue>910568183</epo:hasIdentifierValue>
+              </epo:Identifier>
+            </epo:hasID>
+            <epo:hasContactPoint>
+              <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#WinnerContactPointNoAwardedToGroupOld3fbd3830-eea8-41ea-b40b-b07af3e7a185">
+                <epo:hasTelephone>+47 21056294</epo:hasTelephone>
+                <epo:hasEmail>bs@binsent.no</epo:hasEmail>
+                <epo:hasInternetAddress>http://www.bibsent.no/</epo:hasInternetAddress>
+              </epo:ContactPoint>
+            </epo:hasContactPoint>
+            <epo:hasLocation>
+              <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#WinnerLocationNoAwardedToGroupOldbb6bbc6a-0c28-4fef-a8e2-49cedeb84385">
+                <epo:hasPostalAddress>
+                  <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#WinnerAddressNoAwardedGroupOldb7537aaa-5a41-43e7-9af2-819a24749118">
+                    <epo:hasPostalZone>0602</epo:hasPostalZone>
+                    <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/NOR"/>
+                    <epo:hasCityName>Oslo</epo:hasCityName>
+                    <epo:hasStreetName>Etterstad</epo:hasStreetName>
+                    <epo:hasCountrySubentityCode rdf:resource="http://data.europa.eu/nuts/code/NO"/>
+                  </epo:Address>
+                </epo:hasPostalAddress>
+              </epo:Location>
+            </epo:hasLocation>
+            <epo:hasName xml:lang="en">Biblioteksentralen SA</epo:hasName>
+          </epo:Organisation>
+        </epo:isRoleOf>
+      </epo:Winner>
+    </epo:has>
+    <epo:hasAwardStatus rdf:resource="http://publications.europa.eu/resource/authority/winner-selection-status/selec-w"/>
+  </epo:AwardDecision>
+  <epo:AwardCriterion rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#AwardCriterionQuality9307418c-fafc-462c-a129-8ad57aafa521">
+    <epo:isUsedToAward rdf:resource="http://data.europa.eu/a4g/resource/2017/s-054-100780#Lotd781df74-2068-4b30-ac4d-e2dbc59b27ac"/>
+    <epo:hasFormula>30</epo:hasFormula>
+    <epo:hasAwardCriterionType rdf:resource="http://publications.europa.eu/resource/authority/award-criterion-type/quality"/>
+    <epo:hasName xml:lang="en">Technical and functional solution</epo:hasName>
+  </epo:AwardCriterion>
+  <epo:ProcurementServiceProvider rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#ProcurementServiceProviderComp0a760c11-4d0c-47cc-aea9-025e139f7dac">
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2017/s-054-100780#Procedure90579b93-da8f-4601-92ad-620c02eb6f05"/>
+    <reg2015:providesMoreInformationOnTimeLimitsForReviewProcedures rdf:resource="http://data.europa.eu/a4g/resource/2017/s-054-100780#Procedure90579b93-da8f-4601-92ad-620c02eb6f05"/>
+  </epo:ProcurementServiceProvider>
+  <epo:Reviewer rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#Reviewerc19226ad-fd69-44dd-bff3-db30448966b8">
+    <reg2015:isInvolvedIn rdf:resource="http://data.europa.eu/a4g/resource/2017/s-054-100780#Procedure90579b93-da8f-4601-92ad-620c02eb6f05"/>
+    <epo:isRoleOf>
+      <epo:Organisation rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#OrganisationReviewBody4a1ca4aa-a41a-4733-a297-182d43a1f3ae">
+        <epo:hasLocation>
+          <epo:Location rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#LocationReviewBody449f0baa-2475-42b3-ad1d-23a05ff0a7a6">
+            <epo:hasPostalAddress>
+              <epo:Address rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#AddressReviewBody2ef1445f-bc7d-45dd-a715-929d060644bc">
+                <epo:hasPostalZone>5085</epo:hasPostalZone>
+                <epo:hasCountryCode rdf:resource="http://publications.europa.eu/resource/authority/country/NOR"/>
+                <epo:hasCityName>Bergen</epo:hasCityName>
+                <epo:hasStreetName>Postboks 439 Sentrum</epo:hasStreetName>
+              </epo:Address>
+            </epo:hasPostalAddress>
+          </epo:Location>
+        </epo:hasLocation>
+        <epo:hasName xml:lang="en">KOFA</epo:hasName>
+      </epo:Organisation>
+    </epo:isRoleOf>
+    <epo:has>
+      <epo:ContactPoint rdf:about="http://data.europa.eu/a4g/resource/2017/s-054-100780#ContactPointReviewBodye4c66a7f-ac2d-42d6-86fd-036f2acb1ac3">
+        <epo:hasTelephone>+47 55597599</epo:hasTelephone>
+        <epo:hasEmail>post@kofa.no</epo:hasEmail>
+        <epo:hasInternetAddress>http://www.kofa.no</epo:hasInternetAddress>
+      </epo:ContactPoint>
+    </epo:has>
+  </epo:Reviewer>
+</rdf:RDF>
