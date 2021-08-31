@@ -1,3 +1,10 @@
+#Added a new query that searches for possibly all Italian CIG codes in the TED data. 
+# It returns the CIG, the Procedure ID and the Lot URI. The query checks the possible
+# ways people included Italian CIG codes in the TED system (in Lot title, Lot description, 
+# Lot additional information, Procedure ID, Procedure title, Procedure description). 
+# This query is used to create owl:sameAs links between ANAC data and TED data for 
+# the BDTI pilot, at the level of Lot.
+
 PREFIX epo: <http://data.europa.eu/a4g/ontology#>
 select distinct ?ProcedureID ?Lot ?CIG
 where {
