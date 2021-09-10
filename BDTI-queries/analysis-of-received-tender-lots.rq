@@ -2,7 +2,7 @@
 
 PREFIX epo: <http://data.europa.eu/a4g/ontology#>
 PREFIX ccts: <http://www.unece.org/cefact#>
-
+PREFIx xsd: <http://www.w3.org/2001/XMLSchema#>
 
 SELECT ?ProcedureIDValue
     ?ProcedureTitle
@@ -92,9 +92,12 @@ WHERE {
     }
 
     # get ContractConclusionDate
-    OPTIONAL {
+    #OPTIONAL # comment this our if you want to see recoreds that HAVE a date
+    {
         ?Contract epo:refersTo ?Lot .
         ?Contract epo:hasContractConclusionDate ?ContractConclusionDate .
+        # because the data represent these values as xsd:string, we need to first cast them into xsd date
+        FILTER ( YEAR(STRDT(?ContractConclusionDate, xsd:date)) = 2017 )
     }
 
     # get AwardDecisionDate
@@ -102,5 +105,4 @@ WHERE {
         ?AwardDecision epo:refersTo ?Lot .
         ?AwardDecision epo:hasAwardDecisionDate ?AwardDecisionDate .
     }
-
 }
