@@ -97,6 +97,7 @@ WHERE {
         ?Contract epo:refersTo ?Lot .
         ?Contract epo:hasContractConclusionDate ?ContractConclusionDate .
         # because the data represent these values as xsd:string, we need to first cast them into xsd date
+        # also, filtering has to be local, not global
         FILTER ( YEAR(STRDT(?ContractConclusionDate, xsd:date)) = 2017 )
     }
 
