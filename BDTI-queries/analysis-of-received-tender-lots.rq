@@ -31,7 +31,9 @@ WHERE {
     # get procedure info
     ?Procedure a epo:Procedure .
     ?Procedure epo:hasTitle ?ProcedureTitle .
-    ?Procedure epo:hasProcedureType ?ProcedureTypeCode .
+    OPTIONAL{
+        ?Procedure epo:hasProcedureType ?ProcedureTypeCode .
+    }
     OPTIONAL {
         ?Procedure epo:hasID ?ProcedureID .
         ?ProcedureID epo:hasIdentifierValue ?ProcedureIDValue . #
@@ -92,7 +94,7 @@ WHERE {
     }
 
     # get ContractConclusionDate
-    #OPTIONAL # comment this our if you want to see recoreds that HAVE a date
+    OPTIONAL # comment this our if you want to see recoreds that HAVE a date
     {
         ?Contract epo:refersTo ?Lot .
         ?Contract epo:hasContractConclusionDate ?ContractConclusionDate .
