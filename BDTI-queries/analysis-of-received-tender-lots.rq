@@ -24,7 +24,7 @@ SELECT ?ProcedureIDValue
     ?ProcedureisAccelerated
 
     ?ContractConclusionDate
-    ?AwardedDecisionDate
+    ?AwardDecisionDate
 
 WHERE {
 
@@ -100,7 +100,7 @@ WHERE {
         ?Contract epo:hasContractConclusionDate ?ContractConclusionDate .
         # because the data represent these values as xsd:string, we need to first cast them into xsd date
         # also, filtering has to be local, not global
-        FILTER ( YEAR(STRDT(?ContractConclusionDate, xsd:date)) = 2017 )
+        #FILTER ( YEAR(STRDT(?ContractConclusionDate, xsd:date)) = 2017 )
     }
 
     # get AwardDecisionDate
