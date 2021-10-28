@@ -4,8 +4,14 @@ PREFIX epo: <http://data.europa.eu/a4g/ontology#>
 PREFIX ccts: <http://www.unece.org/cefact#>
 PREFIx xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?ProcedureIDValue
-    ?ProcedureTitle
+SELECT
+    ?Procedure
+
+    ?ProcedureTitleFr
+    ?ProcedureTitleEn
+    ?ProcedureTitleDe
+
+    ?ProcedureIDValue
     ?Lot
     ?ReceivedTenderLots
 
@@ -14,7 +20,11 @@ SELECT ?ProcedureIDValue
     ?CountryCode
     ?ProcedureTypeCode
     ?LotIDValue
-    ?LotTitle
+
+    ?LotTitleEn
+    ?LotTitleFr
+    ?LotTitleDe
+
     ?ContractOverallAmountValue
     ?ContractOverallAmountCurrency
     ?PurposeMainClassificationCode
@@ -26,24 +36,36 @@ SELECT ?ProcedureIDValue
     ?ContractConclusionDate
     ?AwardDecisionDate
 
-WHERE {
+{
 
     # get procedure info
     ?Procedure a epo:Procedure .
-    OPTIONAL {
-        ?Procedure epo:hasTitle ?ProcedureTitleLocal .
 
-#        BIND (LANGMATCHES(?ProcedureTitleLocal,"en") as ?ProcedureTitleEn )
-#        BIND (LANGMATCHES(?ProcedureTitleLocal,"fr") as ?ProcedureTitleFr )
-#        BIND (LANGMATCHES(?ProcedureTitleLocal,"de") as ?ProcedureTitleDe )
-#        BIND (COALESCE(?ProcedureTitleEn, ?ProcedureTitleFr,?ProcedureTitleDe, ))
-        {
-            SELECT ?Procedure ?ProcedureTitleLocal
-            {
-                ?Procedure epo:hasTitle ?ProcedureTitleLocal
-            }
-        }
+    # this is where label fallback mechanism starts
+    OPTIONAL {
+        ?Procedure epo:hasTitle ?ProcedureTitleEn .
+        FILTER (lang(?ProcedureTitleEn)="en")
     }
+    OPTIONAL {
+        ?Procedure epo:hasTitle ?ProcedureTitleFr .
+        FILTER (lang(?ProcedureTitleFr)="fr")
+    }
+    OPTIONAL {
+        ?Procedure epo:hasTitle ?ProcedureTitleDe .
+        FILTER (lang(?ProcedureTitleDe)="de")
+    }
+
+    #    OPTIONAL {
+    #        SELECT ?Procedure ?ProcedureTitleRand
+    #        {
+    #            ?Procedure epo:hasTitle ?ProcedureTitleRand .
+    #        }
+    #        LIMIT 1
+    #    }
+    # BIND (COALESCE(?ProcedureTitleEn, ?ProcedureTitleFr, ?ProcedureTitleDe, "") as ?ProcedureTitle)
+    # BIND (COALESCE(?ProcedureTitleEn, "") as ?ProcedureTitle)
+
+    # this is where label fallback mechanism ENDS
 
     OPTIONAL {
         ?Procedure epo:hasProcedureType ?ProcedureTypeCode .
@@ -69,10 +91,12 @@ WHERE {
     # get Organisation info
     ?Procedure epo:isResponsibilityOf ?Buyer . # epo:isResponsiblityOf / epo:isResponsibilityOf
     ?Buyer epo:isRoleOf ?Organisation .
+
     OPTIONAL {
         ?Organisation epo:hasName ?OrganisationName .
         FILTER (lang(?OrganisationName)="en")
     }
+
     OPTIONAL {
         ?Organisation epo:hasLocation ?Location .
         ?Location epo:hasPostalAddress ?Address .
@@ -89,10 +113,21 @@ WHERE {
         ?Lot epo:hasID ?LotID .
         ?LotID epo:hasIdentifierValue ?LotIDValue .
     }
+
+    # this is where label fallback mechanism starts
     OPTIONAL {
-        ?Lot epo:hasTitle ?LotTitle .
+        ?Lot epo:hasTitle ?LotTitleEn .
         FILTER (lang(?LotTitle)="en")
     }
+    OPTIONAL {
+        ?Lot epo:hasTitle ?LotTitleFr .
+        FILTER (lang(?LotTitle)="en")
+    }
+    OPTIONAL {
+        ?Lot epo:hasTitle ?LotTitleDe .
+        FILTER (lang(?LotTitle)="en")
+    }
+    # this is where label fallback mechanism ENDS
 
     # get StatisticalInformation
     OPTIONAL {
@@ -127,3 +162,4 @@ WHERE {
         ?AwardDecision epo:hasAwardDecisionDate ?AwardDecisionDate .
     }
 }
+

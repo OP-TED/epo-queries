@@ -1,0 +1,29 @@
+PREFIX epo: <http://data.europa.eu/a4g/ontology#>
+
+SELECT ?Procedure (COALESCE(sample(?lblDesired), sample(?lblAll)) as ?label)
+{
+    VALUES ?Procedure {
+        <http://data.europa.eu/a4g/resource/2020/s-085-200098#Procedure408af6bb-123b-4c43-9a81-a341801036d3>
+        <http://data.europa.eu/a4g/resource/2020/s-098-232311#Procedured4cad51a-eefd-4d51-bb08-8c8a29433fc6>
+        <http://data.europa.eu/a4g/resource/2018/s-246-566404#Procedure480b7b5a-b2f3-461f-a624-17d4f40e5576>
+        <http://data.europa.eu/a4g/resource/2019/s-246-607896#Procedure2260a7de-77a5-4bbd-becd-03003439d158>
+    }
+    ?Procedure a epo:Procedure .
+    OPTIONAL {
+        ?Procedure epo:hasTitle ?lblEn .
+        FILTER (lang(?lblEn)="en")
+    }
+    OPTIONAL {
+        ?Procedure epo:hasTitle ?lblFr .
+        FILTER (lang(?lblFr)="fr")
+    }
+    OPTIONAL {
+        ?Procedure epo:hasTitle ?lblDe .
+        FILTER (lang(?lblDe)="de")
+    }
+    OPTIONAL {
+        ?Procedure epo:hasTitle ?lblAll .
+    }
+    BIND (COALESCE(?lblEn, ?lblFr, ?lblDe) as ?lblDesired)
+}
+GROUP BY ?Procedure

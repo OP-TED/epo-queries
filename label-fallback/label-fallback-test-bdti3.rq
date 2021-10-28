@@ -1,6 +1,6 @@
 PREFIX epo: <http://data.europa.eu/a4g/ontology#>
 
-SELECT distinct ?Procedure (COALESCE(?lblEn, ?lblFr, ?lblDe, ?lbl) as ?smth)
+SELECT ?Procedure ?label
 {
     VALUES ?Procedure {
         <http://data.europa.eu/a4g/resource/2020/s-085-200098#Procedure408af6bb-123b-4c43-9a81-a341801036d3>
@@ -9,19 +9,28 @@ SELECT distinct ?Procedure (COALESCE(?lblEn, ?lblFr, ?lblDe, ?lbl) as ?smth)
         <http://data.europa.eu/a4g/resource/2019/s-246-607896#Procedure2260a7de-77a5-4bbd-becd-03003439d158>
     }
     ?Procedure a epo:Procedure .
+
+    # this is where label fallback mechanism starts
     OPTIONAL {
-        ?Procedure epo:hasTitle ?lbl .
-        {
-            ?Procedure epo:hasTitle ?lblEn .
-            FILTER (lang(?lblEn)="en")
-        }
-        {
-            ?Procedure epo:hasTitle ?lblFr .
-            FILTER (lang(?lblFr)="fr")
-        }
-        {
-            ?Procedure epo:hasTitle ?lblDe .
-            FILTER (lang(?lblDe)="de")
-        }
+        ?Procedure epo:hasTitle ?lblEn .
+        FILTER (lang(?lblEn)="en")
     }
-} 
+    OPTIONAL {
+        ?Procedure epo:hasTitle ?lblFr .
+        FILTER (lang(?lblFr)="fr")
+    }
+    OPTIONAL {
+        ?Procedure epo:hasTitle ?lblDe .
+        FILTER (lang(?lblDe)="de")
+    }
+    OPTIONAL {
+        SELECT ?Procedure ?lblRand
+        {
+            ?Procedure epo:hasTitle ?lblRand .
+        }
+        LIMIT 1
+    }
+    BIND (COALESCE(?lblEn, ?lblFr, ?lblDe, ?lblRand,"") as ?label)
+    # this is where label fallback mechanism ENDS
+
+}
