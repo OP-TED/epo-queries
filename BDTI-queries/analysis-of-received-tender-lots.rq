@@ -30,8 +30,22 @@ WHERE {
 
     # get procedure info
     ?Procedure a epo:Procedure .
-    ?Procedure epo:hasTitle ?ProcedureTitle .
-    OPTIONAL{
+    OPTIONAL {
+        ?Procedure epo:hasTitle ?ProcedureTitleLocal .
+
+#        BIND (LANGMATCHES(?ProcedureTitleLocal,"en") as ?ProcedureTitleEn )
+#        BIND (LANGMATCHES(?ProcedureTitleLocal,"fr") as ?ProcedureTitleFr )
+#        BIND (LANGMATCHES(?ProcedureTitleLocal,"de") as ?ProcedureTitleDe )
+#        BIND (COALESCE(?ProcedureTitleEn, ?ProcedureTitleFr,?ProcedureTitleDe, ))
+        {
+            SELECT ?Procedure ?ProcedureTitleLocal
+            {
+                ?Procedure epo:hasTitle ?ProcedureTitleLocal
+            }
+        }
+    }
+
+    OPTIONAL {
         ?Procedure epo:hasProcedureType ?ProcedureTypeCode .
     }
     OPTIONAL {
@@ -55,7 +69,10 @@ WHERE {
     # get Organisation info
     ?Procedure epo:isResponsibilityOf ?Buyer . # epo:isResponsiblityOf / epo:isResponsibilityOf
     ?Buyer epo:isRoleOf ?Organisation .
-    ?Organisation epo:hasName ?OrganisationName .
+    OPTIONAL {
+        ?Organisation epo:hasName ?OrganisationName .
+        FILTER (lang(?OrganisationName)="en")
+    }
     OPTIONAL {
         ?Organisation epo:hasLocation ?Location .
         ?Location epo:hasPostalAddress ?Address .
@@ -74,6 +91,7 @@ WHERE {
     }
     OPTIONAL {
         ?Lot epo:hasTitle ?LotTitle .
+        FILTER (lang(?LotTitle)="en")
     }
 
     # get StatisticalInformation
